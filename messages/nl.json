@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "title": "ServiceOS — AI-Powered Bedrijfsbeheer voor Dienstverleners",
+    "description": "Vervang je CRM, planning, facturatie en website tools door één intelligent platform. Gebouwd voor freelancers, agencies en consultants."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "Over ons",
+    "contact": "Contact",
+    "signIn": "Inloggen",
+    "startTrial": "Start gratis"
+  },
+  "hero": {
+    "headline": "Run je servicebedrijf met AI",
+    "subheadline": "ServiceOS vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.",
+    "ctaPrimary": "Start gratis proefperiode",
+    "ctaSecondary": "Bekijk hoe het werkt"
+  },
+  "socialProof": {
+    "text": "Vertrouwd door 500+ dienstverleners in heel Europa"
+  },
+  "problem": {
+    "headline": "Je tools praten niet met elkaar",
+    "body": "Je jongleert met Calendly voor boekingen, een spreadsheet voor klanten, Canva voor je website, en drie apps voor facturatie. Niets synchroniseert. Je copy-paste dezelfde info overal. En om 10 uur 's avonds zit je nog steeds aan de admin.",
+    "cta": "Herkenbaar?"
+  },
+  "solution": {
+    "headline": "Eén platform. Alles verbonden.",
+    "body": "ServiceOS brengt je hele bedrijf samen op één plek. Je CRM kent je agenda. Je facturen komen uit je tijdregistratie. Je website update als je een dienst toevoegt. En AI handelt het routinewerk af zodat jij je op klanten kunt richten."
+  },
+  "features": {
+    "headline": "Alles wat je nodig hebt, niets wat je niet nodig hebt",
+    "aiAssistant": {
+      "title": "AI Assistent",
+      "description": "Chat met je bedrijf. Maak facturen, log tijd, zoek klanten — vraag het gewoon."
+    },
+    "clientManagement": {
+      "title": "Klantbeheer",
+      "description": "Volledige CRM met pipeline tracking, contacten, notities en activiteiten."
+    },
+    "booking": {
+      "title": "Boekingen & Planning",
+      "description": "Publieke boekingspagina, intake vragen, agenda sync, automatische herinneringen."
+    },
+    "quotes": {
+      "title": "Offertes & Contracten",
+      "description": "Professionele offertes met e-handtekeningen. Volg views en acceptaties."
+    },
+    "invoicing": {
+      "title": "Tijd & Facturatie",
+      "description": "Track uren, zet om naar facturen, ontvang betalingen. Alles verbonden."
+    },
+    "website": {
+      "title": "AI Website Bouwer",
+      "description": "Beschrijf je bedrijf, krijg een complete website. Bewerk via chat."
+    }
+  },
+  "howItWorks": {
+    "headline": "Binnen minuten aan de slag",
+    "step1": {
+      "title": "Vertel over je bedrijf",
+      "description": "Beantwoord een paar vragen over je diensten, klanten en merk."
+    },
+    "step2": {
+      "title": "AI bouwt je workspace",
+      "description": "Krijg een complete setup — website, dienstencatalogus, boekingspagina — direct gegenereerd."
+    },
+    "step3": {
+      "title": "Ga aan het werk",
+      "description": "Beheer alles vanuit één dashboard. Laat AI het repetitieve werk doen."
+    }
+  },
+  "testimonials": {
+    "headline": "Geliefd door dienstverleners",
+    "t1": {
+      "quote": "Ik besteedde zondagavonden aan facturen en admin. Nu handelt mijn AI assistent het meeste af terwijl ik bij klanten ben.",
+      "author": "Sarah M.",
+      "role": "Business Coach"
+    },
+    "t2": {
+      "quote": "Eindelijk een tool die begrijpt hoe freelancers werken. Niet gebouwd voor enterprises en dan versimpeld.",
+      "author": "Thomas K.",
+      "role": "UX Consultant"
+    },
+    "t3": {
+      "quote": "Mijn klanten zijn dol op de portal. Ze zien hun projecten, downloaden facturen, boeken sessies — zonder mij te mailen.",
+      "author": "Lieke V.",
+      "role": "Marketing Consultant"
+    }
+  },
+  "cta": {
+    "headline": "Klaar om je bedrijf te versimpelen?",
+    "subheadline": "Start je gratis proefperiode van 14 dagen. Geen creditcard nodig.",
+    "button": "Start gratis"
+  },
+  "waitlist": {
+    "headline": "Wees de eerste die ServiceOS probeert",
+    "subheadline": "Schrijf je in voor onze early bird lijst en krijg exclusieve toegang bij lancering. Plus early bird pricing voor altijd vastgelegd.",
+    "emailPlaceholder": "Je e-mailadres",
+    "namePlaceholder": "Je naam (optioneel)",
+    "companyPlaceholder": "Bedrijf (optioneel)",
+    "button": "Schrijf me in",
+    "loading": "Aanmelden...",
+    "successTitle": "Je staat op de lijst!",
+    "successDescription": "We nemen snel contact op met je early bird toegang. Houd je inbox in de gaten.",
+    "noSpam": "Geen spam, ooit. Afmelden kan altijd.",
+    "trustFree": "Gratis early access",
+    "trustPricing": "Early bird pricing voor altijd",
+    "trustNoCard": "Geen creditcard nodig"
+  },
+  "earlyBird": {
+    "text": "Early Bird — Meld je nu aan en vergrendel onze launch pricing",
+    "cta": "Doe mee"
+  },
+  "scheduleCall": {
+    "title": "Plan een gesprek",
+    "description": "Liever praten? Boek een moment en we laten je ServiceOS zien.",
+    "button": "Plan een tijd"
+  },
+  "demoVideo": {
+    "title": "Bekijk ServiceOS in actie",
+    "placeholder": "Demo video komt binnenkort. Plan in de tussentijd een gesprek voor een live walkthrough.",
+    "close": "Sluiten"
+  },
+  "featuresPage": {
+    "meta": {
+      "title": "Features — ServiceOS",
+      "description": "AI assistent, CRM, boekingen, facturatie, website bouwer en klantportaal. Alles wat je nodig hebt om je servicebedrijf te runnen."
+    },
+    "hero": {
+      "headline": "Alles wat je nodig hebt om je servicebedrijf te runnen",
+      "subheadline": "Van eerste contact tot laatste factuur — beheerd door AI, gestuurd door jou."
+    },
+    "aiAssistant": {
+      "title": "Je AI-aangedreven business partner",
+      "description1": "De ServiceOS AI assistent is geen chatbot die FAQ's beantwoordt. Het is een capabele assistent die daadwerkelijk dingen kan doen in je bedrijf.",
+      "description2": "Vraag om een factuur te maken voor een klant, en het gebeurt. Vraag om een samenvatting van de omzet deze maand, en je krijgt het. Vraag om alle projecten te vinden die achter lopen, en het doorzoekt je data direct.",
+      "description3": "Het kent je bedrijfscontext — je diensten, je klanten, je tone of voice. Elke interactie is geïnformeerd door wie je bent en hoe je werkt.",
+      "f1": "Natural language commando's — geen menu's om door te navigeren",
+      "f2": "Maakt klanten, projecten, facturen, tijdregistraties",
+      "f3": "Doorzoekt en vat je bedrijfsdata samen",
+      "f4": "Leert je voorkeuren over tijd",
+      "f5": "Beschikbaar in Nederlands, Engels, Duits, Frans"
+    },
+    "crm": {
+      "title": "Ken je klanten door en door",
+      "description1": "Elke klant krijgt een compleet profiel met hun hele historie bij jouw bedrijf. Zie projecten, facturen, contracten, bestanden en elke interactie — alles op één pagina.",
+      "description2": "Volg klanten door je pipeline van lead tot loyale klant. Tag en segmenteer je klantenbestand. Verlies nooit meer een follow-up uit het oog.",
+      "f1": "Volledige klant lifecycle tracking (Lead → Actief → Afgerond)",
+      "f2": "Meerdere contacten per organisatie",
+      "f3": "Custom tags en segmentatie",
+      "f4": "Activiteiten timeline met alle interacties",
+      "f5": "Snelle acties vanaf overal in de app"
+    },
+    "booking": {
+      "title": "Laat klanten bij je boeken — op jouw voorwaarden",
+      "description1": "Maak boekingstypes voor je verschillende diensten. Stel je beschikbaarheid in, buffertijden, en custom intake vragen. Deel je boekingspagina en laat klanten zelf plannen.",
+      "description2": "Voor bestaande klanten geeft de portal booking flow toegang tot extra boekingstypes zoals betaalde sessies of premium consultaties. Alles creëert een schone audit trail — klant, boeking, agenda event, notificaties.",
+      "f1": "Publieke boekingspagina met jouw branding",
+      "f2": "Custom intake vragen per boekingstype",
+      "f3": "Per-dag beschikbaarheidsregels",
+      "f4": "Buffertijd tussen afspraken",
+      "f5": "Automatische bevestigings- en herinneringsmails",
+      "f6": "Agenda sync (Google, Outlook — binnenkort)"
+    },
+    "quotes": {
+      "title": "Van offerte naar getekend contract in minuten",
+      "description1": "Maak professionele offertes met regelitems, optionele add-ons, en correcte BTW-afhandeling. Stuur een link en track wanneer klanten het bekijken. Als ze klaar zijn, accepteren ze online.",
+      "description2": "Zet geaccepteerde offertes om naar contracten met één klik. Klanten tekenen digitaal — naam, timestamp en IP vastgelegd. De hele flow van voorstel tot handtekening, zonder email ping-pong.",
+      "f1": "Auto-genummerde offertes (QUO-2024-0001)",
+      "f2": "Optionele regelitems die klanten kunnen aan/afvinken",
+      "f3": "View tracking en vervaldatums",
+      "f4": "One-click conversie naar contracten",
+      "f5": "Digitale handtekening vastlegging",
+      "f6": "Volledige audit trail"
+    },
+    "invoicing": {
+      "title": "Track tijd. Word betaald. Blijf gezond.",
+      "description1": "Log tijdregistraties terwijl je werkt — gekoppeld aan klanten en projecten, gemarkeerd als factureerbaar of niet, met je uurtarief toegepast. Zie samenvattingen voor vandaag, deze week, deze maand.",
+      "description2": "Als het tijd is om te factureren, zet je gelogde tijd om met één klik. Of maak handmatig facturen met regelitems. Ontvang betalingen via iDEAL, kaart, SEPA en meer via Stripe.",
+      "f1": "One-click tijdregistratie",
+      "f2": "Factureerbaar/niet-factureerbaar split",
+      "f3": "Uurtarief per registratie",
+      "f4": "Periode samenvattingen en rapporten",
+      "f5": "Auto-genummerde facturen (INV-2024-0001)",
+      "f6": "EU belastingtypes (standaard, verlaagd, verlegd)",
+      "f7": "Meerdere betaalmethodes via Stripe",
+      "f8": "Achterstallige detectie en herinneringen"
+    },
+    "websiteBuilder": {
+      "title": "Beschrijf je bedrijf. Krijg een website.",
+      "description1": "Vertel ServiceOS over je bedrijf — je diensten, je doelgroep, je stijl. AI genereert een complete, multi-pagina website met jouw teksten, kleuren en structuur.",
+      "description2": "Wil je iets aanpassen? Chat gewoon. \"Maak de hero sectie meer opvallend.\" \"Voeg een testimonials sectie toe.\" \"Verander het kleurenschema naar warmere tonen.\" Geen drag-and-drop builders, geen templates om aan te passen.",
+      "f1": "Volledige website gegenereerd vanuit een beschrijving",
+      "f2": "14 bloktypes (hero, features, pricing, testimonials, FAQ, etc.)",
+      "f3": "Bewerk elke sectie via natural language",
+      "f4": "AI-powered afbeelding zoeken uit je bibliotheek en stock",
+      "f5": "Custom domeinen ondersteund",
+      "f6": "Light en dark mode",
+      "f7": "Mobile-responsive out of the box"
+    },
+    "portal": {
+      "title": "Geef klanten hun eigen plek",
+      "description1": "Elke klant krijgt toegang tot een white-labeled portal waar ze hun projecten, facturen, bestanden en boekingen kunnen zien. Geen \"kun je die factuur opnieuw sturen?\" emails meer.",
+      "description2": "Passwordless login via magic link houdt het simpel. Klanten zien wat jij wilt dat ze zien — niet meer, niet minder.",
+      "f1": "White-labeled met jouw branding",
+      "f2": "Passwordless magic link login",
+      "f3": "Project overzicht met voortgang",
+      "f4": "Factuur historie en betaalstatus",
+      "f5": "Bestand downloads per project",
+      "f6": "Direct afspraken boeken",
+      "f7": "Light/dark thema toggle"
+    },
+    "blog": {
+      "title": "Publiceer content zonder de content struggle",
+      "description1": "Beschrijf de blogpost die je wilt, en AI schrijft het. Volledige rich-text content met jouw brand voice toegepast. Bewerk inline, regenereer secties, laat AI afbeeldingen suggereren.",
+      "description2": "Publiceer naar je ServiceOS website of meerdere sites tegelijk. SEO metadata automatisch gegenereerd.",
+      "f1": "AI-gegenereerde blogposts vanuit prompts",
+      "f2": "Rich text editor met AI inline editing",
+      "f3": "Auto-gegenereerde SEO metadata",
+      "f4": "Categorieën en tags",
+      "f5": "Planning voor toekomstige publicatie",
+      "f6": "Multi-site publishing",
+      "f7": "Gerelateerde posts en booking CTAs"
+    },
+    "comparison": {
+      "headline": "Alles op één plek vs. je huidige stack",
+      "task": "Taak",
+      "without": "Zonder ServiceOS",
+      "with": "Met ServiceOS",
+      "r1": { "task": "Klant boeken", "without": "Calendly + handmatige CRM update", "with": "Eén boeking maakt alles aan" },
+      "r2": { "task": "Offerte sturen", "without": "Google Docs + email + handmatig tracken", "with": "Genereer, verstuur, track views automatisch" },
+      "r3": { "task": "Factureren voor tijd", "without": "Exporteer timesheet + maak factuur + achtervolg betaling", "with": "Eén klik van gelogde tijd naar betaald" },
+      "r4": { "task": "Website updaten", "without": "Bel je webpersoon of DIY drag-drop", "with": "\"Voeg nieuwe dienst toe aan homepage\"" },
+      "r5": { "task": "Klantinfo vinden", "without": "Zoek in 4 verschillende apps", "with": "Vraag AI of zoek één keer" }
+    }
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Pricing — ServiceOS",
+      "description": "Simpele, transparante pricing vanaf gratis. Geen verborgen kosten, geen contracten. Start vandaag je 14-daagse gratis proefperiode."
+    },
+    "hero": {
+      "headline": "Simpele pricing voor groeiende bedrijven",
+      "subheadline": "Start gratis, upgrade wanneer je klaar bent. Geen verrassingskosten."
+    },
+    "monthly": "Maandelijks",
+    "annual": "Jaarlijks",
+    "perMonth": "/maand",
+    "perYear": "/jaar",
+    "save": "Bespaar",
+    "mostPopular": "Populairst",
+    "starter": {
+      "name": "Starter",
+      "price": "0",
+      "description": "Voor freelancers die net beginnen",
+      "cta": "Start gratis",
+      "f1": "5 actieve klanten",
+      "f2": "Basis CRM",
+      "f3": "1 boekingstype",
+      "f4": "5 facturen/maand",
+      "f5": "ServiceOS subdomein website",
+      "f6": "Email support"
+    },
+    "professional": {
+      "name": "Professional",
+      "priceMonthly": "29",
+      "priceAnnual": "290",
+      "saveAmount": "€58",
+      "description": "Voor gevestigde freelancers en kleine teams",
+      "cta": "Start 14-daagse proefperiode",
+      "includes": "Alles in Starter, plus:",
+      "f1": "Onbeperkt klanten",
+      "f2": "Volledige AI assistent toegang",
+      "f3": "Onbeperkt boekingstypes",
+      "f4": "Onbeperkt facturen",
+      "f5": "Offertes & contracten met e-handtekening",
+      "f6": "Klantportaal",
+      "f7": "Custom domein",
+      "f8": "Priority support"
+    },
+    "agency": {
+      "name": "Agency",
+      "priceMonthly": "79",
+      "priceAnnual": "790",
+      "saveAmount": "€158",
+      "description": "Voor agencies en groeiende teams",
+      "cta": "Start 14-daagse proefperiode",
+      "includes": "Alles in Professional, plus:",
+      "f1": "Tot 5 teamleden",
+      "f2": "Role-based permissions",
+      "f3": "Meerdere websites",
+      "f4": "Geavanceerde rapportages",
+      "f5": "API toegang",
+      "f6": "Dedicated onboarding",
+      "f7": "Telefonische support"
+    },
+    "faq": {
+      "headline": "Veelgestelde vragen",
+      "q1": { "q": "Kan ik later van plan wisselen?", "a": "Ja, upgrade of downgrade wanneer je wilt. Wijzigingen gaan in op je volgende factuurcyclus." },
+      "q2": { "q": "Welke betaalmethodes accepteren jullie?", "a": "We accepteren alle gangbare creditcards, iDEAL, SEPA automatische incasso en Bancontact." },
+      "q3": { "q": "Is er een contract of commitment?", "a": "Geen contracten. Maandelijkse plannen kunnen altijd opgezegd worden. Jaarplannen worden vooraf gefactureerd met 30 dagen geld-terug-garantie." },
+      "q4": { "q": "Wat gebeurt er met mijn data als ik opzeg?", "a": "Je kunt al je data altijd exporteren. Na opzegging wordt je data 30 dagen bewaard, daarna permanent verwijderd." },
+      "q5": { "q": "Bieden jullie korting voor non-profits?", "a": "Ja, geregistreerde non-profits krijgen 30% korting op elk plan. Neem contact op met bewijs van status." },
+      "q6": { "q": "Is mijn data veilig?", "a": "Ja. We gebruiken industrie-standaard encryptie, EU-gebaseerde servers en zijn volledig GDPR compliant." }
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Over Ons — ServiceOS",
+      "description": "We bouwen het bedrijfsplatform dat we wensten te hebben toen we freelanceten. Leer over onze missie en ons team."
+    },
+    "hero": {
+      "headline": "Gebouwd voor mensen die het werk doen",
+      "subheadline": "We bouwen het bedrijfsplatform dat we wensten te hebben toen we freelanceten."
+    },
+    "mission": {
+      "headline": "Waarom we ServiceOS bouwen",
+      "p1": "Freelancers en kleine servicebedrijven verdienen betere tools dan spreadsheets en losse apps. Maar enterprise software is te complex, en de meeste \"simpele\" tools zijn te beperkt.",
+      "p2": "We geloven dat AI deze vergelijking verandert. Niet als gimmick of chatbot, maar als een echt nuttige assistent die het werk doet dat jij niet wilt doen.",
+      "p3": "ServiceOS is gebouwd op een simpel idee: je bedrijfssoftware moet voor jou werken, niet andersom."
+    },
+    "values": {
+      "headline": "Waar we in geloven",
+      "v1": { "title": "Simpelheid boven features", "description": "Meer features is niet beter. We voegen dingen toe die je leven makkelijker maken en zeggen nee tegen al het andere." },
+      "v2": { "title": "AI als assistent, niet als gimmick", "description": "AI moet nuttig werk doen, niet alleen content genereren. Onze AI maakt facturen, doorzoekt data, beheert boekingen." },
+      "v3": { "title": "Europees by design", "description": "Gebouwd in Europa, voor Europese bedrijven. GDPR compliant, EU servers, lokale betaalmethodes, correcte facturatie." },
+      "v4": { "title": "Respecteer je tijd", "description": "Je werd freelancer om werk te doen waar je van houdt, niet om admin te doen. Elke feature die we bouwen moet je tijd teruggeven." }
+    },
+    "team": {
+      "headline": "Het team",
+      "placeholder": "ServiceOS wordt gebouwd door een klein team in Amsterdam dat het zat was om met 10 verschillende tools te jongleren om een simpel servicebedrijf te runnen."
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact — ServiceOS",
+      "description": "Neem contact op met het ServiceOS team. Vragen, feedback of partnership aanvragen zijn welkom."
+    },
+    "hero": {
+      "headline": "Neem contact op",
+      "subheadline": "Vragen, feedback, of gewoon even hallo zeggen? We horen graag van je."
+    },
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "submit": "Verstuur bericht",
+      "success": "Bedankt voor je bericht! We reageren binnen 24 uur.",
+      "subjects": {
+        "general": "Algemene vraag",
+        "sales": "Sales vraag",
+        "support": "Support verzoek",
+        "partnership": "Partnership",
+        "other": "Anders"
+      }
+    },
+    "info": {
+      "email": "hello@serviceos.app",
+      "support": "support@serviceos.app",
+      "hoursLabel": "Kantooruren",
+      "hours": "Maandag - Vrijdag, 9:00 - 17:00 CET",
+      "locationLabel": "Locatie",
+      "location": "Amsterdam, Nederland"
+    }
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacybeleid — ServiceOS",
+      "description": "Leer hoe ServiceOS met je data omgaat. GDPR compliant, EU-gebaseerde servers."
+    },
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: februari 2026"
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Algemene Voorwaarden — ServiceOS",
+      "description": "ServiceOS algemene voorwaarden voor ons bedrijfsbeheer platform."
+    },
+    "title": "Algemene Voorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: februari 2026"
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "roadmap": "Roadmap",
+    "changelog": "Changelog",
+    "company": "Bedrijf",
+    "about": "Over ons",
+    "blog": "Blog",
+    "contact": "Contact",
+    "careers": "Vacatures",
+    "comingSoon": "binnenkort",
+    "resources": "Resources",
+    "helpCenter": "Help Center",
+    "apiDocs": "API Documentatie",
+    "statusPage": "Status Pagina",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
+    "gdpr": "GDPR",
+    "copyright": "© 2026 ServiceOS. Alle rechten voorbehouden.",
+    "madeWith": "Gemaakt met ♥ in Amsterdam"
+  }
+}

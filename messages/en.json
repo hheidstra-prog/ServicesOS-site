@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "title": "ServiceOS — AI-Powered Business Management for Service Providers",
+    "description": "Replace your CRM, scheduling, invoicing, and website tools with one intelligent platform. Built for freelancers, agencies, and consultants."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "signIn": "Sign in",
+    "startTrial": "Start free trial"
+  },
+  "hero": {
+    "headline": "Run your service business with AI",
+    "subheadline": "ServiceOS replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.",
+    "ctaPrimary": "Start free trial",
+    "ctaSecondary": "See how it works"
+  },
+  "socialProof": {
+    "text": "Trusted by 500+ service professionals across Europe"
+  },
+  "problem": {
+    "headline": "Your tools don't talk to each other",
+    "body": "You're juggling Calendly for bookings, a spreadsheet for clients, Canva for your website, and three apps for invoicing. Nothing syncs. You copy-paste the same info everywhere. And you're still doing admin at 10pm.",
+    "cta": "Sound familiar?"
+  },
+  "solution": {
+    "headline": "One platform. Everything connected.",
+    "body": "ServiceOS brings your entire business into one place. Your CRM knows your calendar. Your invoices pull from tracked time. Your website updates when you add a service. And AI handles the busywork so you can focus on clients."
+  },
+  "features": {
+    "headline": "Everything you need, nothing you don't",
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "description": "Chat with your business. Create invoices, log time, find clients — just ask."
+    },
+    "clientManagement": {
+      "title": "Client Management",
+      "description": "Full CRM with pipeline tracking, contacts, notes, and activity timeline."
+    },
+    "booking": {
+      "title": "Booking & Scheduling",
+      "description": "Public booking page, intake questions, calendar sync, automated reminders."
+    },
+    "quotes": {
+      "title": "Quotes & Contracts",
+      "description": "Professional proposals with e-signatures. Track views and acceptances."
+    },
+    "invoicing": {
+      "title": "Time & Invoicing",
+      "description": "Track hours, convert to invoices, accept payments. All connected."
+    },
+    "website": {
+      "title": "AI Website Builder",
+      "description": "Describe your business, get a complete website. Edit with chat."
+    }
+  },
+  "howItWorks": {
+    "headline": "Up and running in minutes",
+    "step1": {
+      "title": "Tell us about your business",
+      "description": "Answer a few questions about your services, clients, and brand."
+    },
+    "step2": {
+      "title": "AI builds your workspace",
+      "description": "Get a complete setup — website, services catalog, booking page — generated instantly."
+    },
+    "step3": {
+      "title": "Start working",
+      "description": "Manage everything from one dashboard. Let AI handle the repetitive stuff."
+    }
+  },
+  "testimonials": {
+    "headline": "Loved by service professionals",
+    "t1": {
+      "quote": "I used to spend Sunday evenings on invoices and admin. Now my AI assistant handles most of it while I'm with clients.",
+      "author": "Sarah M.",
+      "role": "Business Coach"
+    },
+    "t2": {
+      "quote": "Finally, a tool that actually understands how freelancers work. Not built for enterprises and dumbed down.",
+      "author": "Thomas K.",
+      "role": "UX Consultant"
+    },
+    "t3": {
+      "quote": "My clients love the portal. They can see their projects, download invoices, book sessions — without emailing me.",
+      "author": "Lieke V.",
+      "role": "Marketing Consultant"
+    }
+  },
+  "cta": {
+    "headline": "Ready to simplify your business?",
+    "subheadline": "Start your free 14-day trial. No credit card required.",
+    "button": "Get started free"
+  },
+  "waitlist": {
+    "headline": "Be the first to try ServiceOS",
+    "subheadline": "Join our early bird list and get exclusive access when we launch. Plus early bird pricing locked in forever.",
+    "emailPlaceholder": "Your email address",
+    "namePlaceholder": "Your name (optional)",
+    "companyPlaceholder": "Company (optional)",
+    "button": "Join the early bird list",
+    "loading": "Signing up...",
+    "successTitle": "You're on the list!",
+    "successDescription": "We'll be in touch soon with your early bird access. Keep an eye on your inbox.",
+    "noSpam": "No spam, ever. Unsubscribe anytime.",
+    "trustFree": "Free early access",
+    "trustPricing": "Early bird pricing forever",
+    "trustNoCard": "No credit card required"
+  },
+  "earlyBird": {
+    "text": "Early Bird — Sign up now and lock in our launch pricing",
+    "cta": "Join now"
+  },
+  "scheduleCall": {
+    "title": "Schedule a call",
+    "description": "Prefer to talk? Book a time and we'll walk you through ServiceOS.",
+    "button": "Book a time"
+  },
+  "demoVideo": {
+    "title": "See ServiceOS in action",
+    "placeholder": "Demo video coming soon. In the meantime, schedule a call to see a live walkthrough.",
+    "close": "Close"
+  },
+  "featuresPage": {
+    "meta": {
+      "title": "Features — ServiceOS",
+      "description": "AI assistant, CRM, booking, invoicing, website builder, and client portal. Everything you need to run your service business."
+    },
+    "hero": {
+      "headline": "Everything you need to run your service business",
+      "subheadline": "From first contact to final invoice — managed by AI, controlled by you."
+    },
+    "aiAssistant": {
+      "title": "Your AI-powered business partner",
+      "description1": "The ServiceOS AI assistant isn't a chatbot that answers FAQs. It's a capable assistant that can actually do things in your business.",
+      "description2": "Ask it to create an invoice for a client, and it does. Ask for a summary of this month's revenue, and you get it. Ask it to find all projects that are overdue, and it searches your data instantly.",
+      "description3": "It knows your business context — your services, your clients, your brand voice. Every interaction is informed by who you are and how you work.",
+      "f1": "Natural language commands — no menus to navigate",
+      "f2": "Creates clients, projects, invoices, time entries",
+      "f3": "Searches and summarizes your business data",
+      "f4": "Learns your preferences over time",
+      "f5": "Available in Dutch, English, German, French"
+    },
+    "crm": {
+      "title": "Know your clients inside and out",
+      "description1": "Every client gets a complete profile showing their entire history with your business. See projects, invoices, contracts, files, and every interaction — all on one page.",
+      "description2": "Track clients through your pipeline from lead to loyal customer. Tag and segment your client base. Never lose track of a follow-up again.",
+      "f1": "Full client lifecycle tracking (Lead → Active → Completed)",
+      "f2": "Multiple contacts per organization",
+      "f3": "Custom tags and segmentation",
+      "f4": "Activity timeline with all interactions",
+      "f5": "Quick actions from anywhere in the app"
+    },
+    "booking": {
+      "title": "Let clients book you — on your terms",
+      "description1": "Create booking types for your different services. Set your availability, buffer times, and custom intake questions. Share your booking page and let clients self-schedule.",
+      "description2": "For existing clients, the portal booking flow gives access to additional booking types like paid sessions or premium consultations. Everything creates a clean audit trail — client, booking, calendar event, notifications.",
+      "f1": "Public booking page with your branding",
+      "f2": "Custom intake questions per booking type",
+      "f3": "Per-day availability rules",
+      "f4": "Buffer time between appointments",
+      "f5": "Automatic confirmation and reminder emails",
+      "f6": "Calendar sync (Google, Outlook — coming soon)"
+    },
+    "quotes": {
+      "title": "From proposal to signed contract in minutes",
+      "description1": "Create professional quotes with line items, optional add-ons, and proper tax handling. Send a link and track when clients view it. When they're ready, they accept online.",
+      "description2": "Convert accepted quotes to contracts with a click. Clients sign digitally — name, timestamp, and IP recorded. The whole flow from proposal to signature, without email ping-pong.",
+      "f1": "Auto-numbered quotes (QUO-2024-0001)",
+      "f2": "Optional line items clients can select/deselect",
+      "f3": "View tracking and expiry dates",
+      "f4": "One-click conversion to contracts",
+      "f5": "Digital signature capture",
+      "f6": "Full audit trail"
+    },
+    "invoicing": {
+      "title": "Track time. Get paid. Stay sane.",
+      "description1": "Log time entries as you work — tied to clients and projects, marked billable or not, with your hourly rate applied. See summaries for today, this week, this month.",
+      "description2": "When it's time to invoice, convert tracked time with one click. Or create invoices manually with line items. Accept payments via iDEAL, card, SEPA, and more through Stripe.",
+      "f1": "One-click time logging",
+      "f2": "Billable/non-billable split",
+      "f3": "Per-entry hourly rates",
+      "f4": "Period summaries and reports",
+      "f5": "Auto-numbered invoices (INV-2024-0001)",
+      "f6": "EU tax types (standard, reduced, reverse charge)",
+      "f7": "Multiple payment methods via Stripe",
+      "f8": "Overdue detection and reminders"
+    },
+    "websiteBuilder": {
+      "title": "Describe your business. Get a website.",
+      "description1": "Tell ServiceOS about your business — your services, your audience, your style. AI generates a complete, multi-page website with your copy, colors, and structure.",
+      "description2": "Want to change something? Just chat. \"Make the hero section more bold.\" \"Add a testimonials section.\" \"Change the color scheme to warmer tones.\" No drag-and-drop builders, no templates to customize.",
+      "f1": "Full website generated from a description",
+      "f2": "14 block types (hero, features, pricing, testimonials, FAQ, etc.)",
+      "f3": "Edit any section through natural language",
+      "f4": "AI-powered image search from your library and stock",
+      "f5": "Custom domains supported",
+      "f6": "Light and dark mode",
+      "f7": "Mobile-responsive out of the box"
+    },
+    "portal": {
+      "title": "Give clients their own space",
+      "description1": "Every client gets access to a white-labeled portal where they can see their projects, invoices, files, and bookings. No more \"can you resend that invoice?\" emails.",
+      "description2": "Passwordless login via magic link keeps it simple. Clients see what you want them to see — nothing more, nothing less.",
+      "f1": "White-labeled with your branding",
+      "f2": "Passwordless magic link login",
+      "f3": "Project overview with progress",
+      "f4": "Invoice history and payment status",
+      "f5": "File downloads by project",
+      "f6": "Book appointments directly",
+      "f7": "Light/dark theme toggle"
+    },
+    "blog": {
+      "title": "Publish content without the content struggle",
+      "description1": "Describe the blog post you want, and AI writes it. Full rich-text content with your brand voice applied. Edit inline, regenerate sections, let AI suggest images.",
+      "description2": "Publish to your ServiceOS website or multiple sites at once. SEO metadata generated automatically.",
+      "f1": "AI-generated blog posts from prompts",
+      "f2": "Rich text editor with AI inline editing",
+      "f3": "Auto-generated SEO metadata",
+      "f4": "Categories and tags",
+      "f5": "Scheduling for future publication",
+      "f6": "Multi-site publishing",
+      "f7": "Related posts and booking CTAs"
+    },
+    "comparison": {
+      "headline": "Everything in one place vs. your current stack",
+      "task": "Task",
+      "without": "Without ServiceOS",
+      "with": "With ServiceOS",
+      "r1": { "task": "Book a client", "without": "Calendly + manual CRM update", "with": "One booking creates everything" },
+      "r2": { "task": "Send a quote", "without": "Google Docs + email + manual tracking", "with": "Generate, send, track views automatically" },
+      "r3": { "task": "Invoice for time", "without": "Export timesheet + create invoice + chase payment", "with": "One click from tracked time to paid" },
+      "r4": { "task": "Update website", "without": "Call your web person or DIY drag-drop", "with": "\"Add a new service to the homepage\"" },
+      "r5": { "task": "Find client info", "without": "Search 4 different apps", "with": "Ask AI or search once" }
+    }
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Pricing — ServiceOS",
+      "description": "Simple, transparent pricing starting free. No hidden fees, no contracts. Start your 14-day free trial today."
+    },
+    "hero": {
+      "headline": "Simple pricing for growing businesses",
+      "subheadline": "Start free, upgrade when you're ready. No surprise fees."
+    },
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "save": "Save",
+    "mostPopular": "Most popular",
+    "starter": {
+      "name": "Starter",
+      "price": "0",
+      "description": "For freelancers just getting started",
+      "cta": "Start free",
+      "f1": "5 active clients",
+      "f2": "Basic CRM",
+      "f3": "1 booking type",
+      "f4": "5 invoices/month",
+      "f5": "ServiceOS subdomain website",
+      "f6": "Email support"
+    },
+    "professional": {
+      "name": "Professional",
+      "priceMonthly": "29",
+      "priceAnnual": "290",
+      "saveAmount": "€58",
+      "description": "For established freelancers and small teams",
+      "cta": "Start 14-day free trial",
+      "includes": "Everything in Starter, plus:",
+      "f1": "Unlimited clients",
+      "f2": "Full AI assistant access",
+      "f3": "Unlimited booking types",
+      "f4": "Unlimited invoices",
+      "f5": "Quotes & contracts with e-signature",
+      "f6": "Client portal",
+      "f7": "Custom domain",
+      "f8": "Priority support"
+    },
+    "agency": {
+      "name": "Agency",
+      "priceMonthly": "79",
+      "priceAnnual": "790",
+      "saveAmount": "€158",
+      "description": "For agencies and growing teams",
+      "cta": "Start 14-day free trial",
+      "includes": "Everything in Professional, plus:",
+      "f1": "Up to 5 team members",
+      "f2": "Role-based permissions",
+      "f3": "Multiple websites",
+      "f4": "Advanced reporting",
+      "f5": "API access",
+      "f6": "Dedicated onboarding",
+      "f7": "Phone support"
+    },
+    "faq": {
+      "headline": "Frequently asked questions",
+      "q1": { "q": "Can I switch plans later?", "a": "Yes, upgrade or downgrade anytime. Changes take effect on your next billing cycle." },
+      "q2": { "q": "What payment methods do you accept?", "a": "We accept all major credit cards, iDEAL, SEPA direct debit, and Bancontact." },
+      "q3": { "q": "Is there a contract or commitment?", "a": "No contracts. Monthly plans can be cancelled anytime. Annual plans are billed upfront with a 30-day money-back guarantee." },
+      "q4": { "q": "What happens to my data if I cancel?", "a": "You can export all your data anytime. After cancellation, your data is retained for 30 days, then permanently deleted." },
+      "q5": { "q": "Do you offer discounts for non-profits?", "a": "Yes, registered non-profits get 30% off any plan. Contact us with proof of status." },
+      "q6": { "q": "Is my data secure?", "a": "Yes. We use industry-standard encryption, EU-based servers, and are fully GDPR compliant." }
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About Us — ServiceOS",
+      "description": "We're building the business platform we wished existed when we were freelancing. Learn about our mission and team."
+    },
+    "hero": {
+      "headline": "Built for people who do the work",
+      "subheadline": "We're building the business platform we wished existed when we were freelancing."
+    },
+    "mission": {
+      "headline": "Why we're building ServiceOS",
+      "p1": "Freelancers and small service businesses deserve better tools than spreadsheets and disconnected apps. But enterprise software is too complex, and most \"simple\" tools are too limited.",
+      "p2": "We believe AI changes this equation. Not as a gimmick or a chatbot, but as a genuinely useful assistant that handles the work you don't want to do.",
+      "p3": "ServiceOS is built on a simple idea: your business management software should work for you, not the other way around."
+    },
+    "values": {
+      "headline": "What we believe",
+      "v1": { "title": "Simplicity over features", "description": "More features isn't better. We add things that make your life easier and say no to everything else." },
+      "v2": { "title": "AI as assistant, not gimmick", "description": "AI should do useful work, not just generate content. Our AI creates invoices, searches data, manages bookings." },
+      "v3": { "title": "European by design", "description": "Built in Europe, for European businesses. GDPR compliant, EU servers, local payment methods, proper invoicing." },
+      "v4": { "title": "Respect your time", "description": "You became a freelancer to do work you love, not to do admin. Every feature we build should give you time back." }
+    },
+    "team": {
+      "headline": "The team",
+      "placeholder": "ServiceOS is built by a small team in Amsterdam that got tired of juggling 10 different tools to run a simple service business."
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact — ServiceOS",
+      "description": "Get in touch with the ServiceOS team. Questions, feedback, or partnership inquiries welcome."
+    },
+    "hero": {
+      "headline": "Get in touch",
+      "subheadline": "Questions, feedback, or just want to say hi? We'd love to hear from you."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Thanks for reaching out! We'll get back to you within 24 hours.",
+      "subjects": {
+        "general": "General inquiry",
+        "sales": "Sales question",
+        "support": "Support request",
+        "partnership": "Partnership",
+        "other": "Other"
+      }
+    },
+    "info": {
+      "email": "hello@serviceos.app",
+      "support": "support@serviceos.app",
+      "hoursLabel": "Office hours",
+      "hours": "Monday - Friday, 9:00 - 17:00 CET",
+      "locationLabel": "Location",
+      "location": "Amsterdam, Netherlands"
+    }
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy Policy — ServiceOS",
+      "description": "Learn how ServiceOS handles your data. GDPR compliant, EU-based servers."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: February 2026"
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Terms of Service — ServiceOS",
+      "description": "ServiceOS terms of service for our business management platform."
+    },
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: February 2026"
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "roadmap": "Roadmap",
+    "changelog": "Changelog",
+    "company": "Company",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "careers": "Careers",
+    "comingSoon": "coming soon",
+    "resources": "Resources",
+    "helpCenter": "Help Center",
+    "apiDocs": "API Documentation",
+    "statusPage": "Status Page",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "gdpr": "GDPR",
+    "copyright": "© 2026 ServiceOS. All rights reserved.",
+    "madeWith": "Made with ♥ in Amsterdam"
+  }
+}
