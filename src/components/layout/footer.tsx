@@ -32,6 +32,7 @@ export function Footer() {
     {
       title: t("resources"),
       links: [
+        { label: t("faq"), href: `/${locale}/faq` },
         { label: t("helpCenter"), href: "#" },
         { label: t("apiDocs"), href: "#" },
         { label: t("statusPage"), href: "#" },

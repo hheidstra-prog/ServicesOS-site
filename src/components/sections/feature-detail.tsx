@@ -12,6 +12,7 @@ import {
   Globe,
   UserCircle,
   PenTool,
+  FolderSearch,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -24,6 +25,7 @@ const iconMap = {
   globe: Globe,
   userCircle: UserCircle,
   penTool: PenTool,
+  folderSearch: FolderSearch,
 } as const;
 
 type IconKey = keyof typeof iconMap;
@@ -35,6 +37,7 @@ interface FeatureDetailProps {
   descriptionCount: number;
   reversed?: boolean;
   muted?: boolean;
+  visual?: React.ReactNode;
 }
 
 export function FeatureDetail({
@@ -44,6 +47,7 @@ export function FeatureDetail({
   descriptionCount,
   reversed = false,
   muted = false,
+  visual,
 }: FeatureDetailProps) {
   const t = useTranslations(`featuresPage.${sectionKey}`);
   const Icon = iconMap[icon];
@@ -104,23 +108,25 @@ export function FeatureDetail({
             </ul>
           </motion.div>
 
-          {/* Screenshot placeholder */}
+          {/* Visual */}
           <motion.div
             initial={{ opacity: 0, x: reversed ? -20 : 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-[var(--border)] bg-gradient-to-br from-primary-50 to-accent-50 shadow-lg">
-              <div className="flex h-full items-center justify-center">
-                <div className="text-center">
-                  <Icon className="mx-auto mb-3 h-10 w-10 text-primary-300" />
-                  <p className="text-sm font-medium text-[var(--muted-foreground)]">
-                    Screenshot
-                  </p>
+            {visual || (
+              <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-[var(--border)] bg-gradient-to-br from-primary-50 to-accent-50 shadow-lg">
+                <div className="flex h-full items-center justify-center">
+                  <div className="text-center">
+                    <Icon className="mx-auto mb-3 h-10 w-10 text-primary-300" />
+                    <p className="text-sm font-medium text-[var(--muted-foreground)]">
+                      Screenshot
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
           </motion.div>
         </div>
       </div>

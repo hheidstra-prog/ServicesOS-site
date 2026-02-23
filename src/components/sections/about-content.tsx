@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { Lightbulb, Bot, Globe, Clock, Users } from "lucide-react";
+import { Lightbulb, Bot, Globe, Clock } from "lucide-react";
 
 const valueIcons = [Lightbulb, Bot, Globe, Clock];
 
@@ -104,24 +105,44 @@ export function AboutContent() {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Founder */}
       <section className="section-padding">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
+            className="mx-auto max-w-3xl"
           >
-            <h2 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-              {t("team.headline")}
-            </h2>
-            <div className="mx-auto mt-8 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary-400 to-accent-400">
-              <Users className="h-8 w-8 text-white" />
+            <div className="flex flex-col items-center gap-8 sm:flex-row sm:items-start">
+              <div className="shrink-0">
+                <Image
+                  src="/images/portrait-bw.png"
+                  alt={t("founder.name")}
+                  width={140}
+                  height={140}
+                  className="rounded-full"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-[var(--foreground)]">
+                  {t("founder.greeting")}
+                </h2>
+                <p className="mt-1 text-sm font-medium text-primary-600">
+                  {t("founder.role")}
+                </p>
+                <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
+                  {t("founder.problem")}
+                </p>
+                <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
+                  {t("founder.vision")}
+                </p>
+                <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
+                  {t("founder.cta")}
+                </p>
+              </div>
             </div>
-            <p className="mt-6 text-lg leading-relaxed text-[var(--muted-foreground)]">
-              {t("team.placeholder")}
-            </p>
           </motion.div>
         </div>
       </section>

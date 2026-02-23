@@ -15,10 +15,60 @@
     "headline": "Run your service business with AI",
     "subheadline": "ServiceOS replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.",
     "ctaPrimary": "Start free trial",
-    "ctaSecondary": "See how it works"
+    "ctaSecondary": "See how it works",
+    "carousel": {
+      "online": "Online",
+      "active": "Active",
+      "variants": {
+        "briefing": {
+          "title": "Daily briefing",
+          "user1": "What needs my attention today?",
+          "assistant1": "Here's your Monday morning overview:",
+          "check1": "3 bookings today (first one at 10:00)",
+          "check2": "2 overdue invoices (€1,850 total)",
+          "check3": "1 new contact form submission",
+          "check4": "4 tasks due this week",
+          "user2": "Send a reminder for those overdue invoices",
+          "assistant2": "Done. Payment reminders sent to both clients with their invoice links"
+        },
+        "onboarding": {
+          "title": "Client onboarding",
+          "user1": "I just signed Acme Corp, contact is John at john@acme.com",
+          "assistant1": "Nice! I've set everything up:",
+          "check1": "Created client Acme Corp (upgraded from lead)",
+          "check2": "Added John as primary contact",
+          "check3": "Created project \"Acme Corp\" with default tasks",
+          "check4": "Generated first milestone invoice (€2,400)",
+          "user2": "Send John a portal invite too",
+          "assistant2": "Portal invite sent to john@acme.com. John can now view his project, invoices, and book sessions"
+        },
+        "invoicing": {
+          "title": "Quick invoice",
+          "user1": "Invoice Acme Corp for the website project",
+          "assistant1": "I found the project. Based on tracked time and agreed rates:",
+          "check1": "32 hours × €75/hr = €2,400",
+          "check2": "Added 21% VAT (€504)",
+          "check3": "Invoice total: €2,904",
+          "user2": "Looks right, send it",
+          "assistant2": "Invoice INV-2026-0014 sent to john@acme.com. Payment link with iDEAL and card included"
+        },
+        "blog": {
+          "title": "Blog post",
+          "user1": "Write a blog post about why service businesses should automate their client intake",
+          "assistant1": "I'll draft that using your brand voice. Give me a moment...",
+          "check1": "Analyzed your previous posts for tone",
+          "check2": "Drafted 1,200-word article with 3 sections",
+          "check3": "Generated SEO metadata",
+          "user2": "Looks great, publish it next Monday at 9am",
+          "assistant2": "Scheduled for Monday 9:00 AM. I'll also share it on your LinkedIn automatically"
+        }
+      }
+    }
   },
   "socialProof": {
-    "text": "Trusted by 500+ service professionals across Europe"
+    "badge": "Early Bird",
+    "text": "Sign up now and lock in launch pricing forever",
+    "cta": "Join the list"
   },
   "problem": {
     "headline": "Your tools don't talk to each other",
@@ -109,6 +159,14 @@
     "trustPricing": "Early bird pricing forever",
     "trustNoCard": "No credit card required"
   },
+  "getStarted": {
+    "title": "Get started with ServiceOS",
+    "description": "We're not live yet, but you can already get involved:",
+    "earlyBirdTitle": "Join as Early Bird",
+    "earlyBirdDescription": "Get early access and lock in launch pricing forever. We'll notify you as soon as we go live.",
+    "scheduleTitle": "Schedule a call",
+    "scheduleDescription": "See ServiceOS in action. We'll give you a personal walkthrough and answer all your questions."
+  },
   "earlyBird": {
     "text": "Early Bird — Sign up now and lock in our launch pricing",
     "cta": "Join now"
@@ -141,7 +199,18 @@
       "f2": "Creates clients, projects, invoices, time entries",
       "f3": "Searches and summarizes your business data",
       "f4": "Learns your preferences over time",
-      "f5": "Available in Dutch, English, German, French"
+      "f5": "Available in Dutch, English, German, French",
+      "chat": {
+        "title": "ServiceOS AI",
+        "status": "Ready",
+        "user1": "How's the Acme Corp project going?",
+        "assistant1": "Here's the Acme Corp overview:",
+        "check1": "Project: 68% complete (12 of 18 tasks done)",
+        "check2": "Time logged: 47h of 60h budget",
+        "check3": "Invoice #14 (€2,400) — paid. #15 (€1,800) — due in 3 days",
+        "user2": "Send John a progress update",
+        "assistant2": "Sent! Included project status, completed milestones, and the timeline for the remaining tasks."
+      }
     },
     "crm": {
       "title": "Know your clients inside and out",
@@ -151,7 +220,33 @@
       "f2": "Multiple contacts per organization",
       "f3": "Custom tags and segmentation",
       "f4": "Activity timeline with all interactions",
-      "f5": "Quick actions from anywhere in the app"
+      "f5": "Quick actions from anywhere in the app",
+      "card": {
+        "name": "Acme Corp",
+        "contact": "John van der Berg · Primary contact",
+        "status": "Active",
+        "tag1": "Web design",
+        "tag2": "Retainer",
+        "tag3": "Priority",
+        "projectsCount": "3",
+        "projectsLabel": "Projects",
+        "invoicedAmount": "€12.4k",
+        "invoicedLabel": "Invoiced",
+        "hoursCount": "142",
+        "hoursLabel": "Hours logged",
+        "company": "Acme Corp · Amsterdam",
+        "email": "john@acmecorp.nl",
+        "phone": "+31 6 1234 5678",
+        "activityTitle": "Recent activity",
+        "activity1": "Invoice #15 paid (€1,800)",
+        "activity1Time": "Today at 09:14",
+        "activity2": "Contract signed — Q2 Retainer",
+        "activity2Time": "Yesterday at 16:30",
+        "activity3": "Progress update sent to John",
+        "activity3Time": "2 days ago",
+        "activity4": "4.5h logged — Homepage redesign",
+        "activity4Time": "3 days ago"
+      }
     },
     "booking": {
       "title": "Let clients book you — on your terms",
@@ -162,7 +257,30 @@
       "f3": "Per-day availability rules",
       "f4": "Buffer time between appointments",
       "f5": "Automatic confirmation and reminder emails",
-      "f6": "Calendar sync (Google, Outlook — coming soon)"
+      "f6": "Calendar sync (Google, Outlook — coming soon)",
+      "mockup": {
+        "header": "Book a session",
+        "subtitle": "Select a service and pick a time",
+        "service1": "Strategy Session",
+        "service1Duration": "60 min",
+        "service1Price": "€95",
+        "service2": "Quick Check-in",
+        "service2Duration": "30 min",
+        "service2Price": "Free",
+        "service3": "Project Kickoff",
+        "service3Duration": "90 min",
+        "service3Price": "€145",
+        "monthLabel": "March 2025",
+        "selectedDate": "Thu 13",
+        "timeSlotsLabel": "Available times",
+        "slot1": "09:00",
+        "slot2": "10:30",
+        "slot3": "13:00",
+        "slot4": "14:30",
+        "intakeLabel": "What would you like to discuss?",
+        "intakePlaceholder": "I'd like to talk about…",
+        "confirmButton": "Confirm booking"
+      }
     },
     "quotes": {
       "title": "From proposal to signed contract in minutes",
@@ -173,7 +291,38 @@
       "f3": "View tracking and expiry dates",
       "f4": "One-click conversion to contracts",
       "f5": "Digital signature capture",
-      "f6": "Full audit trail"
+      "f6": "Full audit trail",
+      "mockup": {
+        "quoteNumber": "QUO-2024-0047",
+        "status": "Viewed",
+        "clientLabel": "Prepared for",
+        "client": "Acme Corp",
+        "clientContact": "John van der Berg",
+        "dateLabel": "Date",
+        "date": "Mar 12, 2025",
+        "expiresLabel": "Expires",
+        "expires": "Mar 26, 2025",
+        "item1": "Brand Strategy Workshop",
+        "item1Qty": "1",
+        "item1Price": "€1,200",
+        "item2": "Logo & Identity Design",
+        "item2Qty": "1",
+        "item2Price": "€2,400",
+        "item3": "Website Design (5 pages)",
+        "item3Qty": "1",
+        "item3Price": "€3,600",
+        "item3Optional": "Optional",
+        "subtotalLabel": "Subtotal",
+        "subtotal": "€3,600",
+        "taxLabel": "VAT 21%",
+        "tax": "€756",
+        "totalLabel": "Total",
+        "total": "€4,356",
+        "signatureLabel": "Signature",
+        "signatureName": "John van der Berg",
+        "signatureDate": "Signed Mar 13, 2025 at 14:22",
+        "acceptButton": "Accept & Sign"
+      }
     },
     "invoicing": {
       "title": "Track time. Get paid. Stay sane.",
@@ -186,7 +335,35 @@
       "f5": "Auto-numbered invoices (INV-2024-0001)",
       "f6": "EU tax types (standard, reduced, reverse charge)",
       "f7": "Multiple payment methods via Stripe",
-      "f8": "Overdue detection and reminders"
+      "f8": "Overdue detection and reminders",
+      "mockup": {
+        "timerTitle": "Time Tracker",
+        "todayLabel": "Today",
+        "todayHours": "6h 15m",
+        "weekLabel": "This week",
+        "weekHours": "28h 30m",
+        "entry1Task": "Homepage redesign",
+        "entry1Client": "Acme Corp",
+        "entry1Time": "2h 30m",
+        "entry1Rate": "€75/hr",
+        "entry1Billable": "Billable",
+        "entry2Task": "Brand guidelines review",
+        "entry2Client": "Acme Corp",
+        "entry2Time": "1h 45m",
+        "entry2Rate": "€75/hr",
+        "entry2Billable": "Billable",
+        "entry3Task": "Internal admin",
+        "entry3Client": "—",
+        "entry3Time": "2h 00m",
+        "entry3Billable": "Non-billable",
+        "convertButton": "Convert to invoice",
+        "invoiceTitle": "INV-2025-0023",
+        "invoiceStatus": "Paid",
+        "invoiceClient": "Acme Corp",
+        "invoiceAmount": "€2,904.00",
+        "invoiceMethod": "iDEAL",
+        "invoicePaidDate": "Paid Mar 15, 2025"
+      }
     },
     "websiteBuilder": {
       "title": "Describe your business. Get a website.",
@@ -198,7 +375,26 @@
       "f4": "AI-powered image search from your library and stock",
       "f5": "Custom domains supported",
       "f6": "Light and dark mode",
-      "f7": "Mobile-responsive out of the box"
+      "f7": "Mobile-responsive out of the box",
+      "mockup": {
+        "chatLabel": "Describe your business",
+        "userMessage": "I'm a freelance UX designer in Amsterdam. Clean, minimal aesthetic. Services: UX audit, design sprints, and ongoing retainers.",
+        "generating": "Generating your website…",
+        "progress": "3 of 5 pages complete",
+        "previewLabel": "Live preview",
+        "pageTitle": "Studio Vera",
+        "pageTagline": "UX design that puts your users first",
+        "nav1": "Services",
+        "nav2": "Work",
+        "nav3": "About",
+        "nav4": "Book",
+        "heroBtn": "See my work",
+        "section1": "Services",
+        "section2": "Recent projects",
+        "section3": "Testimonials",
+        "editPrompt": "\"Make the hero bolder and add a dark mode toggle\"",
+        "editLabel": "Edit with chat"
+      }
     },
     "portal": {
       "title": "Give clients their own space",
@@ -210,7 +406,33 @@
       "f4": "Invoice history and payment status",
       "f5": "File downloads by project",
       "f6": "Book appointments directly",
-      "f7": "Light/dark theme toggle"
+      "f7": "Light/dark theme toggle",
+      "mockup": {
+        "header": "Client Portal",
+        "welcomeLabel": "Welcome back,",
+        "clientName": "John",
+        "nav1": "Overview",
+        "nav2": "Invoices",
+        "nav3": "Files",
+        "nav4": "Book",
+        "project1": "Brand Redesign",
+        "project1Status": "In progress",
+        "project1Progress": "68",
+        "project2": "Website Launch",
+        "project2Status": "Review",
+        "project2Progress": "90",
+        "invoicesTitle": "Recent invoices",
+        "inv1": "INV-2025-0023",
+        "inv1Amount": "€2,904",
+        "inv1Status": "Paid",
+        "inv2": "INV-2025-0024",
+        "inv2Amount": "€1,200",
+        "inv2Status": "Due in 5 days",
+        "filesTitle": "Shared files",
+        "file1": "Brand-Guidelines-v2.pdf",
+        "file2": "Logo-Pack.zip",
+        "magicLink": "Logged in via magic link"
+      }
     },
     "blog": {
       "title": "Publish content without the content struggle",
@@ -222,18 +444,82 @@
       "f4": "Categories and tags",
       "f5": "Scheduling for future publication",
       "f6": "Multi-site publishing",
-      "f7": "Related posts and booking CTAs"
+      "f7": "Related posts and booking CTAs",
+      "mockup": {
+        "editorLabel": "Blog Editor",
+        "statusDraft": "Draft",
+        "title": "Why Every Freelancer Needs an Automated Client Intake",
+        "meta": "SEO · 6 min read · 1,240 words",
+        "paragraph": "Most freelancers lose hours every week to manual intake processes. Endless email threads, copy-pasting details into spreadsheets, and forgetting to follow up on leads…",
+        "aiSuggestion": "AI suggestion",
+        "suggestionText": "Add a section about reducing no-shows with automated reminders?",
+        "acceptBtn": "Insert",
+        "dismissBtn": "Skip",
+        "seoTitle": "SEO Metadata",
+        "seoMetaTitle": "Automated Client Intake for Freelancers | ServiceOS",
+        "seoDesc": "Learn how automating your client intake saves 5+ hours per week and reduces missed leads.",
+        "scheduleLabel": "Publish",
+        "scheduleValue": "Mon Mar 17, 9:00 AM"
+      }
+    },
+    "fileManager": {
+      "title": "Your files, organized by AI",
+      "description1": "Drop any file — document, image, contract, receipt — and ask your AI assistant to archive it. It reads the content, understands what it is, and files it in the right place automatically.",
+      "description2": "Need something back? Just describe it. \"I need that proposal we sent to Acme last quarter\" or \"Find me a photo of a business woman using a notebook.\" If your archive doesn't have it, continue the search on our integrated stock library and grab it there.",
+      "f1": "AI-powered file archiving and tagging",
+      "f2": "Natural language file search",
+      "f3": "Supports documents, images, contracts, receipts",
+      "f4": "Automatic content reading and categorization",
+      "f5": "Integrated stock photo library fallback",
+      "f6": "Files linked to clients and projects",
+      "mockup": {
+        "title": "File Manager",
+        "user1": "Archive this brand guidelines PDF for Acme Corp",
+        "assistant1": "Done! I've read the document and filed it:",
+        "check1": "Filed under: Acme Corp → Brand Assets",
+        "check2": "Tagged: brand guidelines, logo usage, colors",
+        "check3": "Linked to project: Brand Redesign",
+        "user2": "I need an image of a business woman using a notebook",
+        "assistant2": "I found 2 matches in your archive:",
+        "result1Label": "Workshop-Photo-Mar.jpg",
+        "result1Meta": "Acme Corp · Brand Assets · 2.4 MB",
+        "result2Label": "Team-Planning-Session.jpg",
+        "result2Meta": "Bolt Media · Project Files · 1.8 MB",
+        "stockLabel": "Not quite right?",
+        "stockButton": "Search stock library",
+        "stockResults": "12,400+ results available",
+        "useButton": "Use"
+      }
     },
     "comparison": {
-      "headline": "Everything in one place vs. your current stack",
-      "task": "Task",
-      "without": "Without ServiceOS",
-      "with": "With ServiceOS",
-      "r1": { "task": "Book a client", "without": "Calendly + manual CRM update", "with": "One booking creates everything" },
-      "r2": { "task": "Send a quote", "without": "Google Docs + email + manual tracking", "with": "Generate, send, track views automatically" },
-      "r3": { "task": "Invoice for time", "without": "Export timesheet + create invoice + chase payment", "with": "One click from tracked time to paid" },
-      "r4": { "task": "Update website", "without": "Call your web person or DIY drag-drop", "with": "\"Add a new service to the homepage\"" },
-      "r5": { "task": "Find client info", "without": "Search 4 different apps", "with": "Ask AI or search once" }
+      "headline": "Sound familiar?",
+      "subtitle": "These are the daily frustrations of running a service business. ServiceOS was built to eliminate every single one.",
+      "painLabel": "The pain",
+      "solveLabel": "How ServiceOS fixes it",
+      "r1": {
+        "pain": "You spend Sunday evening writing invoices and chasing payments",
+        "solve": "Track time as you work. One click turns it into an invoice. Clients pay online via iDEAL or card."
+      },
+      "r2": {
+        "pain": "Clients email you to book, you go back and forth 5 times to find a slot",
+        "solve": "Share your booking page. Clients pick a time, answer intake questions, and it's done."
+      },
+      "r3": {
+        "pain": "Your client info is scattered across Gmail, Notion, Google Drive, and a spreadsheet",
+        "solve": "One client profile with every project, invoice, file, note, and conversation in one place."
+      },
+      "r4": {
+        "pain": "You copy-paste proposals in Google Docs and manually track who opened them",
+        "solve": "Generate quotes with line items, send a link, track views, and let clients sign digitally."
+      },
+      "r5": {
+        "pain": "Updating your website means calling a developer or fighting with a page builder",
+        "solve": "Just tell AI what you want. \"Add a testimonials section.\" Done in seconds."
+      },
+      "r6": {
+        "pain": "You can never find that one file you need — was it in Dropbox, Google Drive, or email?",
+        "solve": "Ask your AI assistant. It reads, tags, and files everything. Describe what you need in plain language."
+      }
     }
   },
   "pricingPage": {
@@ -328,9 +614,13 @@
       "v3": { "title": "European by design", "description": "Built in Europe, for European businesses. GDPR compliant, EU servers, local payment methods, proper invoicing." },
       "v4": { "title": "Respect your time", "description": "You became a freelancer to do work you love, not to do admin. Every feature we build should give you time back." }
     },
-    "team": {
-      "headline": "The team",
-      "placeholder": "ServiceOS is built by a small team in Amsterdam that got tired of juggling 10 different tools to run a simple service business."
+    "founder": {
+      "name": "Hylke Heidstra",
+      "role": "Founder, ServiceOS",
+      "greeting": "Hi, I'm Hylke",
+      "problem": "After years of working with freelancers and small service businesses, I kept seeing the same pattern: talented people spending their evenings on invoices, copy-pasting client info between apps, and juggling a stack of disconnected tools just to run their business.",
+      "vision": "I believe AI changes this. Not as a gimmick, but as a real assistant that handles the admin so you can focus on what you do best — serving your clients. That's why I'm building ServiceOS: one intelligent platform that replaces the chaos with clarity.",
+      "cta": "I'd love to hear from you — whether you have a question, feedback, or just want to chat about the future of service businesses."
     }
   },
   "contactPage": {
@@ -366,6 +656,101 @@
       "location": "Amsterdam, Netherlands"
     }
   },
+  "faqPage": {
+    "meta": {
+      "title": "FAQ — ServiceOS",
+      "description": "Frequently asked questions about ServiceOS. Learn about our AI-powered business platform for service providers."
+    },
+    "hero": {
+      "headline": "Frequently asked questions",
+      "subheadline": "Everything you need to know about ServiceOS. Can't find what you're looking for? Get in touch."
+    },
+    "categories": {
+      "general": "General",
+      "ai": "AI & Automation",
+      "features": "Features",
+      "security": "Data & Security",
+      "gettingStarted": "Getting Started"
+    },
+    "general": {
+      "q1": {
+        "q": "What is ServiceOS?",
+        "a": "ServiceOS is an AI-powered business management platform built for freelancers, agencies, and small service businesses. It replaces your CRM, scheduling, invoicing, website, and client portal with one connected platform — managed by an intelligent AI assistant."
+      },
+      "q2": {
+        "q": "Who is ServiceOS for?",
+        "a": "ServiceOS is built for people who deliver services: consultants, coaches, designers, developers, marketing agencies, accountants, therapists — anyone who manages clients, projects, and invoices. If you're tired of juggling disconnected tools, ServiceOS is for you."
+      },
+      "q3": {
+        "q": "How is ServiceOS different from other business tools?",
+        "a": "Most tools solve one problem — scheduling, invoicing, or CRM. ServiceOS connects everything in one platform, so your calendar knows your clients, your invoices pull from tracked time, and your website updates when you add a service. Plus, the AI assistant can actually do things: create invoices, find clients, log time — just by asking."
+      },
+      "q4": {
+        "q": "Is ServiceOS available in my language?",
+        "a": "ServiceOS is available in Dutch, English, German, and French. The AI assistant understands and responds in all supported languages, and you can switch at any time."
+      }
+    },
+    "ai": {
+      "q1": {
+        "q": "What can the AI assistant actually do?",
+        "a": "The AI assistant can create clients, projects, invoices, and time entries. It can search your data, summarize your revenue, find overdue projects, draft emails, and more. It understands your business context — your services, clients, and preferences — so every action is informed and relevant."
+      },
+      "q2": {
+        "q": "Is the AI a chatbot that answers FAQs?",
+        "a": "No. The ServiceOS AI is an operational assistant. It doesn't just answer questions — it takes action in your business. Think of it as a capable team member that handles the admin work you don't want to do."
+      },
+      "q3": {
+        "q": "Does the AI learn from my data?",
+        "a": "The AI uses your business data to provide relevant responses and actions — like knowing your clients, services, and preferred rates. Your data is never used to train models or shared with other users. It stays yours."
+      }
+    },
+    "features": {
+      "q1": {
+        "q": "Can clients book appointments themselves?",
+        "a": "Yes. You create booking types for your services, set your availability and buffer times, and share your booking page. Clients pick a time and book — no back-and-forth emails. Confirmations and reminders are sent automatically."
+      },
+      "q2": {
+        "q": "How does the website builder work?",
+        "a": "Describe your business — your services, audience, and style — and ServiceOS generates a complete, multi-page website. Want to change something? Just tell the AI: \"Make the hero section bolder\" or \"Add a testimonials section.\" No drag-and-drop, no templates."
+      },
+      "q3": {
+        "q": "What payment methods are supported?",
+        "a": "ServiceOS supports payments through Stripe, including iDEAL, credit/debit cards, SEPA direct debit, and Bancontact. More payment providers are on the roadmap."
+      },
+      "q4": {
+        "q": "Do my clients get their own portal?",
+        "a": "Yes. Every client gets access to a white-labeled portal where they can view projects, download invoices, book appointments, and access shared files. They log in via a simple magic link — no password needed."
+      }
+    },
+    "security": {
+      "q1": {
+        "q": "Where is my data stored?",
+        "a": "All data is stored on EU-based servers. We use industry-standard encryption both in transit and at rest. Your data never leaves the European Union."
+      },
+      "q2": {
+        "q": "Is ServiceOS GDPR compliant?",
+        "a": "Yes, fully. ServiceOS is built in Europe, for European businesses. We're GDPR compliant by design — from data storage and processing to the right to export and delete your data at any time."
+      },
+      "q3": {
+        "q": "Can I export my data?",
+        "a": "Yes. You can export all your data — clients, projects, invoices, time entries — at any time. Your data belongs to you, and you can take it with you if you ever leave."
+      }
+    },
+    "gettingStarted": {
+      "q1": {
+        "q": "How do I get started?",
+        "a": "Sign up for the early bird list to get notified when we launch. You'll get early access and lock in our launch pricing forever. Or schedule a call to see a personal demo."
+      },
+      "q2": {
+        "q": "Is there a free plan?",
+        "a": "Yes. The Starter plan is free and includes up to 5 active clients, basic CRM, 1 booking type, and 5 invoices per month. It's perfect for getting started and seeing if ServiceOS is right for you."
+      },
+      "q3": {
+        "q": "Can I migrate from my current tools?",
+        "a": "We're building import tools for common platforms. During early access, our team will help you migrate your existing client data, so you don't have to start from scratch."
+      }
+    }
+  },
   "privacyPage": {
     "meta": {
       "title": "Privacy Policy — ServiceOS",
@@ -395,6 +780,7 @@
     "careers": "Careers",
     "comingSoon": "coming soon",
     "resources": "Resources",
+    "faq": "FAQ",
     "helpCenter": "Help Center",
     "apiDocs": "API Documentation",
     "statusPage": "Status Page",

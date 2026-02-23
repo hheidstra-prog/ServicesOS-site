@@ -91,7 +91,7 @@ export function ContactContent() {
       </section>
 
       {/* Form + Info */}
-      <section className="section-padding">
+      <section className="section-padding bg-[var(--muted)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-5">
             {/* Form */}
@@ -257,19 +257,12 @@ export function ContactContent() {
                   <p className="text-sm font-semibold text-[var(--foreground)]">
                     Email
                   </p>
-                  <a
-                    href={`mailto:${t("info.email")}`}
-                    className="text-sm text-primary-600 hover:underline"
-                  >
+                  <p className="text-sm text-[var(--muted-foreground)]">
                     {t("info.email")}
-                  </a>
-                  <br />
-                  <a
-                    href={`mailto:${t("info.support")}`}
-                    className="text-sm text-primary-600 hover:underline"
-                  >
+                  </p>
+                  <p className="text-sm text-[var(--muted-foreground)]">
                     {t("info.support")}
-                  </a>
+                  </p>
                 </div>
               </div>
 

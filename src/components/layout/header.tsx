@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./language-switcher";
+import { GetStartedButton } from "@/components/modals/get-started-modal";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -45,12 +46,11 @@ export function Header() {
         {/* Desktop actions */}
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher />
-          <Link
-            href="#"
-            className="text-sm font-medium text-[var(--muted-foreground)] transition-colors hover:text-[var(--foreground)]"
+          <GetStartedButton
+            className="cursor-pointer text-sm font-medium text-[var(--muted-foreground)] transition-colors hover:text-[var(--foreground)]"
           >
             {t("signIn")}
-          </Link>
+          </GetStartedButton>
           <Link
             href={`/${locale}#waitlist`}
             className="inline-flex h-9 items-center rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-4 text-sm font-medium text-white shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5"
@@ -93,12 +93,11 @@ export function Header() {
           ))}
           <div className="flex items-center gap-3 border-t border-[var(--border)] pt-4">
             <LanguageSwitcher />
-            <Link
-              href="#"
-              className="text-sm font-medium text-[var(--muted-foreground)]"
+            <GetStartedButton
+              className="cursor-pointer text-sm font-medium text-[var(--muted-foreground)]"
             >
               {t("signIn")}
-            </Link>
+            </GetStartedButton>
           </div>
           <Link
             href={`/${locale}#waitlist`}

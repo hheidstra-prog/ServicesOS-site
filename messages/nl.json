@@ -15,10 +15,60 @@
     "headline": "Run je servicebedrijf met AI",
     "subheadline": "ServiceOS vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.",
     "ctaPrimary": "Start gratis proefperiode",
-    "ctaSecondary": "Bekijk hoe het werkt"
+    "ctaSecondary": "Bekijk hoe het werkt",
+    "carousel": {
+      "online": "Online",
+      "active": "Actief",
+      "variants": {
+        "briefing": {
+          "title": "Dagelijks overzicht",
+          "user1": "Wat heeft mijn aandacht nodig vandaag?",
+          "assistant1": "Hier is je maandagochtend overzicht:",
+          "check1": "3 boekingen vandaag (eerste om 10:00)",
+          "check2": "2 achterstallige facturen (€1.850 totaal)",
+          "check3": "1 nieuw contactformulier inzending",
+          "check4": "4 taken deze week",
+          "user2": "Stuur een herinnering voor die achterstallige facturen",
+          "assistant2": "Gedaan. Betalingsherinneringen verstuurd naar beide klanten met hun factuurlinks"
+        },
+        "onboarding": {
+          "title": "Klant onboarding",
+          "user1": "Ik heb net Acme Corp getekend, contactpersoon is John via john@acme.com",
+          "assistant1": "Top! Ik heb alles opgezet:",
+          "check1": "Klant Acme Corp aangemaakt (opgewaardeerd van lead)",
+          "check2": "John toegevoegd als primair contact",
+          "check3": "Project \"Acme Corp\" aangemaakt met standaard taken",
+          "check4": "Eerste milestone factuur gegenereerd (€2.400)",
+          "user2": "Stuur John ook een portal uitnodiging",
+          "assistant2": "Portal uitnodiging verstuurd naar john@acme.com. John kan nu zijn project, facturen en boekingen bekijken"
+        },
+        "invoicing": {
+          "title": "Snelle factuur",
+          "user1": "Factureer Acme Corp voor het website project",
+          "assistant1": "Ik heb het project gevonden. Op basis van gelogde tijd en afgesproken tarieven:",
+          "check1": "32 uur × €75/uur = €2.400",
+          "check2": "21% BTW toegevoegd (€504)",
+          "check3": "Factuurtotaal: €2.904",
+          "user2": "Klopt, verstuur het",
+          "assistant2": "Factuur INV-2026-0014 verstuurd naar john@acme.com. Betaallink met iDEAL en kaart bijgesloten"
+        },
+        "blog": {
+          "title": "Blogpost",
+          "user1": "Schrijf een blogpost over waarom servicebedrijven hun klant-intake moeten automatiseren",
+          "assistant1": "Ik schrijf een concept in jouw tone of voice. Even geduld...",
+          "check1": "Je eerdere posts geanalyseerd voor stijl",
+          "check2": "Artikel van 1.200 woorden met 3 secties opgesteld",
+          "check3": "SEO metadata gegenereerd",
+          "user2": "Ziet er goed uit, publiceer het maandag om 9 uur",
+          "assistant2": "Ingepland voor maandag 9:00. Ik deel het ook automatisch op je LinkedIn"
+        }
+      }
+    }
   },
   "socialProof": {
-    "text": "Vertrouwd door 500+ dienstverleners in heel Europa"
+    "badge": "Early Bird",
+    "text": "Meld je nu aan en vergrendel onze launch pricing voor altijd",
+    "cta": "Schrijf me in"
   },
   "problem": {
     "headline": "Je tools praten niet met elkaar",
@@ -109,6 +159,14 @@
     "trustPricing": "Early bird pricing voor altijd",
     "trustNoCard": "Geen creditcard nodig"
   },
+  "getStarted": {
+    "title": "Aan de slag met ServiceOS",
+    "description": "We zijn nog niet live, maar je kunt al meedoen:",
+    "earlyBirdTitle": "Word Early Bird",
+    "earlyBirdDescription": "Krijg early access en vergrendel de launch pricing voor altijd. We laten je weten zodra we live gaan.",
+    "scheduleTitle": "Plan een gesprek",
+    "scheduleDescription": "Bekijk ServiceOS in actie. We geven je een persoonlijke walkthrough en beantwoorden al je vragen."
+  },
   "earlyBird": {
     "text": "Early Bird — Meld je nu aan en vergrendel onze launch pricing",
     "cta": "Doe mee"
@@ -141,7 +199,18 @@
       "f2": "Maakt klanten, projecten, facturen, tijdregistraties",
       "f3": "Doorzoekt en vat je bedrijfsdata samen",
       "f4": "Leert je voorkeuren over tijd",
-      "f5": "Beschikbaar in Nederlands, Engels, Duits, Frans"
+      "f5": "Beschikbaar in Nederlands, Engels, Duits, Frans",
+      "chat": {
+        "title": "ServiceOS AI",
+        "status": "Klaar",
+        "user1": "Hoe gaat het Acme Corp project?",
+        "assistant1": "Hier is het Acme Corp overzicht:",
+        "check1": "Project: 68% af (12 van 18 taken klaar)",
+        "check2": "Gelogde tijd: 47u van 60u budget",
+        "check3": "Factuur #14 (€2.400) — betaald. #15 (€1.800) — vervalt over 3 dagen",
+        "user2": "Stuur John een voortgangsupdate",
+        "assistant2": "Verstuurd! Inclusief projectstatus, afgeronde milestones en de planning voor de resterende taken."
+      }
     },
     "crm": {
       "title": "Ken je klanten door en door",
@@ -151,7 +220,33 @@
       "f2": "Meerdere contacten per organisatie",
       "f3": "Custom tags en segmentatie",
       "f4": "Activiteiten timeline met alle interacties",
-      "f5": "Snelle acties vanaf overal in de app"
+      "f5": "Snelle acties vanaf overal in de app",
+      "card": {
+        "name": "Acme Corp",
+        "contact": "John van der Berg · Primair contact",
+        "status": "Actief",
+        "tag1": "Webdesign",
+        "tag2": "Retainer",
+        "tag3": "Prioriteit",
+        "projectsCount": "3",
+        "projectsLabel": "Projecten",
+        "invoicedAmount": "€12.4k",
+        "invoicedLabel": "Gefactureerd",
+        "hoursCount": "142",
+        "hoursLabel": "Uren gelogd",
+        "company": "Acme Corp · Amsterdam",
+        "email": "john@acmecorp.nl",
+        "phone": "+31 6 1234 5678",
+        "activityTitle": "Recente activiteit",
+        "activity1": "Factuur #15 betaald (€1.800)",
+        "activity1Time": "Vandaag om 09:14",
+        "activity2": "Contract getekend — Q2 Retainer",
+        "activity2Time": "Gisteren om 16:30",
+        "activity3": "Voortgangsupdate verstuurd naar John",
+        "activity3Time": "2 dagen geleden",
+        "activity4": "4,5u gelogd — Homepage redesign",
+        "activity4Time": "3 dagen geleden"
+      }
     },
     "booking": {
       "title": "Laat klanten bij je boeken — op jouw voorwaarden",
@@ -162,7 +257,30 @@
       "f3": "Per-dag beschikbaarheidsregels",
       "f4": "Buffertijd tussen afspraken",
       "f5": "Automatische bevestigings- en herinneringsmails",
-      "f6": "Agenda sync (Google, Outlook — binnenkort)"
+      "f6": "Agenda sync (Google, Outlook — binnenkort)",
+      "mockup": {
+        "header": "Boek een sessie",
+        "subtitle": "Kies een dienst en selecteer een tijd",
+        "service1": "Strategiesessie",
+        "service1Duration": "60 min",
+        "service1Price": "€95",
+        "service2": "Snelle check-in",
+        "service2Duration": "30 min",
+        "service2Price": "Gratis",
+        "service3": "Project Kickoff",
+        "service3Duration": "90 min",
+        "service3Price": "€145",
+        "monthLabel": "Maart 2025",
+        "selectedDate": "Do 13",
+        "timeSlotsLabel": "Beschikbare tijden",
+        "slot1": "09:00",
+        "slot2": "10:30",
+        "slot3": "13:00",
+        "slot4": "14:30",
+        "intakeLabel": "Waar wil je het over hebben?",
+        "intakePlaceholder": "Ik wil het graag hebben over…",
+        "confirmButton": "Boeking bevestigen"
+      }
     },
     "quotes": {
       "title": "Van offerte naar getekend contract in minuten",
@@ -173,7 +291,38 @@
       "f3": "View tracking en vervaldatums",
       "f4": "One-click conversie naar contracten",
       "f5": "Digitale handtekening vastlegging",
-      "f6": "Volledige audit trail"
+      "f6": "Volledige audit trail",
+      "mockup": {
+        "quoteNumber": "QUO-2024-0047",
+        "status": "Bekeken",
+        "clientLabel": "Opgesteld voor",
+        "client": "Acme Corp",
+        "clientContact": "John van der Berg",
+        "dateLabel": "Datum",
+        "date": "12 mrt 2025",
+        "expiresLabel": "Vervalt",
+        "expires": "26 mrt 2025",
+        "item1": "Merk Strategie Workshop",
+        "item1Qty": "1",
+        "item1Price": "€1.200",
+        "item2": "Logo & Huisstijl Ontwerp",
+        "item2Qty": "1",
+        "item2Price": "€2.400",
+        "item3": "Website Ontwerp (5 pagina's)",
+        "item3Qty": "1",
+        "item3Price": "€3.600",
+        "item3Optional": "Optioneel",
+        "subtotalLabel": "Subtotaal",
+        "subtotal": "€3.600",
+        "taxLabel": "BTW 21%",
+        "tax": "€756",
+        "totalLabel": "Totaal",
+        "total": "€4.356",
+        "signatureLabel": "Handtekening",
+        "signatureName": "John van der Berg",
+        "signatureDate": "Getekend 13 mrt 2025 om 14:22",
+        "acceptButton": "Accepteer & Teken"
+      }
     },
     "invoicing": {
       "title": "Track tijd. Word betaald. Blijf gezond.",
@@ -186,7 +335,35 @@
       "f5": "Auto-genummerde facturen (INV-2024-0001)",
       "f6": "EU belastingtypes (standaard, verlaagd, verlegd)",
       "f7": "Meerdere betaalmethodes via Stripe",
-      "f8": "Achterstallige detectie en herinneringen"
+      "f8": "Achterstallige detectie en herinneringen",
+      "mockup": {
+        "timerTitle": "Tijdtracker",
+        "todayLabel": "Vandaag",
+        "todayHours": "6u 15m",
+        "weekLabel": "Deze week",
+        "weekHours": "28u 30m",
+        "entry1Task": "Homepage herontwerp",
+        "entry1Client": "Acme Corp",
+        "entry1Time": "2u 30m",
+        "entry1Rate": "€75/uur",
+        "entry1Billable": "Factureerbaar",
+        "entry2Task": "Huisstijl review",
+        "entry2Client": "Acme Corp",
+        "entry2Time": "1u 45m",
+        "entry2Rate": "€75/uur",
+        "entry2Billable": "Factureerbaar",
+        "entry3Task": "Interne admin",
+        "entry3Client": "—",
+        "entry3Time": "2u 00m",
+        "entry3Billable": "Niet-factureerbaar",
+        "convertButton": "Omzetten naar factuur",
+        "invoiceTitle": "INV-2025-0023",
+        "invoiceStatus": "Betaald",
+        "invoiceClient": "Acme Corp",
+        "invoiceAmount": "€2.904,00",
+        "invoiceMethod": "iDEAL",
+        "invoicePaidDate": "Betaald 15 mrt 2025"
+      }
     },
     "websiteBuilder": {
       "title": "Beschrijf je bedrijf. Krijg een website.",
@@ -198,7 +375,26 @@
       "f4": "AI-powered afbeelding zoeken uit je bibliotheek en stock",
       "f5": "Custom domeinen ondersteund",
       "f6": "Light en dark mode",
-      "f7": "Mobile-responsive out of the box"
+      "f7": "Mobile-responsive out of the box",
+      "mockup": {
+        "chatLabel": "Beschrijf je bedrijf",
+        "userMessage": "Ik ben een freelance UX designer in Amsterdam. Strak, minimalistisch design. Diensten: UX audit, design sprints en doorlopende retainers.",
+        "generating": "Je website wordt gegenereerd…",
+        "progress": "3 van 5 pagina's klaar",
+        "previewLabel": "Live preview",
+        "pageTitle": "Studio Vera",
+        "pageTagline": "UX design dat je gebruikers voorop stelt",
+        "nav1": "Diensten",
+        "nav2": "Werk",
+        "nav3": "Over",
+        "nav4": "Boek",
+        "heroBtn": "Bekijk mijn werk",
+        "section1": "Diensten",
+        "section2": "Recente projecten",
+        "section3": "Testimonials",
+        "editPrompt": "\"Maak de hero opvallender en voeg een dark mode toggle toe\"",
+        "editLabel": "Bewerk via chat"
+      }
     },
     "portal": {
       "title": "Geef klanten hun eigen plek",
@@ -210,7 +406,33 @@
       "f4": "Factuur historie en betaalstatus",
       "f5": "Bestand downloads per project",
       "f6": "Direct afspraken boeken",
-      "f7": "Light/dark thema toggle"
+      "f7": "Light/dark thema toggle",
+      "mockup": {
+        "header": "Klantportaal",
+        "welcomeLabel": "Welkom terug,",
+        "clientName": "John",
+        "nav1": "Overzicht",
+        "nav2": "Facturen",
+        "nav3": "Bestanden",
+        "nav4": "Boek",
+        "project1": "Merk Herontwerp",
+        "project1Status": "In uitvoering",
+        "project1Progress": "68",
+        "project2": "Website Lancering",
+        "project2Status": "Review",
+        "project2Progress": "90",
+        "invoicesTitle": "Recente facturen",
+        "inv1": "INV-2025-0023",
+        "inv1Amount": "€2.904",
+        "inv1Status": "Betaald",
+        "inv2": "INV-2025-0024",
+        "inv2Amount": "€1.200",
+        "inv2Status": "Vervalt over 5 dagen",
+        "filesTitle": "Gedeelde bestanden",
+        "file1": "Huisstijl-Handboek-v2.pdf",
+        "file2": "Logo-Pack.zip",
+        "magicLink": "Ingelogd via magic link"
+      }
     },
     "blog": {
       "title": "Publiceer content zonder de content struggle",
@@ -222,18 +444,82 @@
       "f4": "Categorieën en tags",
       "f5": "Planning voor toekomstige publicatie",
       "f6": "Multi-site publishing",
-      "f7": "Gerelateerde posts en booking CTAs"
+      "f7": "Gerelateerde posts en booking CTAs",
+      "mockup": {
+        "editorLabel": "Blog Editor",
+        "statusDraft": "Concept",
+        "title": "Waarom Elke Freelancer Geautomatiseerde Klant-Intake Nodig Heeft",
+        "meta": "SEO · 6 min leestijd · 1.240 woorden",
+        "paragraph": "De meeste freelancers verliezen wekelijks uren aan handmatige intake processen. Eindeloze email threads, details kopiëren naar spreadsheets, en vergeten op te volgen bij leads…",
+        "aiSuggestion": "AI suggestie",
+        "suggestionText": "Een sectie toevoegen over het verminderen van no-shows met automatische herinneringen?",
+        "acceptBtn": "Invoegen",
+        "dismissBtn": "Overslaan",
+        "seoTitle": "SEO Metadata",
+        "seoMetaTitle": "Geautomatiseerde Klant-Intake voor Freelancers | ServiceOS",
+        "seoDesc": "Ontdek hoe het automatiseren van je klant-intake 5+ uur per week bespaart en gemiste leads vermindert.",
+        "scheduleLabel": "Publiceren",
+        "scheduleValue": "Ma 17 mrt, 9:00"
+      }
+    },
+    "fileManager": {
+      "title": "Je bestanden, georganiseerd door AI",
+      "description1": "Drop een bestand — document, afbeelding, contract, bon — en vraag je AI-assistent om het te archiveren. Het leest de inhoud, begrijpt wat het is, en slaat het automatisch op de juiste plek op.",
+      "description2": "Iets nodig? Beschrijf het gewoon. \"Ik zoek dat voorstel dat we vorig kwartaal naar Acme stuurden\" of \"Zoek een foto van een zakenvrouw met een notebook.\" Als je archief het niet heeft, zoek dan verder in onze geïntegreerde stockbibliotheek.",
+      "f1": "AI-gestuurde bestandsarchivering en tagging",
+      "f2": "Zoek bestanden in gewone taal",
+      "f3": "Ondersteunt documenten, afbeeldingen, contracten, bonnen",
+      "f4": "Automatisch inhoud lezen en categoriseren",
+      "f5": "Geïntegreerde stockfoto bibliotheek als fallback",
+      "f6": "Bestanden gekoppeld aan klanten en projecten",
+      "mockup": {
+        "title": "Bestandsbeheer",
+        "user1": "Archiveer deze huisstijl PDF voor Acme Corp",
+        "assistant1": "Gedaan! Ik heb het document gelezen en opgeslagen:",
+        "check1": "Opgeslagen onder: Acme Corp → Merk Assets",
+        "check2": "Getagd: huisstijl, logo gebruik, kleuren",
+        "check3": "Gekoppeld aan project: Merk Herontwerp",
+        "user2": "Ik zoek een afbeelding van een zakenvrouw met een notebook",
+        "assistant2": "Ik heb 2 resultaten gevonden in je archief:",
+        "result1Label": "Workshop-Foto-Mrt.jpg",
+        "result1Meta": "Acme Corp · Merk Assets · 2,4 MB",
+        "result2Label": "Team-Plannings-Sessie.jpg",
+        "result2Meta": "Bolt Media · Project Bestanden · 1,8 MB",
+        "stockLabel": "Niet helemaal wat je zoekt?",
+        "stockButton": "Zoek in stockbibliotheek",
+        "stockResults": "12.400+ resultaten beschikbaar",
+        "useButton": "Gebruik"
+      }
     },
     "comparison": {
-      "headline": "Alles op één plek vs. je huidige stack",
-      "task": "Taak",
-      "without": "Zonder ServiceOS",
-      "with": "Met ServiceOS",
-      "r1": { "task": "Klant boeken", "without": "Calendly + handmatige CRM update", "with": "Eén boeking maakt alles aan" },
-      "r2": { "task": "Offerte sturen", "without": "Google Docs + email + handmatig tracken", "with": "Genereer, verstuur, track views automatisch" },
-      "r3": { "task": "Factureren voor tijd", "without": "Exporteer timesheet + maak factuur + achtervolg betaling", "with": "Eén klik van gelogde tijd naar betaald" },
-      "r4": { "task": "Website updaten", "without": "Bel je webpersoon of DIY drag-drop", "with": "\"Voeg nieuwe dienst toe aan homepage\"" },
-      "r5": { "task": "Klantinfo vinden", "without": "Zoek in 4 verschillende apps", "with": "Vraag AI of zoek één keer" }
+      "headline": "Herkenbaar?",
+      "subtitle": "Dit zijn de dagelijkse frustraties van het runnen van een servicebedrijf. ServiceOS is gebouwd om ze allemaal op te lossen.",
+      "painLabel": "De pijn",
+      "solveLabel": "Hoe ServiceOS het oplost",
+      "r1": {
+        "pain": "Je besteedt zondagavond aan facturen schrijven en betalingen najagen",
+        "solve": "Track tijd terwijl je werkt. Eén klik maakt er een factuur van. Klanten betalen online via iDEAL of kaart."
+      },
+      "r2": {
+        "pain": "Klanten mailen je om te boeken, je gaat 5 keer heen en weer om een tijdslot te vinden",
+        "solve": "Deel je boekingspagina. Klanten kiezen een tijd, beantwoorden intake vragen, en klaar."
+      },
+      "r3": {
+        "pain": "Je klantinfo staat verspreid over Gmail, Notion, Google Drive en een spreadsheet",
+        "solve": "Eén klantprofiel met elk project, factuur, bestand, notitie en gesprek op één plek."
+      },
+      "r4": {
+        "pain": "Je copy-paste offertes in Google Docs en trackt handmatig wie ze opent",
+        "solve": "Genereer offertes met regelitems, stuur een link, track views, en laat klanten digitaal tekenen."
+      },
+      "r5": {
+        "pain": "Je website updaten betekent een developer bellen of worstelen met een paginabouwer",
+        "solve": "Vertel AI gewoon wat je wilt. \"Voeg een testimonials sectie toe.\" Klaar in seconden."
+      },
+      "r6": {
+        "pain": "Je kunt dat ene bestand nooit vinden — zat het in Dropbox, Google Drive of email?",
+        "solve": "Vraag je AI-assistent. Het leest, tagt en archiveert alles. Beschrijf wat je nodig hebt in gewone taal."
+      }
     }
   },
   "pricingPage": {
@@ -328,9 +614,13 @@
       "v3": { "title": "Europees by design", "description": "Gebouwd in Europa, voor Europese bedrijven. GDPR compliant, EU servers, lokale betaalmethodes, correcte facturatie." },
       "v4": { "title": "Respecteer je tijd", "description": "Je werd freelancer om werk te doen waar je van houdt, niet om admin te doen. Elke feature die we bouwen moet je tijd teruggeven." }
     },
-    "team": {
-      "headline": "Het team",
-      "placeholder": "ServiceOS wordt gebouwd door een klein team in Amsterdam dat het zat was om met 10 verschillende tools te jongleren om een simpel servicebedrijf te runnen."
+    "founder": {
+      "name": "Hylke Heidstra",
+      "role": "Founder, ServiceOS",
+      "greeting": "Hi, ik ben Hylke",
+      "problem": "Na jaren werken met freelancers en kleine servicebedrijven zag ik steeds hetzelfde patroon: getalenteerde mensen die hun avonden besteden aan facturen, klantgegevens kopiëren tussen apps, en jongleren met een stapel losse tools om hun bedrijf te runnen.",
+      "vision": "Ik geloof dat AI dit verandert. Niet als gimmick, maar als een echte assistent die de admin afhandelt zodat jij je kunt richten op wat je het beste doet — je klanten helpen. Daarom bouw ik ServiceOS: één intelligent platform dat de chaos vervangt door helderheid.",
+      "cta": "Ik hoor graag van je — of je een vraag hebt, feedback wilt geven, of gewoon wilt praten over de toekomst van servicebedrijven."
     }
   },
   "contactPage": {
@@ -366,6 +656,101 @@
       "location": "Amsterdam, Nederland"
     }
   },
+  "faqPage": {
+    "meta": {
+      "title": "FAQ — ServiceOS",
+      "description": "Veelgestelde vragen over ServiceOS. Leer over ons AI-aangedreven bedrijfsplatform voor dienstverleners."
+    },
+    "hero": {
+      "headline": "Veelgestelde vragen",
+      "subheadline": "Alles wat je moet weten over ServiceOS. Niet gevonden wat je zoekt? Neem contact op."
+    },
+    "categories": {
+      "general": "Algemeen",
+      "ai": "AI & Automatisering",
+      "features": "Features",
+      "security": "Data & Beveiliging",
+      "gettingStarted": "Aan de slag"
+    },
+    "general": {
+      "q1": {
+        "q": "Wat is ServiceOS?",
+        "a": "ServiceOS is een AI-aangedreven bedrijfsplatform gebouwd voor freelancers, agencies en kleine servicebedrijven. Het vervangt je CRM, planning, facturatie, website en klantportaal met één verbonden platform — beheerd door een intelligente AI assistent."
+      },
+      "q2": {
+        "q": "Voor wie is ServiceOS?",
+        "a": "ServiceOS is gebouwd voor mensen die diensten leveren: consultants, coaches, designers, developers, marketing agencies, accountants, therapeuten — iedereen die klanten, projecten en facturen beheert. Als je het zat bent om met losse tools te jongleren, is ServiceOS voor jou."
+      },
+      "q3": {
+        "q": "Hoe verschilt ServiceOS van andere bedrijfstools?",
+        "a": "De meeste tools lossen één probleem op — planning, facturatie of CRM. ServiceOS verbindt alles in één platform, zodat je agenda je klanten kent, je facturen uit je tijdregistratie komen, en je website update als je een dienst toevoegt. Plus, de AI assistent kan daadwerkelijk dingen doen: facturen maken, klanten vinden, tijd loggen — gewoon door het te vragen."
+      },
+      "q4": {
+        "q": "Is ServiceOS beschikbaar in mijn taal?",
+        "a": "ServiceOS is beschikbaar in Nederlands, Engels, Duits en Frans. De AI assistent begrijpt en antwoordt in alle ondersteunde talen, en je kunt op elk moment wisselen."
+      }
+    },
+    "ai": {
+      "q1": {
+        "q": "Wat kan de AI assistent eigenlijk doen?",
+        "a": "De AI assistent kan klanten, projecten, facturen en tijdregistraties aanmaken. Het kan je data doorzoeken, je omzet samenvatten, achterstallige projecten vinden, emails opstellen en meer. Het begrijpt je bedrijfscontext — je diensten, klanten en voorkeuren — zodat elke actie relevant is."
+      },
+      "q2": {
+        "q": "Is de AI een chatbot die FAQ's beantwoordt?",
+        "a": "Nee. De ServiceOS AI is een operationele assistent. Het beantwoordt niet alleen vragen — het voert acties uit in je bedrijf. Zie het als een capabel teamlid dat het adminwerk doet dat jij niet wilt doen."
+      },
+      "q3": {
+        "q": "Leert de AI van mijn data?",
+        "a": "De AI gebruikt je bedrijfsdata om relevante antwoorden en acties te geven — zoals het kennen van je klanten, diensten en voorkeurtarieven. Je data wordt nooit gebruikt om modellen te trainen of gedeeld met andere gebruikers. Het blijft van jou."
+      }
+    },
+    "features": {
+      "q1": {
+        "q": "Kunnen klanten zelf afspraken boeken?",
+        "a": "Ja. Je maakt boekingstypes voor je diensten, stelt je beschikbaarheid en buffertijden in, en deelt je boekingspagina. Klanten kiezen een tijd en boeken — geen heen-en-weer emails. Bevestigingen en herinneringen worden automatisch verstuurd."
+      },
+      "q2": {
+        "q": "Hoe werkt de website bouwer?",
+        "a": "Beschrijf je bedrijf — je diensten, doelgroep en stijl — en ServiceOS genereert een complete, multi-pagina website. Wil je iets aanpassen? Zeg het gewoon tegen de AI: \"Maak de hero sectie opvallender\" of \"Voeg een testimonials sectie toe.\" Geen drag-and-drop, geen templates."
+      },
+      "q3": {
+        "q": "Welke betaalmethodes worden ondersteund?",
+        "a": "ServiceOS ondersteunt betalingen via Stripe, waaronder iDEAL, credit/debit kaarten, SEPA automatische incasso en Bancontact. Meer betaalproviders staan op de roadmap."
+      },
+      "q4": {
+        "q": "Krijgen mijn klanten een eigen portaal?",
+        "a": "Ja. Elke klant krijgt toegang tot een white-labeled portaal waar ze projecten bekijken, facturen downloaden, afspraken boeken en gedeelde bestanden openen. Ze loggen in via een simpele magic link — geen wachtwoord nodig."
+      }
+    },
+    "security": {
+      "q1": {
+        "q": "Waar wordt mijn data opgeslagen?",
+        "a": "Alle data wordt opgeslagen op EU-gebaseerde servers. We gebruiken industrie-standaard encryptie voor data in transit en in rust. Je data verlaat nooit de Europese Unie."
+      },
+      "q2": {
+        "q": "Is ServiceOS GDPR compliant?",
+        "a": "Ja, volledig. ServiceOS is gebouwd in Europa, voor Europese bedrijven. We zijn GDPR compliant by design — van dataopslag en verwerking tot het recht om je data te exporteren en te verwijderen op elk moment."
+      },
+      "q3": {
+        "q": "Kan ik mijn data exporteren?",
+        "a": "Ja. Je kunt al je data exporteren — klanten, projecten, facturen, tijdregistraties — op elk moment. Je data is van jou, en je kunt het meenemen als je ooit vertrekt."
+      }
+    },
+    "gettingStarted": {
+      "q1": {
+        "q": "Hoe begin ik?",
+        "a": "Meld je aan voor de early bird lijst om een melding te krijgen bij lancering. Je krijgt early access en vergrendelt onze launch pricing voor altijd. Of plan een gesprek voor een persoonlijke demo."
+      },
+      "q2": {
+        "q": "Is er een gratis plan?",
+        "a": "Ja. Het Starter plan is gratis en bevat tot 5 actieve klanten, basis CRM, 1 boekingstype en 5 facturen per maand. Het is perfect om te beginnen en te kijken of ServiceOS bij je past."
+      },
+      "q3": {
+        "q": "Kan ik migreren van mijn huidige tools?",
+        "a": "We bouwen import tools voor veelgebruikte platformen. Tijdens early access helpt ons team je met het migreren van je bestaande klantdata, zodat je niet helemaal opnieuw hoeft te beginnen."
+      }
+    }
+  },
   "privacyPage": {
     "meta": {
       "title": "Privacybeleid — ServiceOS",
@@ -395,6 +780,7 @@
     "careers": "Vacatures",
     "comingSoon": "binnenkort",
     "resources": "Resources",
+    "faq": "FAQ",
     "helpCenter": "Help Center",
     "apiDocs": "API Documentatie",
     "statusPage": "Status Pagina",

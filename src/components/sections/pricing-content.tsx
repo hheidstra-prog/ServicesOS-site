@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { Check, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { GetStartedButton } from "@/components/modals/get-started-modal";
 
 export function PricingContent() {
   const t = useTranslations("pricingPage");
@@ -156,17 +156,16 @@ export function PricingContent() {
                   </p>
                 )}
 
-                <Link
-                  href="#"
+                <GetStartedButton
                   className={cn(
-                    "mt-6 block w-full rounded-lg py-3 text-center text-sm font-medium transition-all",
+                    "mt-6 block w-full cursor-pointer rounded-lg py-3 text-center text-sm font-medium transition-all",
                     tier.popular
                       ? "bg-gradient-to-r from-primary-600 to-accent-600 text-white shadow-md hover:shadow-lg hover:-translate-y-0.5"
                       : "border border-[var(--border)] bg-white text-primary-600 hover:bg-primary-50 hover:border-primary-300"
                   )}
                 >
                   {t(`${tier.key}.cta`)}
-                </Link>
+                </GetStartedButton>
 
                 <div className="mt-8">
                   {tier.key !== "starter" && (

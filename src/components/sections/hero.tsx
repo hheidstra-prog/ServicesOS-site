@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
 import { DemoVideoModal } from "@/components/modals/demo-video-modal";
+import { ChatAnimationCarousel } from "@/components/sections/chat-animation-carousel";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -61,23 +62,14 @@ export function Hero() {
             </button>
           </motion.div>
 
-          {/* Hero visual placeholder */}
+          {/* Chat demo carousel */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-            className="mt-16 w-full max-w-5xl"
+            transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+            className="relative mt-16 w-full max-w-2xl"
           >
-            <div className="aspect-[16/9] overflow-hidden rounded-2xl border border-[var(--border)] bg-gradient-to-br from-primary-100 to-accent-50 shadow-2xl">
-              <div className="flex h-full items-center justify-center">
-                <div className="text-center">
-                  <div className="mx-auto mb-4 h-12 w-12 rounded-xl bg-gradient-to-r from-primary-600 to-accent-600" />
-                  <p className="text-sm font-medium text-[var(--muted-foreground)]">
-                    Dashboard Preview
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ChatAnimationCarousel />
           </motion.div>
         </div>
       </div>

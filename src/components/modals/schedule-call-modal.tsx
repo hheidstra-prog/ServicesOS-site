@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { X } from "lucide-react";
 
@@ -12,6 +13,11 @@ interface ScheduleCallModalProps {
 export function ScheduleCallModal({ isOpen, onClose }: ScheduleCallModalProps) {
   const t = useTranslations("scheduleCall");
   const [key, setKey] = useState(0);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (isOpen) {
@@ -35,9 +41,9 @@ export function ScheduleCallModal({ isOpen, onClose }: ScheduleCallModalProps) {
     };
   }, [isOpen, onClose]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-[100] flex items-center justify-center">
       {/* Backdrop */}
       <div
@@ -70,7 +76,8 @@ export function ScheduleCallModal({ isOpen, onClose }: ScheduleCallModalProps) {
           />
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 

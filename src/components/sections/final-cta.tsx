@@ -2,8 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { GetStartedButton } from "@/components/modals/get-started-modal";
 
 export function FinalCTA() {
   const t = useTranslations("cta");
@@ -30,13 +30,12 @@ export function FinalCTA() {
           <p className="mt-4 text-lg text-primary-100">
             {t("subheadline")}
           </p>
-          <Link
-            href="#"
-            className="mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-white px-8 text-base font-medium text-primary-600 shadow-lg transition-all hover:bg-primary-50 hover:-translate-y-0.5"
+          <GetStartedButton
+            className="mt-8 cursor-pointer inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-white px-8 text-base font-medium text-primary-600 shadow-lg transition-all hover:bg-primary-50 hover:-translate-y-0.5"
           >
             {t("button")}
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </GetStartedButton>
         </motion.div>
       </div>
     </section>

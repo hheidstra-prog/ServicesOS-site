@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { X, Play } from "lucide-react";
 import { ScheduleCallButton } from "./schedule-call-modal";
@@ -13,6 +14,11 @@ interface DemoVideoModalProps {
 export function DemoVideoModal({ isOpen, onClose }: DemoVideoModalProps) {
   const t = useTranslations("demoVideo");
   const tSchedule = useTranslations("scheduleCall");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -30,9 +36,9 @@ export function DemoVideoModal({ isOpen, onClose }: DemoVideoModalProps) {
     };
   }, [isOpen, onClose]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-[100] flex items-center justify-center">
       {/* Backdrop */}
       <div
@@ -68,6 +74,7 @@ export function DemoVideoModal({ isOpen, onClose }: DemoVideoModalProps) {
           </ScheduleCallButton>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
