@@ -77,14 +77,14 @@ export function PricingContent() {
               <button
                 onClick={() => setAnnual(!annual)}
                 className={cn(
-                  "relative h-7 w-12 cursor-pointer rounded-full transition-colors",
+                  "relative h-6 w-11 cursor-pointer rounded-full transition-colors",
                   annual ? "bg-accent-500" : "bg-gray-300"
                 )}
               >
                 <span
                   className={cn(
-                    "absolute top-0.5 h-6 w-6 rounded-full bg-white shadow-sm transition-transform",
-                    annual ? "translate-x-5" : "translate-x-0.5"
+                    "absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white shadow-sm transition-transform",
+                    annual ? "translate-x-5" : "translate-x-0"
                   )}
                 />
               </button>
