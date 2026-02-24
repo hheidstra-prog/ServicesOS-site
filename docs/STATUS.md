@@ -1,4 +1,4 @@
-# ServiceOS Marketing Site — Project Status
+# Servible Marketing Site — Project Status
 
 **Last updated:** 2026-02-23
 
@@ -54,14 +54,14 @@
 | `hs_lead_status` | `NEW` | `NEW` | Standard |
 | `waitlist_signup` | `true` | — | Custom (boolean) |
 | `contact_form_submission` | — | `true` | Custom (boolean) |
-| `product` | `ServiceOS` | `ServiceOS` | Custom (single-line text) |
+| `product` | `Servible` | `Servible` | Custom (single-line text) |
 | `hubspot_owner_id` | Yes | Yes | Standard |
 
 ### HubSpot Custom Properties (must exist in portal)
 
 These custom properties must be created manually in HubSpot (Settings > Properties > Contact):
 
-- **`product`** — Single-line text. Identifies which product/channel the contact came from. Values: `ServiceOS`, `Virtalize` (used across sites).
+- **`product`** — Single-line text. Identifies which product/channel the contact came from. Values: `Servible`, `Virtalize` (used across sites).
 - **`waitlist_signup`** — Boolean. Set to `true` when contact comes from a waitlist form.
 - **`contact_form_submission`** — Boolean. Set to `true` when contact comes from a contact form.
 
@@ -115,7 +115,7 @@ These custom properties must be created manually in HubSpot (Settings > Properti
 - HubSpot waitlist integration (working, tested)
 - HubSpot contact form integration (working, tested)
 - HubSpot Meetings embed for scheduling calls
-- `product` custom property set to `ServiceOS` for channel identification
+- `product` custom property set to `Servible` for channel identification
 - Early bird dismissible banner
 - Responsive design (desktop + mobile)
 - Honeypot spam protection on contact form
@@ -139,7 +139,7 @@ These custom properties must be created manually in HubSpot (Settings > Properti
 
 | Project | Path | Product Value |
 |---|---|---|
-| ServiceOS site | `C:\code\launchminds\ServiceOS\ServiceOS-site` | `ServiceOS` |
+| Servible site | `C:\code\launchminds\Servible\Servible-site` | `Servible` |
 | Virtalize.ai site | `C:\code\launchminds\agents-platform\agents-site` | `Virtalize` |
 
 Both sites share the same HubSpot portal. Use the `product` property to distinguish contacts by channel.

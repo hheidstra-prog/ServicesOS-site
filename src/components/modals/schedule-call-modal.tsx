@@ -70,7 +70,7 @@ export function ScheduleCallModal({ isOpen, onClose }: ScheduleCallModalProps) {
         <div className="bg-white">
           <iframe
             key={key}
-            src="https://meetings-eu1.hubspot.com/hylke-heidstra?embed=true&product=ServiceOS"
+            src="https://meetings-eu1.hubspot.com/hylke-heidstra?embed=true&product=Servible"
             style={{ width: "100%", minHeight: "690px", border: "none" }}
             title={t("title")}
           />

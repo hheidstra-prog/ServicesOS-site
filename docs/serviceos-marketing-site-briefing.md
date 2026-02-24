@@ -1,8 +1,8 @@
-# ServiceOS Marketing Website — Claude Code Briefing
+# Servible Marketing Website — Claude Code Briefing
 
 ## Project Overview
 
-Build a marketing website for ServiceOS, an AI-native business management platform for service providers. The site should communicate the product's value proposition clearly, convert visitors into signups, and establish ServiceOS as the modern alternative to cobbled-together tool stacks.
+Build a marketing website for Servible, an AI-native business management platform for service providers. The site should communicate the product's value proposition clearly, convert visitors into signups, and establish Servible as the modern alternative to cobbled-together tool stacks.
 
 **Target audience:** European service businesses — freelancers, agencies, consultants, coaches, creative professionals. Primary markets: Netherlands, Belgium, Germany, UK.
 
@@ -76,7 +76,7 @@ Build a marketing website for ServiceOS, an AI-native business management platfo
 **EN:**
 ```
 Headline: Run your service business with AI
-Subheadline: ServiceOS replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.
+Subheadline: Servible replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.
 
 CTA Primary: Start free trial
 CTA Secondary: See how it works
@@ -85,7 +85,7 @@ CTA Secondary: See how it works
 **NL:**
 ```
 Headline: Run je servicebedrijf met AI
-Subheadline: ServiceOS vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.
+Subheadline: Servible vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.
 
 CTA Primary: Start gratis proefperiode
 CTA Secondary: Bekijk hoe het werkt
@@ -134,7 +134,7 @@ Herkenbaar?
 Headline: One platform. Everything connected.
 
 Body:
-ServiceOS brings your entire business into one place. Your CRM knows your calendar. Your invoices pull from tracked time. Your website updates when you add a service. And AI handles the busywork so you can focus on clients.
+Servible brings your entire business into one place. Your CRM knows your calendar. Your invoices pull from tracked time. Your website updates when you add a service. And AI handles the busywork so you can focus on clients.
 ```
 
 **NL:**
@@ -142,7 +142,7 @@ ServiceOS brings your entire business into one place. Your CRM knows your calend
 Headline: Eén platform. Alles verbonden.
 
 Body:
-ServiceOS brengt je hele bedrijf samen op één plek. Je CRM kent je agenda. Je facturen komen uit je tijdregistratie. Je website update als je een dienst toevoegt. En AI handelt het routinewerk af zodat jij je op klanten kunt richten.
+Servible brengt je hele bedrijf samen op één plek. Je CRM kent je agenda. Je facturen komen uit je tijdregistratie. Je website update als je een dienst toevoegt. En AI handelt het routinewerk af zodat jij je op klanten kunt richten.
 ```
 
 #### Feature Highlights (Grid of 6)
@@ -305,7 +305,7 @@ Each feature gets its own section with:
 Headline: Your AI-powered business partner
 
 Description:
-The ServiceOS AI assistant isn't a chatbot that answers FAQs. It's a capable assistant that can actually do things in your business.
+The Servible AI assistant isn't a chatbot that answers FAQs. It's a capable assistant that can actually do things in your business.
 
 Ask it to create an invoice for a client, and it does. Ask for a summary of this month's revenue, and you get it. Ask it to find all projects that are overdue, and it searches your data instantly.
 
@@ -324,7 +324,7 @@ Features:
 Headline: Je AI-aangedreven business partner
 
 Description:
-De ServiceOS AI assistent is geen chatbot die FAQ's beantwoordt. Het is een capabele assistent die daadwerkelijk dingen kan doen in je bedrijf.
+De Servible AI assistent is geen chatbot die FAQ's beantwoordt. Het is een capabele assistent die daadwerkelijk dingen kan doen in je bedrijf.
 
 Vraag om een factuur te maken voor een klant, en het gebeurt. Vraag om een samenvatting van de omzet deze maand, en je krijgt het. Vraag om alle projecten te vinden die achter lopen, en het doorzoekt je data direct.
 
@@ -499,7 +499,7 @@ Features:
 Headline: Describe your business. Get a website.
 
 Description:
-Tell ServiceOS about your business — your services, your audience, your style. AI generates a complete, multi-page website with your copy, colors, and structure.
+Tell Servible about your business — your services, your audience, your style. AI generates a complete, multi-page website with your copy, colors, and structure.
 
 Want to change something? Just chat. "Make the hero section more bold." "Add a testimonials section." "Change the color scheme to warmer tones." No drag-and-drop builders, no templates to customize.
 
@@ -518,7 +518,7 @@ Features:
 Headline: Beschrijf je bedrijf. Krijg een website.
 
 Description:
-Vertel ServiceOS over je bedrijf — je diensten, je doelgroep, je stijl. AI genereert een complete, multi-pagina website met jouw teksten, kleuren en structuur.
+Vertel Servible over je bedrijf — je diensten, je doelgroep, je stijl. AI genereert een complete, multi-pagina website met jouw teksten, kleuren en structuur.
 
 Wil je iets aanpassen? Chat gewoon. "Maak de hero sectie meer opvallend." "Voeg een testimonials sectie toe." "Verander het kleurenschema naar warmere tonen." Geen drag-and-drop builders, geen templates om aan te passen.
 
@@ -581,7 +581,7 @@ Headline: Publish content without the content struggle
 Description:
 Describe the blog post you want, and AI writes it. Full rich-text content with your brand voice applied. Edit inline, regenerate sections, let AI suggest images.
 
-Publish to your ServiceOS website or multiple sites at once. SEO metadata generated automatically.
+Publish to your Servible website or multiple sites at once. SEO metadata generated automatically.
 
 Features:
 • AI-generated blog posts from prompts
@@ -600,7 +600,7 @@ Headline: Publiceer content zonder de content struggle
 Description:
 Beschrijf de blogpost die je wilt, en AI schrijft het. Volledige rich-text content met jouw brand voice toegepast. Bewerk inline, regenereer secties, laat AI afbeeldingen suggereren.
 
-Publiceer naar je ServiceOS website of meerdere sites tegelijk. SEO metadata automatisch gegenereerd.
+Publiceer naar je Servible website of meerdere sites tegelijk. SEO metadata automatisch gegenereerd.
 
 Features:
 • AI-gegenereerde blogposts vanuit prompts
@@ -618,7 +618,7 @@ Features:
 ```
 Headline: Everything in one place vs. your current stack
 
-| Task | Without ServiceOS | With ServiceOS |
+| Task | Without Servible | With Servible |
 |------|-------------------|----------------|
 | Book a client | Calendly + manual CRM update | One booking creates everything |
 | Send a quote | Google Docs + email + manual tracking | Generate, send, track views automatically |
@@ -631,7 +631,7 @@ Headline: Everything in one place vs. your current stack
 ```
 Headline: Alles op één plek vs. je huidige stack
 
-| Taak | Zonder ServiceOS | Met ServiceOS |
+| Taak | Zonder Servible | Met Servible |
 |------|------------------|---------------|
 | Klant boeken | Calendly + handmatige CRM update | Eén boeking maakt alles aan |
 | Offerte sturen | Google Docs + email + handmatig tracken | Genereer, verstuur, track views automatisch |
@@ -673,7 +673,7 @@ Includes:
 • Basic CRM
 • 1 booking type
 • 5 invoices/month
-• ServiceOS subdomain website
+• Servible subdomain website
 • Email support
 
 CTA: Start free
@@ -690,7 +690,7 @@ Inclusief:
 • Basis CRM
 • 1 boekingstype
 • 5 facturen/maand
-• ServiceOS subdomein website
+• Servible subdomein website
 • Email support
 
 CTA: Start gratis
@@ -840,26 +840,26 @@ Subheadline: We bouwen het bedrijfsplatform dat we wensten te hebben toen we fre
 
 **EN:**
 ```
-Headline: Why we're building ServiceOS
+Headline: Why we're building Servible
 
 Body:
 Freelancers and small service businesses deserve better tools than spreadsheets and disconnected apps. But enterprise software is too complex, and most "simple" tools are too limited.
 
 We believe AI changes this equation. Not as a gimmick or a chatbot, but as a genuinely useful assistant that handles the work you don't want to do.
 
-ServiceOS is built on a simple idea: your business management software should work for you, not the other way around.
+Servible is built on a simple idea: your business management software should work for you, not the other way around.
 ```
 
 **NL:**
 ```
-Headline: Waarom we ServiceOS bouwen
+Headline: Waarom we Servible bouwen
 
 Body:
 Freelancers en kleine servicebedrijven verdienen betere tools dan spreadsheets en losse apps. Maar enterprise software is te complex, en de meeste "simpele" tools zijn te beperkt.
 
 We geloven dat AI deze vergelijking verandert. Niet als gimmick of chatbot, maar als een echt nuttige assistent die het werk doet dat jij niet wilt doen.
 
-ServiceOS is gebouwd op een simpel idee: je bedrijfssoftware moet voor jou werken, niet andersom.
+Servible is gebouwd op een simpel idee: je bedrijfssoftware moet voor jou werken, niet andersom.
 ```
 
 #### Values Section
@@ -907,7 +907,7 @@ Headline: The team
 [Placeholder for team member cards with photo, name, role, and short bio]
 
 Note: If solo founder, use:
-"ServiceOS is built by [Name], a [background] who got tired of juggling 10 different tools to run a simple service business."
+"Servible is built by [Name], a [background] who got tired of juggling 10 different tools to run a simple service business."
 ```
 
 **NL:**
@@ -917,7 +917,7 @@ Headline: Het team
 [Placeholder voor teamlid kaarten met foto, naam, rol en korte bio]
 
 Note: Als solo founder, gebruik:
-"ServiceOS wordt gebouwd door [Naam], een [achtergrond] die het zat was om met 10 verschillende tools te jongleren om een simpel servicebedrijf te runnen."
+"Servible wordt gebouwd door [Naam], een [achtergrond] die het zat was om met 10 verschillende tools te jongleren om een simpel servicebedrijf te runnen."
 ```
 
 ---
@@ -1080,7 +1080,7 @@ Note: Genereer standaard SaaS algemene voorwaarden tekst
 
 **EN:**
 ```
-Logo: ServiceOS
+Logo: Servible
 Links: Features | Pricing | About | Contact
 CTA: Sign in | Start free trial
 Language toggle: EN / NL
@@ -1088,7 +1088,7 @@ Language toggle: EN / NL
 
 **NL:**
 ```
-Logo: ServiceOS
+Logo: Servible
 Links: Features | Pricing | Over ons | Contact  
 CTA: Inloggen | Start gratis
 Language toggle: EN / NL
@@ -1121,7 +1121,7 @@ Column 4 - Legal:
 • GDPR
 
 Bottom bar:
-© 2024 ServiceOS. All rights reserved.
+© 2024 Servible. All rights reserved.
 Made with ♥ in Amsterdam
 
 Social links: LinkedIn, Twitter/X
@@ -1152,7 +1152,7 @@ Column 4 - Juridisch:
 • GDPR
 
 Bottom bar:
-© 2024 ServiceOS. Alle rechten voorbehouden.
+© 2024 Servible. Alle rechten voorbehouden.
 Gemaakt met ♥ in Amsterdam
 
 Social links: LinkedIn, Twitter/X
@@ -1166,13 +1166,13 @@ Social links: LinkedIn, Twitter/X
 
 **EN:**
 ```
-Title: ServiceOS — AI-Powered Business Management for Service Providers
+Title: Servible — AI-Powered Business Management for Service Providers
 Description: Replace your CRM, scheduling, invoicing, and website tools with one intelligent platform. Built for freelancers, agencies, and consultants.
 ```
 
 **NL:**
 ```
-Title: ServiceOS — AI-Powered Bedrijfsbeheer voor Dienstverleners
+Title: Servible — AI-Powered Bedrijfsbeheer voor Dienstverleners
 Description: Vervang je CRM, planning, facturatie en website tools door één intelligent platform. Gebouwd voor freelancers, agencies en consultants.
 ```
 
@@ -1180,13 +1180,13 @@ Description: Vervang je CRM, planning, facturatie en website tools door één in
 
 **EN:**
 ```
-Title: Features — ServiceOS
+Title: Features — Servible
 Description: AI assistant, CRM, booking, invoicing, website builder, and client portal. Everything you need to run your service business.
 ```
 
 **NL:**
 ```
-Title: Features — ServiceOS
+Title: Features — Servible
 Description: AI assistent, CRM, boekingen, facturatie, website bouwer en klantportaal. Alles wat je nodig hebt om je servicebedrijf te runnen.
 ```
 
@@ -1194,13 +1194,13 @@ Description: AI assistent, CRM, boekingen, facturatie, website bouwer en klantpo
 
 **EN:**
 ```
-Title: Pricing — ServiceOS
+Title: Pricing — Servible
 Description: Simple, transparent pricing starting free. No hidden fees, no contracts. Start your 14-day free trial today.
 ```
 
 **NL:**
 ```
-Title: Pricing — ServiceOS
+Title: Pricing — Servible
 Description: Simpele, transparante pricing vanaf gratis. Geen verborgen kosten, geen contracten. Start vandaag je 14-daagse gratis proefperiode.
 ```
 
@@ -1208,13 +1208,13 @@ Description: Simpele, transparante pricing vanaf gratis. Geen verborgen kosten, 
 
 **EN:**
 ```
-Title: About Us — ServiceOS
+Title: About Us — Servible
 Description: We're building the business platform we wished existed when we were freelancing. Learn about our mission and team.
 ```
 
 **NL:**
 ```
-Title: Over Ons — ServiceOS
+Title: Over Ons — Servible
 Description: We bouwen het bedrijfsplatform dat we wensten te hebben toen we freelanceten. Leer over onze missie en ons team.
 ```
 
@@ -1222,14 +1222,14 @@ Description: We bouwen het bedrijfsplatform dat we wensten te hebben toen we fre
 
 **EN:**
 ```
-Title: Contact — ServiceOS
-Description: Get in touch with the ServiceOS team. Questions, feedback, or partnership inquiries welcome.
+Title: Contact — Servible
+Description: Get in touch with the Servible team. Questions, feedback, or partnership inquiries welcome.
 ```
 
 **NL:**
 ```
-Title: Contact — ServiceOS
-Description: Neem contact op met het ServiceOS team. Vragen, feedback of partnership aanvragen zijn welkom.
+Title: Contact — Servible
+Description: Neem contact op met het Servible team. Vragen, feedback of partnership aanvragen zijn welkom.
 ```
 
 ---
@@ -1248,7 +1248,7 @@ Description: Neem contact op met het ServiceOS team. Vragen, feedback of partner
 ### Images & Assets
 
 1. Use placeholder images initially (use Unsplash or generated)
-2. Create mockup screenshots of the ServiceOS UI
+2. Create mockup screenshots of the Servible UI
 3. Optimize all images with next/image
 4. Use SVG for icons (Lucide React)
 5. Consider illustrations for feature sections

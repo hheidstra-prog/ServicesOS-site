@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -25,9 +26,14 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2">
-          <span className="text-xl font-bold text-primary-600">
-            Service<span className="text-accent-500">OS</span>
-          </span>
+          <Image
+            src="/images/servible.png"
+            alt="Servible"
+            width={112}
+            height={28}
+            className="h-7 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

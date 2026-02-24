@@ -1,8 +1,8 @@
-# ServiceOS Marketing Site — Development Notes
+# Servible Marketing Site — Development Notes
 
 ## Project
 
-Next.js marketing site for ServiceOS, an AI-native business management platform for service providers. Full EN/NL i18n via `next-intl`. Tailwind CSS v4, Framer Motion, Lucide icons.
+Next.js marketing site for Servible, an AI-native business management platform for service providers. Full EN/NL i18n via `next-intl`. Tailwind CSS v4, Framer Motion, Lucide icons.
 
 Run dev server: `npm run dev` (http://localhost:3000)
 
@@ -49,7 +49,7 @@ The feature sections alternate layout (normal / reversed+muted) and are configur
 
 ## Comparison Section
 
-Reworked from a plain table to a 6-card pain-point grid. Each card shows a relatable frustration (red tint) with an arrow leading to the ServiceOS solution. Located at the bottom of the features page before the CTA.
+Reworked from a plain table to a 6-card pain-point grid. Each card shows a relatable frustration (red tint) with an arrow leading to the Servible solution. Located at the bottom of the features page before the CTA.
 
 ## Key Patterns
 

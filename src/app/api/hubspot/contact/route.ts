@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
             lifecyclestage: "lead",
             hs_lead_status: "NEW",
             contact_form_submission: true,
-            product: "ServiceOS",
+            product: "Servible",
             hubspot_owner_id: HUBSPOT_OWNER_ID || "",
           },
         }),

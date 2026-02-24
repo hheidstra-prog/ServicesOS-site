@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ServiceOS — AI-Powered Business Management for Service Providers",
+    "title": "Servible — AI-Powered Business Management for Service Providers",
     "description": "Replace your CRM, scheduling, invoicing, and website tools with one intelligent platform. Built for freelancers, agencies, and consultants."
   },
   "nav": {
@@ -13,7 +13,7 @@
   },
   "hero": {
     "headline": "Run your service business with AI",
-    "subheadline": "ServiceOS replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.",
+    "subheadline": "Servible replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.",
     "ctaPrimary": "Start free trial",
     "ctaSecondary": "See how it works",
     "carousel": {
@@ -77,7 +77,7 @@
   },
   "solution": {
     "headline": "One platform. Everything connected.",
-    "body": "ServiceOS brings your entire business into one place. Your CRM knows your calendar. Your invoices pull from tracked time. Your website updates when you add a service. And AI handles the busywork so you can focus on clients."
+    "body": "Servible brings your entire business into one place. Your CRM knows your calendar. Your invoices pull from tracked time. Your website updates when you add a service. And AI handles the busywork so you can focus on clients."
   },
   "features": {
     "headline": "Everything you need, nothing you don't",
@@ -145,7 +145,7 @@
     "button": "Get started free"
   },
   "waitlist": {
-    "headline": "Be the first to try ServiceOS",
+    "headline": "Be the first to try Servible",
     "subheadline": "Join our early bird list and get exclusive access when we launch. Plus early bird pricing locked in forever.",
     "emailPlaceholder": "Your email address",
     "namePlaceholder": "Your name (optional)",
@@ -160,12 +160,12 @@
     "trustNoCard": "No credit card required"
   },
   "getStarted": {
-    "title": "Get started with ServiceOS",
+    "title": "Get started with Servible",
     "description": "We're not live yet, but you can already get involved:",
     "earlyBirdTitle": "Join as Early Bird",
     "earlyBirdDescription": "Get early access and lock in launch pricing forever. We'll notify you as soon as we go live.",
     "scheduleTitle": "Schedule a call",
-    "scheduleDescription": "See ServiceOS in action. We'll give you a personal walkthrough and answer all your questions."
+    "scheduleDescription": "See Servible in action. We'll give you a personal walkthrough and answer all your questions."
   },
   "earlyBird": {
     "text": "Early Bird — Sign up now and lock in our launch pricing",
@@ -173,17 +173,17 @@
   },
   "scheduleCall": {
     "title": "Schedule a call",
-    "description": "Prefer to talk? Book a time and we'll walk you through ServiceOS.",
+    "description": "Prefer to talk? Book a time and we'll walk you through Servible.",
     "button": "Book a time"
   },
   "demoVideo": {
-    "title": "See ServiceOS in action",
+    "title": "See Servible in action",
     "placeholder": "Demo video coming soon. In the meantime, schedule a call to see a live walkthrough.",
     "close": "Close"
   },
   "featuresPage": {
     "meta": {
-      "title": "Features — ServiceOS",
+      "title": "Features — Servible",
       "description": "AI assistant, CRM, booking, invoicing, website builder, and client portal. Everything you need to run your service business."
     },
     "hero": {
@@ -192,7 +192,7 @@
     },
     "aiAssistant": {
       "title": "Your AI-powered business partner",
-      "description1": "The ServiceOS AI assistant isn't a chatbot that answers FAQs. It's a capable assistant that can actually do things in your business.",
+      "description1": "The Servible AI assistant isn't a chatbot that answers FAQs. It's a capable assistant that can actually do things in your business.",
       "description2": "Ask it to create an invoice for a client, and it does. Ask for a summary of this month's revenue, and you get it. Ask it to find all projects that are overdue, and it searches your data instantly.",
       "description3": "It knows your business context — your services, your clients, your brand voice. Every interaction is informed by who you are and how you work.",
       "f1": "Natural language commands — no menus to navigate",
@@ -201,7 +201,7 @@
       "f4": "Learns your preferences over time",
       "f5": "Available in Dutch, English, German, French",
       "chat": {
-        "title": "ServiceOS AI",
+        "title": "Servible AI",
         "status": "Ready",
         "user1": "How's the Acme Corp project going?",
         "assistant1": "Here's the Acme Corp overview:",
@@ -367,7 +367,7 @@
     },
     "websiteBuilder": {
       "title": "Describe your business. Get a website.",
-      "description1": "Tell ServiceOS about your business — your services, your audience, your style. AI generates a complete, multi-page website with your copy, colors, and structure.",
+      "description1": "Tell Servible about your business — your services, your audience, your style. AI generates a complete, multi-page website with your copy, colors, and structure.",
       "description2": "Want to change something? Just chat. \"Make the hero section more bold.\" \"Add a testimonials section.\" \"Change the color scheme to warmer tones.\" No drag-and-drop builders, no templates to customize.",
       "f1": "Full website generated from a description",
       "f2": "14 block types (hero, features, pricing, testimonials, FAQ, etc.)",
@@ -437,7 +437,7 @@
     "blog": {
       "title": "Publish content without the content struggle",
       "description1": "Describe the blog post you want, and AI writes it. Full rich-text content with your brand voice applied. Edit inline, regenerate sections, let AI suggest images.",
-      "description2": "Publish to your ServiceOS website or multiple sites at once. SEO metadata generated automatically.",
+      "description2": "Publish to your Servible website or multiple sites at once. SEO metadata generated automatically.",
       "f1": "AI-generated blog posts from prompts",
       "f2": "Rich text editor with AI inline editing",
       "f3": "Auto-generated SEO metadata",
@@ -456,7 +456,7 @@
         "acceptBtn": "Insert",
         "dismissBtn": "Skip",
         "seoTitle": "SEO Metadata",
-        "seoMetaTitle": "Automated Client Intake for Freelancers | ServiceOS",
+        "seoMetaTitle": "Automated Client Intake for Freelancers | Servible",
         "seoDesc": "Learn how automating your client intake saves 5+ hours per week and reduces missed leads.",
         "scheduleLabel": "Publish",
         "scheduleValue": "Mon Mar 17, 9:00 AM"
@@ -491,11 +491,247 @@
         "useButton": "Use"
       }
     },
+    "featureTable": {
+      "headline": "The full picture",
+      "subtitle": "Servible covers every aspect of running a service business. Here's everything that's built — and what's coming next.",
+      "statsFeatures": "features",
+      "statsShipped": "shipped",
+      "done": "Shipped",
+      "comingSoon": "Coming soon",
+      "planned": "Planned",
+      "crm": "CRM & Client Management",
+      "projectsTasks": "Projects & Tasks",
+      "booking": "Booking & Scheduling",
+      "timeTracking": "Time Tracking",
+      "quotes": "Quotes",
+      "contracts": "Contracts",
+      "invoices": "Invoices & Payments",
+      "services": "Services Catalog",
+      "websiteBuilder": "Website Builder",
+      "blog": "Blog / CMS",
+      "fileManager": "File Management",
+      "portal": "Client Portal",
+      "aiAssistant": "AI Assistant",
+      "chat": "Chat / Messaging",
+      "notifications": "Inbox & Notifications",
+      "organization": "Organization & Settings",
+      "f_crm_clientDatabase": "Client database with company details, address, VAT",
+      "f_crm_pipelineTracking": "Pipeline status tracking (Lead → Active → Paid → Archived)",
+      "f_crm_multipleContacts": "Multiple contacts per client (with roles)",
+      "f_crm_tagging": "Client tagging system",
+      "f_crm_notes": "Notes with pinning",
+      "f_crm_activityTimeline": "Activity timeline (calls, emails, meetings, documents)",
+      "f_crm_detailPage": "Client detail page (projects, quotes, invoices, files)",
+      "f_crm_leadCapture": "Lead capture from contact & booking forms",
+      "f_crm_emailDedup": "Email deduplication (reuse client by email + org)",
+      "f_crm_portalAccess": "Per-client portal access control",
+      "f_crm_portalInvite": "Admin \"Send portal invite\" button",
+      "f_crm_importExport": "Client import/export (CSV)",
+      "f_crm_merge": "Client merge (deduplication)",
+      "f_crm_kanban": "Pipeline board view (kanban)",
+      "f_projects_management": "Project management linked to clients",
+      "f_projects_statusTracking": "Project status tracking (Not Started → Completed)",
+      "f_projects_budgets": "Budget management (monetary + hour budgets)",
+      "f_projects_taskLists": "Task lists with priorities (Low/Medium/High/Urgent)",
+      "f_projects_taskDueDates": "Task due dates and completion tracking",
+      "f_projects_progressBar": "Task progress bar",
+      "f_projects_fileAttachments": "File attachments per project",
+      "f_projects_timeEntries": "Time entry association",
+      "f_projects_portalToggle": "Portal visibility toggle",
+      "f_projects_taskAssignments": "Task assignments (to team members)",
+      "f_projects_taskComments": "Task comments / discussion",
+      "f_projects_templates": "Project templates",
+      "f_projects_gantt": "Gantt / timeline view",
+      "f_booking_types": "Configurable booking types (duration, pricing, color)",
+      "f_booking_publicPortal": "Public vs portal-only booking types",
+      "f_booking_availability": "Per-day availability rules (Mon–Sun, start/end times)",
+      "f_booking_bufferTimes": "Buffer times (before/after)",
+      "f_booking_intakeQuestions": "Custom intake questions per booking type",
+      "f_booking_publicPage": "Public booking page with multi-step form",
+      "f_booking_portalFlow": "Portal booking flow (authenticated clients)",
+      "f_booking_slotCalc": "Slot calculation (availability − existing bookings)",
+      "f_booking_calendar": "Calendar view in admin",
+      "f_booking_detailSheet": "Booking detail sheet with status actions",
+      "f_booking_confirmation": "Confirmation required toggle",
+      "f_booking_locationTypes": "Location types (Online, At Provider, At Client)",
+      "f_booking_honeypot": "Honeypot spam protection",
+      "f_booking_autoCreate": "Auto-creates Client + Booking + Calendar Event + Notification",
+      "f_booking_locale": "Locale-aware UI text (nl/en/de/fr)",
+      "f_booking_googleSync": "Google Calendar sync",
+      "f_booking_outlookSync": "MS Outlook sync",
+      "f_booking_reminders": "Booking reminders (email/SMS)",
+      "f_booking_recurring": "Recurring bookings",
+      "f_booking_group": "Group bookings",
+      "f_booking_waitlist": "Waitlist",
+      "f_time_logEntries": "Log time entries with description",
+      "f_time_clientProject": "Client + project association",
+      "f_time_billable": "Billable / non-billable split",
+      "f_time_rateOverride": "Per-entry hourly rate override",
+      "f_time_weeklyView": "Weekly view with day breakdown",
+      "f_time_periodSummaries": "Period summaries (today, week, month)",
+      "f_time_convertInvoice": "Convert time to invoice items",
+      "f_time_timer": "Timer (live stopwatch)",
+      "f_time_teamOverview": "Team time overview",
+      "f_time_approvalWorkflow": "Timesheet approval workflow",
+      "f_quotes_autoNumbered": "Auto-numbered quotes (QUO-YYYY-NNNN)",
+      "f_quotes_lineItems": "Line items with quantity, unit price, tax",
+      "f_quotes_optionalItems": "Optional items (client can select/deselect)",
+      "f_quotes_statusLifecycle": "Status lifecycle (Draft → Sent → Viewed → Accepted/Rejected)",
+      "f_quotes_publicAccess": "Public access via unique URL",
+      "f_quotes_reminderTracking": "Reminder tracking",
+      "f_quotes_convertContract": "Convert quote to contract",
+      "f_quotes_templates": "Quote templates",
+      "f_quotes_eSignature": "E-signature on acceptance",
+      "f_quotes_versioning": "Quote versioning",
+      "f_contracts_richText": "Digital contracts with rich text content",
+      "f_contracts_autoNumbered": "Auto-numbered (C-YYYY-NNNN)",
+      "f_contracts_statusLifecycle": "Status lifecycle (Draft → Sent → Viewed → Signed)",
+      "f_contracts_signatureCapture": "Electronic signature capture (name, timestamp, IP)",
+      "f_contracts_publicSigning": "Public signing page via access token",
+      "f_contracts_quoteLink": "Link to originating quote",
+      "f_contracts_templates": "Contract templates",
+      "f_contracts_multiParty": "Multi-party signing",
+      "f_invoices_autoNumbered": "Auto-numbered invoices (INV-YYYY-NNNN)",
+      "f_invoices_lineItems": "Line items with EU tax types (standard, reduced, reverse charge)",
+      "f_invoices_partialPayments": "Partial payments",
+      "f_invoices_creditNotes": "Credit notes",
+      "f_invoices_statusLifecycle": "Status lifecycle (Draft → Sent → Viewed → Paid/Overdue)",
+      "f_invoices_publicView": "Public invoice view via access token",
+      "f_invoices_stripe": "Stripe payment integration",
+      "f_invoices_paymentMethods": "iDEAL, card, SEPA, Bancontact, bank transfer, cash",
+      "f_invoices_overdueDetection": "Overdue detection with dashboard alerts",
+      "f_invoices_reminderTracking": "Reminder tracking",
+      "f_invoices_manualPayments": "Record manual payments",
+      "f_invoices_pdfGeneration": "Invoice PDF generation & download",
+      "f_invoices_recurring": "Recurring invoices",
+      "f_invoices_multiCurrency": "Multi-currency support",
+      "f_invoices_accountingExport": "Accounting export (CSV/MT940)",
+      "f_invoices_autoReminders": "Automatic payment reminders (email)",
+      "f_services_definitions": "Reusable service definitions",
+      "f_services_pricing": "Flexible pricing (fixed, hourly, daily, monthly, custom)",
+      "f_services_taxRate": "Tax rate per service",
+      "f_services_activeToggle": "Active/inactive toggle",
+      "f_services_templates": "Used as templates in quotes & invoices",
+      "f_services_packages": "Service packages / bundles",
+      "f_website_aiGeneration": "AI site generation from business description",
+      "f_website_blockTypes": "14 block types (hero, features, services, testimonials, etc.)",
+      "f_website_chatEditing": "Natural language block editing via chat",
+      "f_website_aiBlockCreation": "AI-assisted block creation (describe → auto-generated)",
+      "f_website_designTokens": "Design token system (colors, typography, spacing)",
+      "f_website_templates": "Templates (starter, agency, consultant)",
+      "f_website_colorModes": "Light/dark color modes",
+      "f_website_customDomains": "Custom domains + subdomains",
+      "f_website_navigation": "Navigation management",
+      "f_website_seo": "Per-page SEO (meta title, description, OG image)",
+      "f_website_publishStatus": "Site publish/draft/maintenance status",
+      "f_website_aiImageSearch": "AI image search (archive + Freepik stock)",
+      "f_website_columnsBlock": "Columns block with per-item styling",
+      "f_website_contactForm": "Contact form block with spam protection",
+      "f_website_responsive": "Responsive design",
+      "f_website_analytics": "Google Analytics integration",
+      "f_website_multiPage": "Multi-page support with custom slugs",
+      "f_website_headerFooter": "Header/footer style variants",
+      "f_website_customCss": "Custom CSS overrides",
+      "f_website_formBuilder": "Form builder block",
+      "f_website_blogBlock": "Blog integration block",
+      "f_website_abTesting": "A/B testing",
+      "f_website_analyticsDashboard": "Analytics dashboard (traffic, conversions)",
+      "f_blog_chatDriven": "Chat-driven blog management",
+      "f_blog_aiGeneration": "AI content generation from prompts",
+      "f_blog_richTextEditor": "Rich text editor (TipTap/Novel)",
+      "f_blog_aiTitleExcerpt": "AI title/excerpt regeneration",
+      "f_blog_aiSeoMetadata": "AI SEO metadata generation",
+      "f_blog_inlineAiEditing": "Inline AI content editing with image upload",
+      "f_blog_featuredImages": "Featured images with AI suggestions",
+      "f_blog_taxonomy": "Category & tag taxonomy",
+      "f_blog_multiSite": "Multi-site publication (one post, multiple sites)",
+      "f_blog_scheduling": "Scheduling (publish date)",
+      "f_blog_publicBlog": "Public blog with category filters",
+      "f_blog_toc": "Table of contents (auto-generated from headings)",
+      "f_blog_relatedPosts": "Related posts",
+      "f_blog_bookingCta": "Booking CTA in blog sidebar",
+      "f_blog_authorDropdown": "Author selection dropdown",
+      "f_blog_comments": "Blog comments",
+      "f_blog_rss": "RSS feed",
+      "f_blog_newsletter": "Newsletter integration",
+      "f_blog_socialPublish": "Social media auto-publish",
+      "f_fileManager_cloudinary": "Cloudinary-backed media library",
+      "f_fileManager_aiAnalysis": "AI analysis on upload (image description + tags)",
+      "f_fileManager_docExtraction": "Document text extraction & summarization",
+      "f_fileManager_semanticSearch": "Semantic search (AI query expansion)",
+      "f_fileManager_chatInterface": "Chat-driven interface",
+      "f_fileManager_stockImages": "Freepik stock image integration",
+      "f_fileManager_fileAssociation": "File association (client, project)",
+      "f_fileManager_portalToggle": "Portal visibility toggle",
+      "f_fileManager_folders": "Folder organization",
+      "f_fileManager_mediaPicker": "Media picker (Library/Upload/Stock tabs)",
+      "f_fileManager_versioning": "File versioning",
+      "f_fileManager_bulkOps": "Bulk operations",
+      "f_portal_magicLink": "Passwordless magic link login",
+      "f_portal_dashboard": "Dashboard with stat cards (projects, invoices, files, bookings)",
+      "f_portal_projectsList": "Projects list with task progress bars",
+      "f_portal_projectDetail": "Project detail with tasks + files",
+      "f_portal_invoices": "Invoices (pending/paid sections, full line item detail)",
+      "f_portal_files": "Files grouped by project with download",
+      "f_portal_bookings": "Bookings (upcoming cards + past table)",
+      "f_portal_bookingFlow": "Portal booking flow (all booking types)",
+      "f_portal_themeToggle": "Dark/light theme toggle",
+      "f_portal_locale": "Locale-aware UI",
+      "f_portal_nav": "Portal nav with sign out",
+      "f_portal_emailDelivery": "Email delivery for magic links",
+      "f_portal_accessControl": "Per-client portal access control",
+      "f_portal_pdfDownload": "Invoice PDF download",
+      "f_portal_rateLimiting": "Rate limiting on magic link requests",
+      "f_portal_messaging": "Client-to-admin messaging (Chat)",
+      "f_portal_docSigning": "Document signing in portal",
+      "f_portal_payment": "Payment from portal",
+      "f_portal_onboarding": "Portal onboarding wizard",
+      "f_ai_chat": "Conversational chat powered by Claude",
+      "f_ai_toolUse": "Tool-use: create clients, log time, generate invoices, search data",
+      "f_ai_businessContext": "Business context injection (industry, audience, brand voice)",
+      "f_ai_localeAware": "Locale-aware responses",
+      "f_ai_iterations": "Up to 5 tool-use iterations per request",
+      "f_ai_history": "Persistent conversation history",
+      "f_ai_suggestedPrompts": "Suggested prompts",
+      "f_ai_multiEntity": "Multi-entity actions in one conversation",
+      "f_ai_scheduled": "Scheduled/automated AI tasks",
+      "f_ai_voice": "Voice input",
+      "f_chat_clientFacing": "Client-facing chat (admin ↔ client real-time messaging)",
+      "f_chat_portal": "Chat in client portal",
+      "f_chat_notifications": "Chat notifications",
+      "f_chat_fileSharing": "File sharing in chat",
+      "f_chat_history": "Chat history / search",
+      "f_chat_chatbot": "Chatbot (AI auto-reply for common questions)",
+      "f_chat_channels": "WhatsApp / email channel integration",
+      "f_notifications_center": "Internal notification center",
+      "f_notifications_booking": "New booking notifications",
+      "f_notifications_contactForm": "Contact form submission notifications",
+      "f_notifications_readUnread": "Read/unread filtering",
+      "f_notifications_linkSource": "Link to source entity",
+      "f_notifications_email": "Email notifications on form submissions",
+      "f_notifications_push": "Push notifications (browser/mobile)",
+      "f_notifications_preferences": "Notification preferences / mute",
+      "f_org_multiTenant": "Multi-tenant architecture (all data scoped to org)",
+      "f_org_businessProfile": "Business profile (industry, audience, brand voice)",
+      "f_org_branding": "Branding (logo, primary color)",
+      "f_org_legalTax": "Legal/tax info (VAT, KvK, IBAN)",
+      "f_org_roles": "Role-based access (Owner, Admin, Member, Bookkeeper, Viewer)",
+      "f_org_defaults": "Default currency, tax rate, payment terms",
+      "f_org_timezone": "Timezone & locale settings (nl/en/de/fr)",
+      "f_org_clerkAuth": "Clerk auth integration",
+      "f_org_stripe": "Stripe connected accounts",
+      "f_org_onboarding": "Onboarding flow",
+      "f_org_auditLog": "Audit log",
+      "f_org_teamManagement": "Team management UI",
+      "f_org_whiteLabel": "White-label / custom branding",
+      "f_org_apiWebhooks": "API access / webhooks",
+      "f_org_mobileApp": "Mobile app"
+    },
     "comparison": {
       "headline": "Sound familiar?",
-      "subtitle": "These are the daily frustrations of running a service business. ServiceOS was built to eliminate every single one.",
+      "subtitle": "These are the daily frustrations of running a service business. Servible was built to eliminate every single one.",
       "painLabel": "The pain",
-      "solveLabel": "How ServiceOS fixes it",
+      "solveLabel": "How Servible fixes it",
       "r1": {
         "pain": "You spend Sunday evening writing invoices and chasing payments",
         "solve": "Track time as you work. One click turns it into an invoice. Clients pay online via iDEAL or card."
@@ -524,7 +760,7 @@
   },
   "pricingPage": {
     "meta": {
-      "title": "Pricing — ServiceOS",
+      "title": "Pricing — Servible",
       "description": "Simple, transparent pricing starting free. No hidden fees, no contracts. Start your 14-day free trial today."
     },
     "hero": {
@@ -546,7 +782,7 @@
       "f2": "Basic CRM",
       "f3": "1 booking type",
       "f4": "5 invoices/month",
-      "f5": "ServiceOS subdomain website",
+      "f5": "Servible subdomain website",
       "f6": "Email support"
     },
     "professional": {
@@ -594,7 +830,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "About Us — ServiceOS",
+      "title": "About Us — Servible",
       "description": "We're building the business platform we wished existed when we were freelancing. Learn about our mission and team."
     },
     "hero": {
@@ -602,10 +838,10 @@
       "subheadline": "We're building the business platform we wished existed when we were freelancing."
     },
     "mission": {
-      "headline": "Why we're building ServiceOS",
+      "headline": "Why we're building Servible",
       "p1": "Freelancers and small service businesses deserve better tools than spreadsheets and disconnected apps. But enterprise software is too complex, and most \"simple\" tools are too limited.",
       "p2": "We believe AI changes this equation. Not as a gimmick or a chatbot, but as a genuinely useful assistant that handles the work you don't want to do.",
-      "p3": "ServiceOS is built on a simple idea: your business management software should work for you, not the other way around."
+      "p3": "Servible is built on a simple idea: your business management software should work for you, not the other way around."
     },
     "values": {
       "headline": "What we believe",
@@ -616,17 +852,17 @@
     },
     "founder": {
       "name": "Hylke Heidstra",
-      "role": "Founder, ServiceOS",
+      "role": "Founder, Servible",
       "greeting": "Hi, I'm Hylke",
       "problem": "After years of working with freelancers and small service businesses, I kept seeing the same pattern: talented people spending their evenings on invoices, copy-pasting client info between apps, and juggling a stack of disconnected tools just to run their business.",
-      "vision": "I believe AI changes this. Not as a gimmick, but as a real assistant that handles the admin so you can focus on what you do best — serving your clients. That's why I'm building ServiceOS: one intelligent platform that replaces the chaos with clarity.",
+      "vision": "I believe AI changes this. Not as a gimmick, but as a real assistant that handles the admin so you can focus on what you do best — serving your clients. That's why I'm building Servible: one intelligent platform that replaces the chaos with clarity.",
       "cta": "I'd love to hear from you — whether you have a question, feedback, or just want to chat about the future of service businesses."
     }
   },
   "contactPage": {
     "meta": {
-      "title": "Contact — ServiceOS",
-      "description": "Get in touch with the ServiceOS team. Questions, feedback, or partnership inquiries welcome."
+      "title": "Contact — Servible",
+      "description": "Get in touch with the Servible team. Questions, feedback, or partnership inquiries welcome."
     },
     "hero": {
       "headline": "Get in touch",
@@ -658,12 +894,12 @@
   },
   "faqPage": {
     "meta": {
-      "title": "FAQ — ServiceOS",
-      "description": "Frequently asked questions about ServiceOS. Learn about our AI-powered business platform for service providers."
+      "title": "FAQ — Servible",
+      "description": "Frequently asked questions about Servible. Learn about our AI-powered business platform for service providers."
     },
     "hero": {
       "headline": "Frequently asked questions",
-      "subheadline": "Everything you need to know about ServiceOS. Can't find what you're looking for? Get in touch."
+      "subheadline": "Everything you need to know about Servible. Can't find what you're looking for? Get in touch."
     },
     "categories": {
       "general": "General",
@@ -674,20 +910,20 @@
     },
     "general": {
       "q1": {
-        "q": "What is ServiceOS?",
-        "a": "ServiceOS is an AI-powered business management platform built for freelancers, agencies, and small service businesses. It replaces your CRM, scheduling, invoicing, website, and client portal with one connected platform — managed by an intelligent AI assistant."
+        "q": "What is Servible?",
+        "a": "Servible is an AI-powered business management platform built for freelancers, agencies, and small service businesses. It replaces your CRM, scheduling, invoicing, website, and client portal with one connected platform — managed by an intelligent AI assistant."
       },
       "q2": {
-        "q": "Who is ServiceOS for?",
-        "a": "ServiceOS is built for people who deliver services: consultants, coaches, designers, developers, marketing agencies, accountants, therapists — anyone who manages clients, projects, and invoices. If you're tired of juggling disconnected tools, ServiceOS is for you."
+        "q": "Who is Servible for?",
+        "a": "Servible is built for people who deliver services: consultants, coaches, designers, developers, marketing agencies, accountants, therapists — anyone who manages clients, projects, and invoices. If you're tired of juggling disconnected tools, Servible is for you."
       },
       "q3": {
-        "q": "How is ServiceOS different from other business tools?",
-        "a": "Most tools solve one problem — scheduling, invoicing, or CRM. ServiceOS connects everything in one platform, so your calendar knows your clients, your invoices pull from tracked time, and your website updates when you add a service. Plus, the AI assistant can actually do things: create invoices, find clients, log time — just by asking."
+        "q": "How is Servible different from other business tools?",
+        "a": "Most tools solve one problem — scheduling, invoicing, or CRM. Servible connects everything in one platform, so your calendar knows your clients, your invoices pull from tracked time, and your website updates when you add a service. Plus, the AI assistant can actually do things: create invoices, find clients, log time — just by asking."
       },
       "q4": {
-        "q": "Is ServiceOS available in my language?",
-        "a": "ServiceOS is available in Dutch, English, German, and French. The AI assistant understands and responds in all supported languages, and you can switch at any time."
+        "q": "Is Servible available in my language?",
+        "a": "Servible is available in Dutch, English, German, and French. The AI assistant understands and responds in all supported languages, and you can switch at any time."
       }
     },
     "ai": {
@@ -697,7 +933,7 @@
       },
       "q2": {
         "q": "Is the AI a chatbot that answers FAQs?",
-        "a": "No. The ServiceOS AI is an operational assistant. It doesn't just answer questions — it takes action in your business. Think of it as a capable team member that handles the admin work you don't want to do."
+        "a": "No. The Servible AI is an operational assistant. It doesn't just answer questions — it takes action in your business. Think of it as a capable team member that handles the admin work you don't want to do."
       },
       "q3": {
         "q": "Does the AI learn from my data?",
@@ -711,11 +947,11 @@
       },
       "q2": {
         "q": "How does the website builder work?",
-        "a": "Describe your business — your services, audience, and style — and ServiceOS generates a complete, multi-page website. Want to change something? Just tell the AI: \"Make the hero section bolder\" or \"Add a testimonials section.\" No drag-and-drop, no templates."
+        "a": "Describe your business — your services, audience, and style — and Servible generates a complete, multi-page website. Want to change something? Just tell the AI: \"Make the hero section bolder\" or \"Add a testimonials section.\" No drag-and-drop, no templates."
       },
       "q3": {
         "q": "What payment methods are supported?",
-        "a": "ServiceOS supports payments through Stripe, including iDEAL, credit/debit cards, SEPA direct debit, and Bancontact. More payment providers are on the roadmap."
+        "a": "Servible supports payments through Stripe, including iDEAL, credit/debit cards, SEPA direct debit, and Bancontact. More payment providers are on the roadmap."
       },
       "q4": {
         "q": "Do my clients get their own portal?",
@@ -728,8 +964,8 @@
         "a": "All data is stored on EU-based servers. We use industry-standard encryption both in transit and at rest. Your data never leaves the European Union."
       },
       "q2": {
-        "q": "Is ServiceOS GDPR compliant?",
-        "a": "Yes, fully. ServiceOS is built in Europe, for European businesses. We're GDPR compliant by design — from data storage and processing to the right to export and delete your data at any time."
+        "q": "Is Servible GDPR compliant?",
+        "a": "Yes, fully. Servible is built in Europe, for European businesses. We're GDPR compliant by design — from data storage and processing to the right to export and delete your data at any time."
       },
       "q3": {
         "q": "Can I export my data?",
@@ -743,7 +979,7 @@
       },
       "q2": {
         "q": "Is there a free plan?",
-        "a": "Yes. The Starter plan is free and includes up to 5 active clients, basic CRM, 1 booking type, and 5 invoices per month. It's perfect for getting started and seeing if ServiceOS is right for you."
+        "a": "Yes. The Starter plan is free and includes up to 5 active clients, basic CRM, 1 booking type, and 5 invoices per month. It's perfect for getting started and seeing if Servible is right for you."
       },
       "q3": {
         "q": "Can I migrate from my current tools?",
@@ -753,16 +989,16 @@
   },
   "privacyPage": {
     "meta": {
-      "title": "Privacy Policy — ServiceOS",
-      "description": "Learn how ServiceOS handles your data. GDPR compliant, EU-based servers."
+      "title": "Privacy Policy — Servible",
+      "description": "Learn how Servible handles your data. GDPR compliant, EU-based servers."
     },
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: February 2026"
   },
   "termsPage": {
     "meta": {
-      "title": "Terms of Service — ServiceOS",
-      "description": "ServiceOS terms of service for our business management platform."
+      "title": "Terms of Service — Servible",
+      "description": "Servible terms of service for our business management platform."
     },
     "title": "Terms of Service",
     "lastUpdated": "Last updated: February 2026"
@@ -788,7 +1024,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "gdpr": "GDPR",
-    "copyright": "© 2026 ServiceOS. All rights reserved.",
+    "copyright": "© 2026 Servible. All rights reserved.",
     "madeWith": "Made with ♥ in Amsterdam"
   }
 }

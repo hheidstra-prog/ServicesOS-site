@@ -1,8 +1,8 @@
-# ServiceOS — Product Overview
+# Servible — Product Overview
 
-## What is ServiceOS?
+## What is Servible?
 
-ServiceOS is an AI-native business management platform for service providers — freelancers, agencies, consultants, and small service businesses. It replaces the stack of disconnected tools (CRM, scheduling, invoicing, project management, website builder) with a single, intelligent platform where AI is woven into every workflow.
+Servible is an AI-native business management platform for service providers — freelancers, agencies, consultants, and small service businesses. It replaces the stack of disconnected tools (CRM, scheduling, invoicing, project management, website builder) with a single, intelligent platform where AI is woven into every workflow.
 
 Each business gets their own branded workspace with a public-facing website, client portal, and booking system — all managed from one dashboard.
 
@@ -58,7 +58,7 @@ Internal notification center receiving system alerts — new bookings, form subm
 
 ## AI Throughout
 
-ServiceOS isn't "a platform with AI bolted on" — AI is the interaction model:
+Servible isn't "a platform with AI bolted on" — AI is the interaction model:
 
 | Feature | AI Capability |
 |---|---|

@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
             lifecyclestage: "subscriber",
             hs_lead_status: "NEW",
             waitlist_signup: true,
-            product: "ServiceOS",
+            product: "Servible",
             hubspot_owner_id: HUBSPOT_OWNER_ID || "",
           },
         }),
@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
               properties: {
                 hs_lead_status: "NEW",
                 waitlist_signup: true,
-                product: "ServiceOS",
+                product: "Servible",
               },
             }),
           }

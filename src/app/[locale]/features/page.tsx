@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { FeaturesHero } from "@/components/sections/features-hero";
 import { FeatureDetail } from "@/components/sections/feature-detail";
 import { FeatureComparison } from "@/components/sections/feature-comparison";
+import { FeatureTable } from "@/components/sections/feature-table";
 import { WaitlistCTA } from "@/components/sections/waitlist-cta";
 import { AiChatMockup } from "@/components/visuals/ai-chat-mockup";
 import { CrmCardMockup } from "@/components/visuals/crm-card-mockup";
@@ -65,6 +66,7 @@ export default function FeaturesPage() {
         />
       ))}
       <FeatureComparison />
+      <FeatureTable />
       <WaitlistCTA />
     </>
   );

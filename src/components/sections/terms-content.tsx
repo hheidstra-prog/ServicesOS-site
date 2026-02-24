@@ -37,7 +37,7 @@ function TermsEn() {
     <>
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing or using ServiceOS, you agree to be bound by these Terms of Service. If you do not agree, you may not use our services.
+        By accessing or using Servible, you agree to be bound by these Terms of Service. If you do not agree, you may not use our services.
       </p>
 
       <h2>2. Account Registration</h2>
@@ -47,7 +47,7 @@ function TermsEn() {
 
       <h2>3. Subscription and Billing</h2>
       <p>
-        ServiceOS offers free and paid subscription plans. Paid plans are billed monthly or annually as selected. Prices are in euros and exclude applicable taxes. We may change pricing with 30 days notice. Refunds for annual plans are available within 30 days of purchase.
+        Servible offers free and paid subscription plans. Paid plans are billed monthly or annually as selected. Prices are in euros and exclude applicable taxes. We may change pricing with 30 days notice. Refunds for annual plans are available within 30 days of purchase.
       </p>
 
       <h2>4. Acceptable Use</h2>
@@ -63,22 +63,22 @@ function TermsEn() {
 
       <h2>5. Intellectual Property</h2>
       <p>
-        ServiceOS and its original content, features, and functionality are owned by ServiceOS and are protected by international copyright, trademark, and other intellectual property laws.
+        Servible and its original content, features, and functionality are owned by Servible and are protected by international copyright, trademark, and other intellectual property laws.
       </p>
 
       <h2>6. Your Data</h2>
       <p>
-        You retain ownership of all data you enter into ServiceOS. We do not claim any intellectual property rights over your content. You grant us a license to host and process your data solely to provide the service. You can export your data at any time.
+        You retain ownership of all data you enter into Servible. We do not claim any intellectual property rights over your content. You grant us a license to host and process your data solely to provide the service. You can export your data at any time.
       </p>
 
       <h2>7. AI Features</h2>
       <p>
-        ServiceOS uses artificial intelligence to assist with various tasks. AI-generated content is provided as-is and should be reviewed before use. We are not liable for actions taken based on AI-generated suggestions.
+        Servible uses artificial intelligence to assist with various tasks. AI-generated content is provided as-is and should be reviewed before use. We are not liable for actions taken based on AI-generated suggestions.
       </p>
 
       <h2>8. Limitation of Liability</h2>
       <p>
-        To the maximum extent permitted by law, ServiceOS shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenue, whether incurred directly or indirectly. Our total liability shall not exceed the amount paid by you in the 12 months preceding the claim.
+        To the maximum extent permitted by law, Servible shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenue, whether incurred directly or indirectly. Our total liability shall not exceed the amount paid by you in the 12 months preceding the claim.
       </p>
 
       <h2>9. Termination</h2>
@@ -109,7 +109,7 @@ function TermsNl() {
     <>
       <h2>1. Acceptatie van Voorwaarden</h2>
       <p>
-        Door toegang tot of gebruik van ServiceOS gaat u akkoord met deze Algemene Voorwaarden. Als u niet akkoord gaat, mag u onze diensten niet gebruiken.
+        Door toegang tot of gebruik van Servible gaat u akkoord met deze Algemene Voorwaarden. Als u niet akkoord gaat, mag u onze diensten niet gebruiken.
       </p>
 
       <h2>2. Accountregistratie</h2>
@@ -119,7 +119,7 @@ function TermsNl() {
 
       <h2>3. Abonnement en Facturatie</h2>
       <p>
-        ServiceOS biedt gratis en betaalde abonnementsplannen. Betaalde plannen worden maandelijks of jaarlijks gefactureerd zoals geselecteerd. Prijzen zijn in euro&apos;s en exclusief toepasselijke belastingen. Wij kunnen prijzen wijzigen met 30 dagen voorafgaande kennisgeving. Restitutie voor jaarplannen is beschikbaar binnen 30 dagen na aankoop.
+        Servible biedt gratis en betaalde abonnementsplannen. Betaalde plannen worden maandelijks of jaarlijks gefactureerd zoals geselecteerd. Prijzen zijn in euro&apos;s en exclusief toepasselijke belastingen. Wij kunnen prijzen wijzigen met 30 dagen voorafgaande kennisgeving. Restitutie voor jaarplannen is beschikbaar binnen 30 dagen na aankoop.
       </p>
 
       <h2>4. Acceptabel Gebruik</h2>
@@ -135,22 +135,22 @@ function TermsNl() {
 
       <h2>5. Intellectueel Eigendom</h2>
       <p>
-        ServiceOS en zijn originele content, functies en functionaliteit zijn eigendom van ServiceOS en worden beschermd door internationale auteursrecht-, handelsmerk- en andere intellectuele eigendomswetten.
+        Servible en zijn originele content, functies en functionaliteit zijn eigendom van Servible en worden beschermd door internationale auteursrecht-, handelsmerk- en andere intellectuele eigendomswetten.
       </p>
 
       <h2>6. Uw Gegevens</h2>
       <p>
-        U behoudt het eigendom van alle gegevens die u in ServiceOS invoert. Wij claimen geen intellectuele eigendomsrechten op uw content. U verleent ons een licentie om uw gegevens te hosten en te verwerken uitsluitend om de dienst te leveren. U kunt uw gegevens op elk moment exporteren.
+        U behoudt het eigendom van alle gegevens die u in Servible invoert. Wij claimen geen intellectuele eigendomsrechten op uw content. U verleent ons een licentie om uw gegevens te hosten en te verwerken uitsluitend om de dienst te leveren. U kunt uw gegevens op elk moment exporteren.
       </p>
 
       <h2>7. AI-functies</h2>
       <p>
-        ServiceOS maakt gebruik van kunstmatige intelligentie om te helpen bij verschillende taken. Door AI gegenereerde content wordt geleverd zoals deze is en moet worden gecontroleerd voor gebruik. Wij zijn niet aansprakelijk voor acties ondernomen op basis van door AI gegenereerde suggesties.
+        Servible maakt gebruik van kunstmatige intelligentie om te helpen bij verschillende taken. Door AI gegenereerde content wordt geleverd zoals deze is en moet worden gecontroleerd voor gebruik. Wij zijn niet aansprakelijk voor acties ondernomen op basis van door AI gegenereerde suggesties.
       </p>
 
       <h2>8. Beperking van Aansprakelijkheid</h2>
       <p>
-        Voor zover maximaal toegestaan door de wet, is ServiceOS niet aansprakelijk voor indirecte, incidentele, speciale, gevolgschade of punitieve schade, of verlies van winst of omzet, direct of indirect geleden. Onze totale aansprakelijkheid bedraagt niet meer dan het bedrag dat u in de 12 maanden voorafgaand aan de claim heeft betaald.
+        Voor zover maximaal toegestaan door de wet, is Servible niet aansprakelijk voor indirecte, incidentele, speciale, gevolgschade of punitieve schade, of verlies van winst of omzet, direct of indirect geleden. Onze totale aansprakelijkheid bedraagt niet meer dan het bedrag dat u in de 12 maanden voorafgaand aan de claim heeft betaald.
       </p>
 
       <h2>9. Beëindiging</h2>

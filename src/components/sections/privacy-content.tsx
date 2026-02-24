@@ -37,10 +37,10 @@ function PrivacyEn() {
     <>
       <h2>1. Introduction</h2>
       <p>
-        ServiceOS (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal data when you use our platform and website.
+        Servible (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal data when you use our platform and website.
       </p>
       <p>
-        ServiceOS is operated from Amsterdam, the Netherlands, and complies with the General Data Protection Regulation (GDPR) and applicable Dutch data protection law.
+        Servible is operated from Amsterdam, the Netherlands, and complies with the General Data Protection Regulation (GDPR) and applicable Dutch data protection law.
       </p>
 
       <h2>2. Data We Collect</h2>
@@ -56,7 +56,7 @@ function PrivacyEn() {
       <h2>3. How We Use Your Data</h2>
       <p>We use your data to:</p>
       <ul>
-        <li>Provide and maintain the ServiceOS platform</li>
+        <li>Provide and maintain the Servible platform</li>
         <li>Process payments and send invoices</li>
         <li>Send transactional emails (booking confirmations, password resets)</li>
         <li>Improve our product based on usage patterns</li>
@@ -112,7 +112,7 @@ function PrivacyEn() {
 
       <h2>10. Contact</h2>
       <p>
-        For privacy-related questions or requests, contact us at privacy@serviceos.app or write to: ServiceOS, Amsterdam, Netherlands.
+        For privacy-related questions or requests, contact us at privacy@serviceos.app or write to: Servible, Amsterdam, Netherlands.
       </p>
     </>
   );
@@ -123,10 +123,10 @@ function PrivacyNl() {
     <>
       <h2>1. Inleiding</h2>
       <p>
-        ServiceOS (&ldquo;wij&rdquo;, &ldquo;ons&rdquo;, &ldquo;onze&rdquo;) is toegewijd aan het beschermen van uw privacy. Dit Privacybeleid legt uit hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen wanneer u ons platform en onze website gebruikt.
+        Servible (&ldquo;wij&rdquo;, &ldquo;ons&rdquo;, &ldquo;onze&rdquo;) is toegewijd aan het beschermen van uw privacy. Dit Privacybeleid legt uit hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen wanneer u ons platform en onze website gebruikt.
       </p>
       <p>
-        ServiceOS wordt geëxploiteerd vanuit Amsterdam, Nederland, en voldoet aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) en de toepasselijke Nederlandse wetgeving inzake gegevensbescherming.
+        Servible wordt geëxploiteerd vanuit Amsterdam, Nederland, en voldoet aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) en de toepasselijke Nederlandse wetgeving inzake gegevensbescherming.
       </p>
 
       <h2>2. Gegevens die wij verzamelen</h2>
@@ -142,7 +142,7 @@ function PrivacyNl() {
       <h2>3. Hoe wij uw gegevens gebruiken</h2>
       <p>Wij gebruiken uw gegevens om:</p>
       <ul>
-        <li>Het ServiceOS platform te leveren en te onderhouden</li>
+        <li>Het Servible platform te leveren en te onderhouden</li>
         <li>Betalingen te verwerken en facturen te versturen</li>
         <li>Transactionele e-mails te versturen (boekingsbevestigingen, wachtwoord-resets)</li>
         <li>Ons product te verbeteren op basis van gebruikspatronen</li>
@@ -198,7 +198,7 @@ function PrivacyNl() {
 
       <h2>10. Contact</h2>
       <p>
-        Voor privacygerelateerde vragen of verzoeken, neem contact met ons op via privacy@serviceos.app of schrijf naar: ServiceOS, Amsterdam, Nederland.
+        Voor privacygerelateerde vragen of verzoeken, neem contact met ons op via privacy@serviceos.app of schrijf naar: Servible, Amsterdam, Nederland.
       </p>
     </>
   );

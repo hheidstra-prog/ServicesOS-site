@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ServiceOS — AI-Powered Bedrijfsbeheer voor Dienstverleners",
+    "title": "Servible — AI-Powered Bedrijfsbeheer voor Dienstverleners",
     "description": "Vervang je CRM, planning, facturatie en website tools door één intelligent platform. Gebouwd voor freelancers, agencies en consultants."
   },
   "nav": {
@@ -13,7 +13,7 @@
   },
   "hero": {
     "headline": "Run je servicebedrijf met AI",
-    "subheadline": "ServiceOS vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.",
+    "subheadline": "Servible vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.",
     "ctaPrimary": "Start gratis proefperiode",
     "ctaSecondary": "Bekijk hoe het werkt",
     "carousel": {
@@ -77,7 +77,7 @@
   },
   "solution": {
     "headline": "Eén platform. Alles verbonden.",
-    "body": "ServiceOS brengt je hele bedrijf samen op één plek. Je CRM kent je agenda. Je facturen komen uit je tijdregistratie. Je website update als je een dienst toevoegt. En AI handelt het routinewerk af zodat jij je op klanten kunt richten."
+    "body": "Servible brengt je hele bedrijf samen op één plek. Je CRM kent je agenda. Je facturen komen uit je tijdregistratie. Je website update als je een dienst toevoegt. En AI handelt het routinewerk af zodat jij je op klanten kunt richten."
   },
   "features": {
     "headline": "Alles wat je nodig hebt, niets wat je niet nodig hebt",
@@ -145,7 +145,7 @@
     "button": "Start gratis"
   },
   "waitlist": {
-    "headline": "Wees de eerste die ServiceOS probeert",
+    "headline": "Wees de eerste die Servible probeert",
     "subheadline": "Schrijf je in voor onze early bird lijst en krijg exclusieve toegang bij lancering. Plus early bird pricing voor altijd vastgelegd.",
     "emailPlaceholder": "Je e-mailadres",
     "namePlaceholder": "Je naam (optioneel)",
@@ -160,12 +160,12 @@
     "trustNoCard": "Geen creditcard nodig"
   },
   "getStarted": {
-    "title": "Aan de slag met ServiceOS",
+    "title": "Aan de slag met Servible",
     "description": "We zijn nog niet live, maar je kunt al meedoen:",
     "earlyBirdTitle": "Word Early Bird",
     "earlyBirdDescription": "Krijg early access en vergrendel de launch pricing voor altijd. We laten je weten zodra we live gaan.",
     "scheduleTitle": "Plan een gesprek",
-    "scheduleDescription": "Bekijk ServiceOS in actie. We geven je een persoonlijke walkthrough en beantwoorden al je vragen."
+    "scheduleDescription": "Bekijk Servible in actie. We geven je een persoonlijke walkthrough en beantwoorden al je vragen."
   },
   "earlyBird": {
     "text": "Early Bird — Meld je nu aan en vergrendel onze launch pricing",
@@ -173,17 +173,17 @@
   },
   "scheduleCall": {
     "title": "Plan een gesprek",
-    "description": "Liever praten? Boek een moment en we laten je ServiceOS zien.",
+    "description": "Liever praten? Boek een moment en we laten je Servible zien.",
     "button": "Plan een tijd"
   },
   "demoVideo": {
-    "title": "Bekijk ServiceOS in actie",
+    "title": "Bekijk Servible in actie",
     "placeholder": "Demo video komt binnenkort. Plan in de tussentijd een gesprek voor een live walkthrough.",
     "close": "Sluiten"
   },
   "featuresPage": {
     "meta": {
-      "title": "Features — ServiceOS",
+      "title": "Features — Servible",
       "description": "AI assistent, CRM, boekingen, facturatie, website bouwer en klantportaal. Alles wat je nodig hebt om je servicebedrijf te runnen."
     },
     "hero": {
@@ -192,7 +192,7 @@
     },
     "aiAssistant": {
       "title": "Je AI-aangedreven business partner",
-      "description1": "De ServiceOS AI assistent is geen chatbot die FAQ's beantwoordt. Het is een capabele assistent die daadwerkelijk dingen kan doen in je bedrijf.",
+      "description1": "De Servible AI assistent is geen chatbot die FAQ's beantwoordt. Het is een capabele assistent die daadwerkelijk dingen kan doen in je bedrijf.",
       "description2": "Vraag om een factuur te maken voor een klant, en het gebeurt. Vraag om een samenvatting van de omzet deze maand, en je krijgt het. Vraag om alle projecten te vinden die achter lopen, en het doorzoekt je data direct.",
       "description3": "Het kent je bedrijfscontext — je diensten, je klanten, je tone of voice. Elke interactie is geïnformeerd door wie je bent en hoe je werkt.",
       "f1": "Natural language commando's — geen menu's om door te navigeren",
@@ -201,7 +201,7 @@
       "f4": "Leert je voorkeuren over tijd",
       "f5": "Beschikbaar in Nederlands, Engels, Duits, Frans",
       "chat": {
-        "title": "ServiceOS AI",
+        "title": "Servible AI",
         "status": "Klaar",
         "user1": "Hoe gaat het Acme Corp project?",
         "assistant1": "Hier is het Acme Corp overzicht:",
@@ -367,7 +367,7 @@
     },
     "websiteBuilder": {
       "title": "Beschrijf je bedrijf. Krijg een website.",
-      "description1": "Vertel ServiceOS over je bedrijf — je diensten, je doelgroep, je stijl. AI genereert een complete, multi-pagina website met jouw teksten, kleuren en structuur.",
+      "description1": "Vertel Servible over je bedrijf — je diensten, je doelgroep, je stijl. AI genereert een complete, multi-pagina website met jouw teksten, kleuren en structuur.",
       "description2": "Wil je iets aanpassen? Chat gewoon. \"Maak de hero sectie meer opvallend.\" \"Voeg een testimonials sectie toe.\" \"Verander het kleurenschema naar warmere tonen.\" Geen drag-and-drop builders, geen templates om aan te passen.",
       "f1": "Volledige website gegenereerd vanuit een beschrijving",
       "f2": "14 bloktypes (hero, features, pricing, testimonials, FAQ, etc.)",
@@ -437,7 +437,7 @@
     "blog": {
       "title": "Publiceer content zonder de content struggle",
       "description1": "Beschrijf de blogpost die je wilt, en AI schrijft het. Volledige rich-text content met jouw brand voice toegepast. Bewerk inline, regenereer secties, laat AI afbeeldingen suggereren.",
-      "description2": "Publiceer naar je ServiceOS website of meerdere sites tegelijk. SEO metadata automatisch gegenereerd.",
+      "description2": "Publiceer naar je Servible website of meerdere sites tegelijk. SEO metadata automatisch gegenereerd.",
       "f1": "AI-gegenereerde blogposts vanuit prompts",
       "f2": "Rich text editor met AI inline editing",
       "f3": "Auto-gegenereerde SEO metadata",
@@ -456,7 +456,7 @@
         "acceptBtn": "Invoegen",
         "dismissBtn": "Overslaan",
         "seoTitle": "SEO Metadata",
-        "seoMetaTitle": "Geautomatiseerde Klant-Intake voor Freelancers | ServiceOS",
+        "seoMetaTitle": "Geautomatiseerde Klant-Intake voor Freelancers | Servible",
         "seoDesc": "Ontdek hoe het automatiseren van je klant-intake 5+ uur per week bespaart en gemiste leads vermindert.",
         "scheduleLabel": "Publiceren",
         "scheduleValue": "Ma 17 mrt, 9:00"
@@ -491,11 +491,247 @@
         "useButton": "Gebruik"
       }
     },
+    "featureTable": {
+      "headline": "Het complete plaatje",
+      "subtitle": "Servible dekt elk aspect van het runnen van een servicebedrijf. Hier is alles wat gebouwd is — en wat er nog aankomt.",
+      "statsFeatures": "features",
+      "statsShipped": "geleverd",
+      "done": "Geleverd",
+      "comingSoon": "Binnenkort",
+      "planned": "Gepland",
+      "crm": "CRM & Klantbeheer",
+      "projectsTasks": "Projecten & Taken",
+      "booking": "Boekingen & Planning",
+      "timeTracking": "Tijdregistratie",
+      "quotes": "Offertes",
+      "contracts": "Contracten",
+      "invoices": "Facturen & Betalingen",
+      "services": "Dienstencatalogus",
+      "websiteBuilder": "Website Bouwer",
+      "blog": "Blog / CMS",
+      "fileManager": "Bestandsbeheer",
+      "portal": "Klantportaal",
+      "aiAssistant": "AI Assistent",
+      "chat": "Chat / Berichten",
+      "notifications": "Inbox & Notificaties",
+      "organization": "Organisatie & Instellingen",
+      "f_crm_clientDatabase": "Klantdatabase met bedrijfsgegevens, adres, BTW",
+      "f_crm_pipelineTracking": "Pipeline status tracking (Lead → Actief → Betaald → Gearchiveerd)",
+      "f_crm_multipleContacts": "Meerdere contacten per klant (met rollen)",
+      "f_crm_tagging": "Klant tagging systeem",
+      "f_crm_notes": "Notities met vastpinnen",
+      "f_crm_activityTimeline": "Activiteiten timeline (gesprekken, emails, vergaderingen, documenten)",
+      "f_crm_detailPage": "Klant detailpagina (projecten, offertes, facturen, bestanden)",
+      "f_crm_leadCapture": "Lead capture vanuit contact- & boekingsformulieren",
+      "f_crm_emailDedup": "Email deduplicatie (hergebruik klant op email + org)",
+      "f_crm_portalAccess": "Per-klant portal toegangscontrole",
+      "f_crm_portalInvite": "Admin \"Stuur portal uitnodiging\" knop",
+      "f_crm_importExport": "Klant import/export (CSV)",
+      "f_crm_merge": "Klanten samenvoegen (deduplicatie)",
+      "f_crm_kanban": "Pipeline bord weergave (kanban)",
+      "f_projects_management": "Projectbeheer gekoppeld aan klanten",
+      "f_projects_statusTracking": "Project status tracking (Niet Gestart → Afgerond)",
+      "f_projects_budgets": "Budgetbeheer (geld + uren budgetten)",
+      "f_projects_taskLists": "Takenlijsten met prioriteiten (Laag/Middel/Hoog/Urgent)",
+      "f_projects_taskDueDates": "Taken deadlines en voltooiing tracking",
+      "f_projects_progressBar": "Taak voortgangsbalk",
+      "f_projects_fileAttachments": "Bestandsbijlagen per project",
+      "f_projects_timeEntries": "Tijdregistratie koppeling",
+      "f_projects_portalToggle": "Portal zichtbaarheid toggle",
+      "f_projects_taskAssignments": "Taken toewijzen (aan teamleden)",
+      "f_projects_taskComments": "Taak commentaren / discussie",
+      "f_projects_templates": "Project templates",
+      "f_projects_gantt": "Gantt / tijdlijn weergave",
+      "f_booking_types": "Configureerbare boekingstypes (duur, prijs, kleur)",
+      "f_booking_publicPortal": "Publieke vs portal-only boekingstypes",
+      "f_booking_availability": "Per-dag beschikbaarheidsregels (ma–zo, start/eindtijden)",
+      "f_booking_bufferTimes": "Buffertijden (voor/na)",
+      "f_booking_intakeQuestions": "Custom intake vragen per boekingstype",
+      "f_booking_publicPage": "Publieke boekingspagina met multi-stap formulier",
+      "f_booking_portalFlow": "Portal boekingsflow (ingelogde klanten)",
+      "f_booking_slotCalc": "Slot berekening (beschikbaarheid − bestaande boekingen)",
+      "f_booking_calendar": "Kalenderweergave in admin",
+      "f_booking_detailSheet": "Boeking detailpaneel met statusacties",
+      "f_booking_confirmation": "Bevestiging vereist toggle",
+      "f_booking_locationTypes": "Locatietypes (Online, Bij Aanbieder, Bij Klant)",
+      "f_booking_honeypot": "Honeypot spambeveiliging",
+      "f_booking_autoCreate": "Maakt automatisch Klant + Boeking + Agenda Event + Notificatie aan",
+      "f_booking_locale": "Taalbewuste UI tekst (nl/en/de/fr)",
+      "f_booking_googleSync": "Google Calendar synchronisatie",
+      "f_booking_outlookSync": "MS Outlook synchronisatie",
+      "f_booking_reminders": "Boekingsherinneringen (email/SMS)",
+      "f_booking_recurring": "Terugkerende boekingen",
+      "f_booking_group": "Groepsboekingen",
+      "f_booking_waitlist": "Wachtlijst",
+      "f_time_logEntries": "Tijdregistraties loggen met beschrijving",
+      "f_time_clientProject": "Klant + project koppeling",
+      "f_time_billable": "Factureerbaar / niet-factureerbaar split",
+      "f_time_rateOverride": "Uurtarief override per registratie",
+      "f_time_weeklyView": "Weekoverzicht met dagindeling",
+      "f_time_periodSummaries": "Periode samenvattingen (vandaag, week, maand)",
+      "f_time_convertInvoice": "Tijd omzetten naar factuuritems",
+      "f_time_timer": "Timer (live stopwatch)",
+      "f_time_teamOverview": "Team tijdoverzicht",
+      "f_time_approvalWorkflow": "Urenstaat goedkeuringsworkflow",
+      "f_quotes_autoNumbered": "Auto-genummerde offertes (QUO-JJJJ-NNNN)",
+      "f_quotes_lineItems": "Regelitems met aantal, stukprijs, belasting",
+      "f_quotes_optionalItems": "Optionele items (klant kan selecteren/deselecteren)",
+      "f_quotes_statusLifecycle": "Status lifecycle (Concept → Verzonden → Bekeken → Geaccepteerd/Afgewezen)",
+      "f_quotes_publicAccess": "Publieke toegang via unieke URL",
+      "f_quotes_reminderTracking": "Herinnering tracking",
+      "f_quotes_convertContract": "Offerte omzetten naar contract",
+      "f_quotes_templates": "Offerte templates",
+      "f_quotes_eSignature": "E-handtekening bij acceptatie",
+      "f_quotes_versioning": "Offerte versiebeheer",
+      "f_contracts_richText": "Digitale contracten met rich text inhoud",
+      "f_contracts_autoNumbered": "Auto-genummerd (C-JJJJ-NNNN)",
+      "f_contracts_statusLifecycle": "Status lifecycle (Concept → Verzonden → Bekeken → Getekend)",
+      "f_contracts_signatureCapture": "Elektronische handtekening vastlegging (naam, timestamp, IP)",
+      "f_contracts_publicSigning": "Publieke tekenpagina via access token",
+      "f_contracts_quoteLink": "Link naar originele offerte",
+      "f_contracts_templates": "Contract templates",
+      "f_contracts_multiParty": "Multi-party ondertekening",
+      "f_invoices_autoNumbered": "Auto-genummerde facturen (INV-JJJJ-NNNN)",
+      "f_invoices_lineItems": "Regelitems met EU belastingtypes (standaard, verlaagd, verlegd)",
+      "f_invoices_partialPayments": "Deelbetalingen",
+      "f_invoices_creditNotes": "Creditnota's",
+      "f_invoices_statusLifecycle": "Status lifecycle (Concept → Verzonden → Bekeken → Betaald/Achterstallig)",
+      "f_invoices_publicView": "Publieke factuurweergave via access token",
+      "f_invoices_stripe": "Stripe betalingsintegratie",
+      "f_invoices_paymentMethods": "iDEAL, kaart, SEPA, Bancontact, overboeking, contant",
+      "f_invoices_overdueDetection": "Achterstallige detectie met dashboard meldingen",
+      "f_invoices_reminderTracking": "Herinnering tracking",
+      "f_invoices_manualPayments": "Handmatige betalingen registreren",
+      "f_invoices_pdfGeneration": "Factuur PDF generatie & download",
+      "f_invoices_recurring": "Terugkerende facturen",
+      "f_invoices_multiCurrency": "Multi-valuta ondersteuning",
+      "f_invoices_accountingExport": "Boekhoudexport (CSV/MT940)",
+      "f_invoices_autoReminders": "Automatische betalingsherinneringen (email)",
+      "f_services_definitions": "Herbruikbare dienstdefinities",
+      "f_services_pricing": "Flexibele pricing (vast, per uur, per dag, per maand, custom)",
+      "f_services_taxRate": "Belastingtarief per dienst",
+      "f_services_activeToggle": "Actief/inactief toggle",
+      "f_services_templates": "Gebruikt als templates in offertes & facturen",
+      "f_services_packages": "Dienstpakketten / bundels",
+      "f_website_aiGeneration": "AI site generatie vanuit bedrijfsbeschrijving",
+      "f_website_blockTypes": "14 bloktypes (hero, features, diensten, testimonials, etc.)",
+      "f_website_chatEditing": "Natural language blok bewerking via chat",
+      "f_website_aiBlockCreation": "AI-gestuurde blok creatie (beschrijf → auto-gegenereerd)",
+      "f_website_designTokens": "Design token systeem (kleuren, typografie, spacing)",
+      "f_website_templates": "Templates (starter, agency, consultant)",
+      "f_website_colorModes": "Light/dark kleurmodi",
+      "f_website_customDomains": "Custom domeinen + subdomeinen",
+      "f_website_navigation": "Navigatie beheer",
+      "f_website_seo": "Per-pagina SEO (meta titel, beschrijving, OG afbeelding)",
+      "f_website_publishStatus": "Site publicatie/concept/onderhoud status",
+      "f_website_aiImageSearch": "AI afbeelding zoeken (archief + Freepik stock)",
+      "f_website_columnsBlock": "Kolommen blok met per-item styling",
+      "f_website_contactForm": "Contactformulier blok met spambeveiliging",
+      "f_website_responsive": "Responsive design",
+      "f_website_analytics": "Google Analytics integratie",
+      "f_website_multiPage": "Multi-pagina ondersteuning met custom slugs",
+      "f_website_headerFooter": "Header/footer stijlvarianten",
+      "f_website_customCss": "Custom CSS overrides",
+      "f_website_formBuilder": "Formulier bouwer blok",
+      "f_website_blogBlock": "Blog integratie blok",
+      "f_website_abTesting": "A/B testing",
+      "f_website_analyticsDashboard": "Analytics dashboard (verkeer, conversies)",
+      "f_blog_chatDriven": "Chat-gestuurd blogbeheer",
+      "f_blog_aiGeneration": "AI content generatie vanuit prompts",
+      "f_blog_richTextEditor": "Rich text editor (TipTap/Novel)",
+      "f_blog_aiTitleExcerpt": "AI titel/excerpt hergeneratie",
+      "f_blog_aiSeoMetadata": "AI SEO metadata generatie",
+      "f_blog_inlineAiEditing": "Inline AI content bewerking met afbeelding upload",
+      "f_blog_featuredImages": "Uitgelichte afbeeldingen met AI suggesties",
+      "f_blog_taxonomy": "Categorie & tag taxonomie",
+      "f_blog_multiSite": "Multi-site publicatie (één post, meerdere sites)",
+      "f_blog_scheduling": "Planning (publicatiedatum)",
+      "f_blog_publicBlog": "Publieke blog met categoriefilters",
+      "f_blog_toc": "Inhoudsopgave (auto-gegenereerd vanuit koppen)",
+      "f_blog_relatedPosts": "Gerelateerde posts",
+      "f_blog_bookingCta": "Boekings-CTA in blog sidebar",
+      "f_blog_authorDropdown": "Auteur selectie dropdown",
+      "f_blog_comments": "Blog reacties",
+      "f_blog_rss": "RSS feed",
+      "f_blog_newsletter": "Nieuwsbrief integratie",
+      "f_blog_socialPublish": "Social media auto-publicatie",
+      "f_fileManager_cloudinary": "Cloudinary-backed mediabibliotheek",
+      "f_fileManager_aiAnalysis": "AI analyse bij upload (beschrijving + tags)",
+      "f_fileManager_docExtraction": "Document tekst extractie & samenvatting",
+      "f_fileManager_semanticSearch": "Semantisch zoeken (AI query expansie)",
+      "f_fileManager_chatInterface": "Chat-gestuurde interface",
+      "f_fileManager_stockImages": "Freepik stockfoto integratie",
+      "f_fileManager_fileAssociation": "Bestandskoppeling (klant, project)",
+      "f_fileManager_portalToggle": "Portal zichtbaarheid toggle",
+      "f_fileManager_folders": "Map organisatie",
+      "f_fileManager_mediaPicker": "Media picker (Bibliotheek/Upload/Stock tabs)",
+      "f_fileManager_versioning": "Bestand versiebeheer",
+      "f_fileManager_bulkOps": "Bulk bewerkingen",
+      "f_portal_magicLink": "Wachtwoordloze magic link login",
+      "f_portal_dashboard": "Dashboard met statistiekkaarten (projecten, facturen, bestanden, boekingen)",
+      "f_portal_projectsList": "Projectenlijst met taak voortgangsbalken",
+      "f_portal_projectDetail": "Project detail met taken + bestanden",
+      "f_portal_invoices": "Facturen (openstaand/betaald secties, volledige regelitems)",
+      "f_portal_files": "Bestanden gegroepeerd per project met download",
+      "f_portal_bookings": "Boekingen (aankomende kaarten + verleden tabel)",
+      "f_portal_bookingFlow": "Portal boekingsflow (alle boekingstypes)",
+      "f_portal_themeToggle": "Donker/licht thema toggle",
+      "f_portal_locale": "Taalbewuste UI",
+      "f_portal_nav": "Portal navigatie met uitloggen",
+      "f_portal_emailDelivery": "Email bezorging voor magic links",
+      "f_portal_accessControl": "Per-klant portal toegangscontrole",
+      "f_portal_pdfDownload": "Factuur PDF download",
+      "f_portal_rateLimiting": "Rate limiting op magic link verzoeken",
+      "f_portal_messaging": "Klant-naar-admin berichten (Chat)",
+      "f_portal_docSigning": "Document ondertekening in portal",
+      "f_portal_payment": "Betaling vanuit portal",
+      "f_portal_onboarding": "Portal onboarding wizard",
+      "f_ai_chat": "Conversatie chat aangedreven door Claude",
+      "f_ai_toolUse": "Tool-gebruik: klanten aanmaken, tijd loggen, facturen genereren, data zoeken",
+      "f_ai_businessContext": "Bedrijfscontext injectie (branche, doelgroep, tone of voice)",
+      "f_ai_localeAware": "Taalbewuste antwoorden",
+      "f_ai_iterations": "Tot 5 tool-gebruik iteraties per verzoek",
+      "f_ai_history": "Persistente gespreksgeschiedenis",
+      "f_ai_suggestedPrompts": "Voorgestelde prompts",
+      "f_ai_multiEntity": "Multi-entiteit acties in één gesprek",
+      "f_ai_scheduled": "Geplande/automatische AI taken",
+      "f_ai_voice": "Spraakinvoer",
+      "f_chat_clientFacing": "Klantgerichte chat (admin ↔ klant real-time berichten)",
+      "f_chat_portal": "Chat in klantportaal",
+      "f_chat_notifications": "Chat notificaties",
+      "f_chat_fileSharing": "Bestanden delen in chat",
+      "f_chat_history": "Chat geschiedenis / zoeken",
+      "f_chat_chatbot": "Chatbot (AI auto-antwoord voor veelgestelde vragen)",
+      "f_chat_channels": "WhatsApp / email kanaal integratie",
+      "f_notifications_center": "Intern notificatiecentrum",
+      "f_notifications_booking": "Nieuwe boeking notificaties",
+      "f_notifications_contactForm": "Contactformulier inzending notificaties",
+      "f_notifications_readUnread": "Gelezen/ongelezen filtering",
+      "f_notifications_linkSource": "Link naar bron entiteit",
+      "f_notifications_email": "Email notificaties bij formulier inzendingen",
+      "f_notifications_push": "Push notificaties (browser/mobiel)",
+      "f_notifications_preferences": "Notificatie voorkeuren / dempen",
+      "f_org_multiTenant": "Multi-tenant architectuur (alle data per organisatie)",
+      "f_org_businessProfile": "Bedrijfsprofiel (branche, doelgroep, tone of voice)",
+      "f_org_branding": "Branding (logo, primaire kleur)",
+      "f_org_legalTax": "Juridische/belastinginfo (BTW, KvK, IBAN)",
+      "f_org_roles": "Rolgebaseerde toegang (Eigenaar, Admin, Lid, Boekhouder, Viewer)",
+      "f_org_defaults": "Standaard valuta, belastingtarief, betalingstermijnen",
+      "f_org_timezone": "Tijdzone & taalinstellingen (nl/en/de/fr)",
+      "f_org_clerkAuth": "Clerk auth integratie",
+      "f_org_stripe": "Stripe gekoppelde accounts",
+      "f_org_onboarding": "Onboarding flow",
+      "f_org_auditLog": "Audit log",
+      "f_org_teamManagement": "Team management UI",
+      "f_org_whiteLabel": "White-label / custom branding",
+      "f_org_apiWebhooks": "API toegang / webhooks",
+      "f_org_mobileApp": "Mobiele app"
+    },
     "comparison": {
       "headline": "Herkenbaar?",
-      "subtitle": "Dit zijn de dagelijkse frustraties van het runnen van een servicebedrijf. ServiceOS is gebouwd om ze allemaal op te lossen.",
+      "subtitle": "Dit zijn de dagelijkse frustraties van het runnen van een servicebedrijf. Servible is gebouwd om ze allemaal op te lossen.",
       "painLabel": "De pijn",
-      "solveLabel": "Hoe ServiceOS het oplost",
+      "solveLabel": "Hoe Servible het oplost",
       "r1": {
         "pain": "Je besteedt zondagavond aan facturen schrijven en betalingen najagen",
         "solve": "Track tijd terwijl je werkt. Eén klik maakt er een factuur van. Klanten betalen online via iDEAL of kaart."
@@ -524,7 +760,7 @@
   },
   "pricingPage": {
     "meta": {
-      "title": "Pricing — ServiceOS",
+      "title": "Pricing — Servible",
       "description": "Simpele, transparante pricing vanaf gratis. Geen verborgen kosten, geen contracten. Start vandaag je 14-daagse gratis proefperiode."
     },
     "hero": {
@@ -546,7 +782,7 @@
       "f2": "Basis CRM",
       "f3": "1 boekingstype",
       "f4": "5 facturen/maand",
-      "f5": "ServiceOS subdomein website",
+      "f5": "Servible subdomein website",
       "f6": "Email support"
     },
     "professional": {
@@ -594,7 +830,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Over Ons — ServiceOS",
+      "title": "Over Ons — Servible",
       "description": "We bouwen het bedrijfsplatform dat we wensten te hebben toen we freelanceten. Leer over onze missie en ons team."
     },
     "hero": {
@@ -602,10 +838,10 @@
       "subheadline": "We bouwen het bedrijfsplatform dat we wensten te hebben toen we freelanceten."
     },
     "mission": {
-      "headline": "Waarom we ServiceOS bouwen",
+      "headline": "Waarom we Servible bouwen",
       "p1": "Freelancers en kleine servicebedrijven verdienen betere tools dan spreadsheets en losse apps. Maar enterprise software is te complex, en de meeste \"simpele\" tools zijn te beperkt.",
       "p2": "We geloven dat AI deze vergelijking verandert. Niet als gimmick of chatbot, maar als een echt nuttige assistent die het werk doet dat jij niet wilt doen.",
-      "p3": "ServiceOS is gebouwd op een simpel idee: je bedrijfssoftware moet voor jou werken, niet andersom."
+      "p3": "Servible is gebouwd op een simpel idee: je bedrijfssoftware moet voor jou werken, niet andersom."
     },
     "values": {
       "headline": "Waar we in geloven",
@@ -616,17 +852,17 @@
     },
     "founder": {
       "name": "Hylke Heidstra",
-      "role": "Founder, ServiceOS",
+      "role": "Founder, Servible",
       "greeting": "Hi, ik ben Hylke",
       "problem": "Na jaren werken met freelancers en kleine servicebedrijven zag ik steeds hetzelfde patroon: getalenteerde mensen die hun avonden besteden aan facturen, klantgegevens kopiëren tussen apps, en jongleren met een stapel losse tools om hun bedrijf te runnen.",
-      "vision": "Ik geloof dat AI dit verandert. Niet als gimmick, maar als een echte assistent die de admin afhandelt zodat jij je kunt richten op wat je het beste doet — je klanten helpen. Daarom bouw ik ServiceOS: één intelligent platform dat de chaos vervangt door helderheid.",
+      "vision": "Ik geloof dat AI dit verandert. Niet als gimmick, maar als een echte assistent die de admin afhandelt zodat jij je kunt richten op wat je het beste doet — je klanten helpen. Daarom bouw ik Servible: één intelligent platform dat de chaos vervangt door helderheid.",
       "cta": "Ik hoor graag van je — of je een vraag hebt, feedback wilt geven, of gewoon wilt praten over de toekomst van servicebedrijven."
     }
   },
   "contactPage": {
     "meta": {
-      "title": "Contact — ServiceOS",
-      "description": "Neem contact op met het ServiceOS team. Vragen, feedback of partnership aanvragen zijn welkom."
+      "title": "Contact — Servible",
+      "description": "Neem contact op met het Servible team. Vragen, feedback of partnership aanvragen zijn welkom."
     },
     "hero": {
       "headline": "Neem contact op",
@@ -658,12 +894,12 @@
   },
   "faqPage": {
     "meta": {
-      "title": "FAQ — ServiceOS",
-      "description": "Veelgestelde vragen over ServiceOS. Leer over ons AI-aangedreven bedrijfsplatform voor dienstverleners."
+      "title": "FAQ — Servible",
+      "description": "Veelgestelde vragen over Servible. Leer over ons AI-aangedreven bedrijfsplatform voor dienstverleners."
     },
     "hero": {
       "headline": "Veelgestelde vragen",
-      "subheadline": "Alles wat je moet weten over ServiceOS. Niet gevonden wat je zoekt? Neem contact op."
+      "subheadline": "Alles wat je moet weten over Servible. Niet gevonden wat je zoekt? Neem contact op."
     },
     "categories": {
       "general": "Algemeen",
@@ -674,20 +910,20 @@
     },
     "general": {
       "q1": {
-        "q": "Wat is ServiceOS?",
-        "a": "ServiceOS is een AI-aangedreven bedrijfsplatform gebouwd voor freelancers, agencies en kleine servicebedrijven. Het vervangt je CRM, planning, facturatie, website en klantportaal met één verbonden platform — beheerd door een intelligente AI assistent."
+        "q": "Wat is Servible?",
+        "a": "Servible is een AI-aangedreven bedrijfsplatform gebouwd voor freelancers, agencies en kleine servicebedrijven. Het vervangt je CRM, planning, facturatie, website en klantportaal met één verbonden platform — beheerd door een intelligente AI assistent."
       },
       "q2": {
-        "q": "Voor wie is ServiceOS?",
-        "a": "ServiceOS is gebouwd voor mensen die diensten leveren: consultants, coaches, designers, developers, marketing agencies, accountants, therapeuten — iedereen die klanten, projecten en facturen beheert. Als je het zat bent om met losse tools te jongleren, is ServiceOS voor jou."
+        "q": "Voor wie is Servible?",
+        "a": "Servible is gebouwd voor mensen die diensten leveren: consultants, coaches, designers, developers, marketing agencies, accountants, therapeuten — iedereen die klanten, projecten en facturen beheert. Als je het zat bent om met losse tools te jongleren, is Servible voor jou."
       },
       "q3": {
-        "q": "Hoe verschilt ServiceOS van andere bedrijfstools?",
-        "a": "De meeste tools lossen één probleem op — planning, facturatie of CRM. ServiceOS verbindt alles in één platform, zodat je agenda je klanten kent, je facturen uit je tijdregistratie komen, en je website update als je een dienst toevoegt. Plus, de AI assistent kan daadwerkelijk dingen doen: facturen maken, klanten vinden, tijd loggen — gewoon door het te vragen."
+        "q": "Hoe verschilt Servible van andere bedrijfstools?",
+        "a": "De meeste tools lossen één probleem op — planning, facturatie of CRM. Servible verbindt alles in één platform, zodat je agenda je klanten kent, je facturen uit je tijdregistratie komen, en je website update als je een dienst toevoegt. Plus, de AI assistent kan daadwerkelijk dingen doen: facturen maken, klanten vinden, tijd loggen — gewoon door het te vragen."
       },
       "q4": {
-        "q": "Is ServiceOS beschikbaar in mijn taal?",
-        "a": "ServiceOS is beschikbaar in Nederlands, Engels, Duits en Frans. De AI assistent begrijpt en antwoordt in alle ondersteunde talen, en je kunt op elk moment wisselen."
+        "q": "Is Servible beschikbaar in mijn taal?",
+        "a": "Servible is beschikbaar in Nederlands, Engels, Duits en Frans. De AI assistent begrijpt en antwoordt in alle ondersteunde talen, en je kunt op elk moment wisselen."
       }
     },
     "ai": {
@@ -697,7 +933,7 @@
       },
       "q2": {
         "q": "Is de AI een chatbot die FAQ's beantwoordt?",
-        "a": "Nee. De ServiceOS AI is een operationele assistent. Het beantwoordt niet alleen vragen — het voert acties uit in je bedrijf. Zie het als een capabel teamlid dat het adminwerk doet dat jij niet wilt doen."
+        "a": "Nee. De Servible AI is een operationele assistent. Het beantwoordt niet alleen vragen — het voert acties uit in je bedrijf. Zie het als een capabel teamlid dat het adminwerk doet dat jij niet wilt doen."
       },
       "q3": {
         "q": "Leert de AI van mijn data?",
@@ -711,11 +947,11 @@
       },
       "q2": {
         "q": "Hoe werkt de website bouwer?",
-        "a": "Beschrijf je bedrijf — je diensten, doelgroep en stijl — en ServiceOS genereert een complete, multi-pagina website. Wil je iets aanpassen? Zeg het gewoon tegen de AI: \"Maak de hero sectie opvallender\" of \"Voeg een testimonials sectie toe.\" Geen drag-and-drop, geen templates."
+        "a": "Beschrijf je bedrijf — je diensten, doelgroep en stijl — en Servible genereert een complete, multi-pagina website. Wil je iets aanpassen? Zeg het gewoon tegen de AI: \"Maak de hero sectie opvallender\" of \"Voeg een testimonials sectie toe.\" Geen drag-and-drop, geen templates."
       },
       "q3": {
         "q": "Welke betaalmethodes worden ondersteund?",
-        "a": "ServiceOS ondersteunt betalingen via Stripe, waaronder iDEAL, credit/debit kaarten, SEPA automatische incasso en Bancontact. Meer betaalproviders staan op de roadmap."
+        "a": "Servible ondersteunt betalingen via Stripe, waaronder iDEAL, credit/debit kaarten, SEPA automatische incasso en Bancontact. Meer betaalproviders staan op de roadmap."
       },
       "q4": {
         "q": "Krijgen mijn klanten een eigen portaal?",
@@ -728,8 +964,8 @@
         "a": "Alle data wordt opgeslagen op EU-gebaseerde servers. We gebruiken industrie-standaard encryptie voor data in transit en in rust. Je data verlaat nooit de Europese Unie."
       },
       "q2": {
-        "q": "Is ServiceOS GDPR compliant?",
-        "a": "Ja, volledig. ServiceOS is gebouwd in Europa, voor Europese bedrijven. We zijn GDPR compliant by design — van dataopslag en verwerking tot het recht om je data te exporteren en te verwijderen op elk moment."
+        "q": "Is Servible GDPR compliant?",
+        "a": "Ja, volledig. Servible is gebouwd in Europa, voor Europese bedrijven. We zijn GDPR compliant by design — van dataopslag en verwerking tot het recht om je data te exporteren en te verwijderen op elk moment."
       },
       "q3": {
         "q": "Kan ik mijn data exporteren?",
@@ -743,7 +979,7 @@
       },
       "q2": {
         "q": "Is er een gratis plan?",
-        "a": "Ja. Het Starter plan is gratis en bevat tot 5 actieve klanten, basis CRM, 1 boekingstype en 5 facturen per maand. Het is perfect om te beginnen en te kijken of ServiceOS bij je past."
+        "a": "Ja. Het Starter plan is gratis en bevat tot 5 actieve klanten, basis CRM, 1 boekingstype en 5 facturen per maand. Het is perfect om te beginnen en te kijken of Servible bij je past."
       },
       "q3": {
         "q": "Kan ik migreren van mijn huidige tools?",
@@ -753,16 +989,16 @@
   },
   "privacyPage": {
     "meta": {
-      "title": "Privacybeleid — ServiceOS",
-      "description": "Leer hoe ServiceOS met je data omgaat. GDPR compliant, EU-gebaseerde servers."
+      "title": "Privacybeleid — Servible",
+      "description": "Leer hoe Servible met je data omgaat. GDPR compliant, EU-gebaseerde servers."
     },
     "title": "Privacybeleid",
     "lastUpdated": "Laatst bijgewerkt: februari 2026"
   },
   "termsPage": {
     "meta": {
-      "title": "Algemene Voorwaarden — ServiceOS",
-      "description": "ServiceOS algemene voorwaarden voor ons bedrijfsbeheer platform."
+      "title": "Algemene Voorwaarden — Servible",
+      "description": "Servible algemene voorwaarden voor ons bedrijfsbeheer platform."
     },
     "title": "Algemene Voorwaarden",
     "lastUpdated": "Laatst bijgewerkt: februari 2026"
@@ -788,7 +1024,7 @@
     "privacy": "Privacybeleid",
     "terms": "Algemene Voorwaarden",
     "gdpr": "GDPR",
-    "copyright": "© 2026 ServiceOS. Alle rechten voorbehouden.",
+    "copyright": "© 2026 Servible. Alle rechten voorbehouden.",
     "madeWith": "Gemaakt met ♥ in Amsterdam"
   }
 }
