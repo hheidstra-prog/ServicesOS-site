@@ -84,7 +84,7 @@ export function PricingContent() {
                 <span
                   className={cn(
                     "absolute top-0.5 h-6 w-6 rounded-full bg-white shadow-sm transition-transform",
-                    annual ? "translate-x-5.5" : "translate-x-0.5"
+                    annual ? "translate-x-5" : "translate-x-0.5"
                   )}
                 />
               </button>
