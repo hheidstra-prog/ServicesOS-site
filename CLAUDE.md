@@ -74,6 +74,8 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 - **Legal pages:** Follow same pattern — page.tsx with `generateMetadata` + content component with hardcoded EN/NL text (not translation keys)
 - **Founder bio:** `aboutPage.founder` uses keys `p1`–`p5` for five paragraphs
 - **Docs folder:** `docs/` contains briefing documents (e.g. `pricing.md`) used as input for changes
+- **CTA buttons:** All "try free" / "start trial" buttons (header, hero, pricing) open the `GetStartedModal` — not plain links
+- **HubSpot forms:** Both contact and waitlist forms send `preferred_language` (visitor's locale) and create a HubSpot task assigned to `HUBSPOT_OWNER_ID` for notifications. Contact form tasks are HIGH priority; waitlist tasks are MEDIUM.
 
 ## What Could Be Next
 
@@ -83,5 +85,4 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 - Performance audit / Lighthouse optimization
 - 404 page
 - Structured data (JSON-LD)
-- Contact form backend (Resend)
 - Mobile testing pass
