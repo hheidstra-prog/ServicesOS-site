@@ -28,6 +28,7 @@ Run dev server: `npm run dev` (http://localhost:3000)
 | FAQ | `/faq` | Done |
 | Privacy | `/legal/privacy` | Done |
 | Terms | `/legal/terms` | Done |
+| GDPR | `/legal/gdpr` | Done — data controller, lawful bases, data subject rights, processing activities, international transfers, DPO contact |
 
 ## Features Page — Visual Mockups
 

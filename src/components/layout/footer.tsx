@@ -12,16 +12,15 @@ export function Footer() {
       links: [
         { label: t("features"), href: `/${locale}/features` },
         { label: t("pricing"), href: `/${locale}/pricing` },
-        { label: t("roadmap"), href: "#" },
-        { label: t("changelog"), href: "#" },
+        { label: t("roadmap"), href: `/${locale}/features#overview` },
       ],
     },
     {
       title: t("company"),
       links: [
         { label: t("about"), href: `/${locale}/about` },
-        { label: t("blog"), href: "#" },
         { label: t("contact"), href: `/${locale}/contact` },
+        { label: t("faq"), href: `/${locale}/faq` },
         {
           label: `${t("careers")} (${t("comingSoon")})`,
           href: "#",
@@ -30,20 +29,11 @@ export function Footer() {
       ],
     },
     {
-      title: t("resources"),
-      links: [
-        { label: t("faq"), href: `/${locale}/faq` },
-        { label: t("helpCenter"), href: "#" },
-        { label: t("apiDocs"), href: "#" },
-        { label: t("statusPage"), href: "#" },
-      ],
-    },
-    {
       title: t("legal"),
       links: [
         { label: t("privacy"), href: `/${locale}/legal/privacy` },
         { label: t("terms"), href: `/${locale}/legal/terms` },
-        { label: t("gdpr"), href: "#" },
+        { label: t("gdpr"), href: `/${locale}/legal/gdpr` },
       ],
     },
   ];
@@ -52,7 +42,7 @@ export function Footer() {
     <footer className="border-t border-[var(--border)] bg-[var(--muted)]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Columns */}
-        <div className="grid grid-cols-2 gap-8 py-12 md:grid-cols-4 lg:py-16">
+        <div className="grid grid-cols-2 gap-8 py-12 md:grid-cols-3 lg:py-16">
           {columns.map((column) => (
             <div key={column.title}>
               <h3 className="text-sm font-semibold text-[var(--foreground)]">

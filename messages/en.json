@@ -854,9 +854,11 @@
       "name": "Hylke Heidstra",
       "role": "Founder, Servible",
       "greeting": "Hi, I'm Hylke",
-      "problem": "After years of working with freelancers and small service businesses, I kept seeing the same pattern: talented people spending their evenings on invoices, copy-pasting client info between apps, and juggling a stack of disconnected tools just to run their business.",
-      "vision": "I believe AI changes this. Not as a gimmick, but as a real assistant that handles the admin so you can focus on what you do best — serving your clients. That's why I'm building Servible: one intelligent platform that replaces the chaos with clarity.",
-      "cta": "I'd love to hear from you — whether you have a question, feedback, or just want to chat about the future of service businesses."
+      "p1": "After 25+ years in software, I know one thing for sure: the best tools are born from personal frustration.",
+      "p2": "I started as a consultant, built my own IT company serving clients worldwide, and sold it to Sitecore. There I spent 10 years as Senior Product Manager, experiencing the journey from startup to enterprise. After that, a stint at an e-commerce software company.",
+      "p3": "What drives me? Discovering problems and crafting elegant solutions. When AI emerged, it grabbed me immediately — not as hype, but as an opportunity to build software that actually does the work for you.",
+      "p4": "I'm building Servible from my own experience as an entrepreneur. I know the evenings behind spreadsheets, the hassle of disconnected tools, the admin that never ends. There has to be a better way. One platform, AI that thinks along, and you doing what you're best at: helping your clients.",
+      "p5": "Questions, ideas, or just want to chat? I'd love to hear from you."
     }
   },
   "contactPage": {
@@ -1003,23 +1005,25 @@
     "title": "Terms of Service",
     "lastUpdated": "Last updated: February 2026"
   },
+  "gdprPage": {
+    "meta": {
+      "title": "GDPR — Servible",
+      "description": "How Servible complies with the General Data Protection Regulation (GDPR). Data controller info, lawful bases, your rights, and how to contact us."
+    },
+    "title": "GDPR Compliance",
+    "lastUpdated": "Last updated: February 2026"
+  },
   "footer": {
     "product": "Product",
     "features": "Features",
     "pricing": "Pricing",
     "roadmap": "Roadmap",
-    "changelog": "Changelog",
     "company": "Company",
     "about": "About",
-    "blog": "Blog",
     "contact": "Contact",
+    "faq": "FAQ",
     "careers": "Careers",
     "comingSoon": "coming soon",
-    "resources": "Resources",
-    "faq": "FAQ",
-    "helpCenter": "Help Center",
-    "apiDocs": "API Documentation",
-    "statusPage": "Status Page",
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

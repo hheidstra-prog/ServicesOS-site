@@ -854,9 +854,11 @@
       "name": "Hylke Heidstra",
       "role": "Founder, Servible",
       "greeting": "Hi, ik ben Hylke",
-      "problem": "Na jaren werken met freelancers en kleine servicebedrijven zag ik steeds hetzelfde patroon: getalenteerde mensen die hun avonden besteden aan facturen, klantgegevens kopiëren tussen apps, en jongleren met een stapel losse tools om hun bedrijf te runnen.",
-      "vision": "Ik geloof dat AI dit verandert. Niet als gimmick, maar als een echte assistent die de admin afhandelt zodat jij je kunt richten op wat je het beste doet — je klanten helpen. Daarom bouw ik Servible: één intelligent platform dat de chaos vervangt door helderheid.",
-      "cta": "Ik hoor graag van je — of je een vraag hebt, feedback wilt geven, of gewoon wilt praten over de toekomst van servicebedrijven."
+      "p1": "Na 25+ jaar in software weet ik één ding zeker: de beste tools ontstaan uit eigen frustratie.",
+      "p2": "Ik begon mijn carrière als consultant, bouwde daarna mijn eigen IT-bedrijf met klanten wereldwijd, en verkocht dat aan Sitecore. Daar werkte ik 10 jaar als Senior Product Manager en maakte de groei van startup naar enterprise mee. Daarna nog een tijd bij een e-commerce softwareleverancier.",
+      "p3": "Wat me drijft? Problemen ontdekken en er elegante oplossingen voor bedenken. Toen AI opkwam, greep dat me meteen — niet als hype, maar als kans om software te bouwen die écht het werk voor je doet.",
+      "p4": "Servible bouw ik vanuit mijn eigen ervaring als ondernemer. Ik ken de avonden achter spreadsheets, het gehannes met losse tools, de admin die nooit ophoudt. Dat moet anders kunnen. Eén platform, AI die meedenkt, en jij die doet waar je goed in bent: je klanten helpen.",
+      "p5": "Vragen, ideeën of gewoon even sparren? Ik hoor graag van je."
     }
   },
   "contactPage": {
@@ -1003,23 +1005,25 @@
     "title": "Algemene Voorwaarden",
     "lastUpdated": "Laatst bijgewerkt: februari 2026"
   },
+  "gdprPage": {
+    "meta": {
+      "title": "GDPR — Servible",
+      "description": "Hoe Servible voldoet aan de Algemene Verordening Gegevensbescherming (AVG/GDPR). Verwerkingsverantwoordelijke, grondslagen, uw rechten en contactgegevens."
+    },
+    "title": "GDPR Compliance",
+    "lastUpdated": "Laatst bijgewerkt: februari 2026"
+  },
   "footer": {
     "product": "Product",
     "features": "Features",
     "pricing": "Pricing",
     "roadmap": "Roadmap",
-    "changelog": "Changelog",
     "company": "Bedrijf",
     "about": "Over ons",
-    "blog": "Blog",
     "contact": "Contact",
+    "faq": "FAQ",
     "careers": "Vacatures",
     "comingSoon": "binnenkort",
-    "resources": "Resources",
-    "faq": "FAQ",
-    "helpCenter": "Help Center",
-    "apiDocs": "API Documentatie",
-    "statusPage": "Status Pagina",
     "legal": "Juridisch",
     "privacy": "Privacybeleid",
     "terms": "Algemene Voorwaarden",

@@ -133,13 +133,19 @@ export function AboutContent() {
                   {t("founder.role")}
                 </p>
                 <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
-                  {t("founder.problem")}
+                  {t("founder.p1")}
                 </p>
                 <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
-                  {t("founder.vision")}
+                  {t("founder.p2")}
                 </p>
                 <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
-                  {t("founder.cta")}
+                  {t("founder.p3")}
+                </p>
+                <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
+                  {t("founder.p4")}
+                </p>
+                <p className="mt-4 text-[var(--muted-foreground)] leading-relaxed">
+                  {t("founder.p5")}
                 </p>
               </div>
             </div>
