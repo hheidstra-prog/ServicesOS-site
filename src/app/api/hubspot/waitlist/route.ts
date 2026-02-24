@@ -6,7 +6,7 @@ const HUBSPOT_OWNER_ID = process.env.HUBSPOT_OWNER_ID;
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { email, name, company } = body;
+    const { email, name, company, preferred_language } = body;
 
     if (!email) {
       return NextResponse.json(
@@ -40,11 +40,14 @@ export async function POST(request: NextRequest) {
             hs_lead_status: "NEW",
             waitlist_signup: true,
             product: "Servible",
+            preferred_language: preferred_language || "",
             hubspot_owner_id: HUBSPOT_OWNER_ID || "",
           },
         }),
       }
     );
+
+    let contactId: string | null = null;
 
     if (response.status === 409) {
       const searchResponse = await fetch(
@@ -74,7 +77,7 @@ export async function POST(request: NextRequest) {
       const searchData = await searchResponse.json();
 
       if (searchData.results && searchData.results.length > 0) {
-        const contactId = searchData.results[0].id;
+        contactId = searchData.results[0].id;
 
         await fetch(
           `https://api.hubapi.com/crm/v3/objects/contacts/${contactId}`,
@@ -89,30 +92,66 @@ export async function POST(request: NextRequest) {
                 hs_lead_status: "NEW",
                 waitlist_signup: true,
                 product: "Servible",
+                preferred_language: preferred_language || "",
               },
             }),
           }
         );
       }
-
-      return NextResponse.json({
-        success: true,
-        message: "Already on waitlist",
-      });
-    }
-
-    if (!response.ok) {
+    } else if (!response.ok) {
       const errorData = await response.json();
       console.error("HubSpot error:", errorData);
       return NextResponse.json(
         { error: "Failed to join waitlist" },
         { status: 500 }
       );
+    } else {
+      const contactData = await response.json();
+      contactId = contactData.id;
+    }
+
+    // Create a task so the owner gets a notification
+    if (contactId) {
+      const taskResponse = await fetch(
+        "https://api.hubapi.com/crm/v3/objects/tasks",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${HUBSPOT_ACCESS_TOKEN}`,
+          },
+          body: JSON.stringify({
+            properties: {
+              hs_task_subject: `New waitlist signup: ${name || email}`,
+              hs_task_body: `${name || "Unknown"} (${email})${company ? ` from ${company}` : ""} joined the Servible waitlist.`,
+              hs_task_status: "NOT_STARTED",
+              hs_task_priority: "MEDIUM",
+              hs_timestamp: Date.now(),
+              hubspot_owner_id: HUBSPOT_OWNER_ID || "",
+            },
+            associations: [
+              {
+                to: { id: contactId },
+                types: [
+                  {
+                    associationCategory: "HUBSPOT_DEFINED",
+                    associationTypeId: 204,
+                  },
+                ],
+              },
+            ],
+          }),
+        }
+      );
+
+      if (!taskResponse.ok) {
+        console.error("Failed to create task, but contact was created");
+      }
     }
 
     return NextResponse.json({
       success: true,
-      message: "Successfully joined waitlist",
+      message: response.status === 409 ? "Already on waitlist" : "Successfully joined waitlist",
     });
   } catch (error) {
     console.error("Waitlist error:", error);

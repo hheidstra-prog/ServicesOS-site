@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { CheckCircle, Loader2, ArrowRight } from "lucide-react";
 
 export function WaitlistCTA() {
   const t = useTranslations("waitlist");
+  const locale = useLocale();
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
@@ -24,7 +25,7 @@ export function WaitlistCTA() {
       const response = await fetch("/api/hubspot/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, name, company }),
+        body: JSON.stringify({ email, name, company, preferred_language: locale }),
       });
 
       const data = await response.json();

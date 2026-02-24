@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
 import { DemoVideoModal } from "@/components/modals/demo-video-modal";
+import { GetStartedButton } from "@/components/modals/get-started-modal";
 import { ChatAnimationCarousel } from "@/components/sections/chat-animation-carousel";
 
 export function Hero() {
@@ -46,13 +46,12 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-10 flex flex-col gap-4 sm:flex-row"
           >
-            <Link
-              href="#waitlist"
-              className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-8 text-base font-medium text-white shadow-lg shadow-primary-600/25 transition-all hover:shadow-xl hover:shadow-primary-600/30 hover:-translate-y-0.5"
+            <GetStartedButton
+              className="inline-flex h-12 cursor-pointer items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-8 text-base font-medium text-white shadow-lg shadow-primary-600/25 transition-all hover:shadow-xl hover:shadow-primary-600/30 hover:-translate-y-0.5"
             >
               {t("ctaPrimary")}
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </GetStartedButton>
             <button
               onClick={() => setDemoOpen(true)}
               className="inline-flex h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-[var(--border)] bg-white px-8 text-base font-medium text-primary-600 transition-all hover:bg-primary-50 hover:border-primary-300"

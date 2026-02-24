@@ -57,12 +57,11 @@ export function Header() {
           >
             {t("signIn")}
           </GetStartedButton>
-          <Link
-            href={`/${locale}#waitlist`}
-            className="inline-flex h-9 items-center rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-4 text-sm font-medium text-white shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5"
+          <GetStartedButton
+            className="inline-flex h-9 cursor-pointer items-center rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-4 text-sm font-medium text-white shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5"
           >
             {t("startTrial")}
-          </Link>
+          </GetStartedButton>
         </div>
 
         {/* Mobile menu button */}
@@ -105,12 +104,11 @@ export function Header() {
               {t("signIn")}
             </GetStartedButton>
           </div>
-          <Link
-            href={`/${locale}#waitlist`}
-            className="mt-2 block rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-4 py-2.5 text-center text-sm font-medium text-white"
+          <GetStartedButton
+            className="mt-2 block cursor-pointer rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 px-4 py-2.5 text-center text-sm font-medium text-white"
           >
             {t("startTrial")}
-          </Link>
+          </GetStartedButton>
         </div>
       </div>
     </header>

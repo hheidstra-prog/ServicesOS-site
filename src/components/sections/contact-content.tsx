@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { Mail, Clock, MapPin, CheckCircle, Loader2, Calendar } from "lucide-react";
 import { ScheduleCallModal } from "@/components/modals/schedule-call-modal";
@@ -17,6 +17,7 @@ const subjectKeys = [
 export function ContactContent() {
   const t = useTranslations("contactPage");
   const tSchedule = useTranslations("scheduleCall");
+  const locale = useLocale();
   const [status, setStatus] = useState<
     "idle" | "loading" | "success" | "error"
   >("idle");
@@ -43,6 +44,7 @@ export function ContactContent() {
           name: formData.get("name"),
           subject: formData.get("subject"),
           message: formData.get("message"),
+          preferred_language: locale,
         }),
       });
 

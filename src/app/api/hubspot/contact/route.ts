@@ -6,7 +6,7 @@ const HUBSPOT_OWNER_ID = process.env.HUBSPOT_OWNER_ID;
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { email, name, subject, message } = body;
+    const { email, name, subject, message, preferred_language } = body;
 
     if (!email) {
       return NextResponse.json(
@@ -46,6 +46,7 @@ export async function POST(request: NextRequest) {
             hs_lead_status: "NEW",
             contact_form_submission: true,
             product: "Servible",
+            preferred_language: preferred_language || "",
             hubspot_owner_id: HUBSPOT_OWNER_ID || "",
           },
         }),
@@ -128,6 +129,45 @@ export async function POST(request: NextRequest) {
 
     if (!noteResponse.ok) {
       console.error("Failed to create note, but contact was created");
+    }
+
+    // Create a task so the owner gets a notification
+    const taskResponse = await fetch(
+      "https://api.hubapi.com/crm/v3/objects/tasks",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${HUBSPOT_ACCESS_TOKEN}`,
+        },
+        body: JSON.stringify({
+          properties: {
+            hs_task_subject: `Follow up: contact form from ${name || email}`,
+            hs_task_body: subject
+              ? `[${subject}] ${message}`
+              : message,
+            hs_task_status: "NOT_STARTED",
+            hs_task_priority: "HIGH",
+            hs_timestamp: Date.now(),
+            hubspot_owner_id: HUBSPOT_OWNER_ID || "",
+          },
+          associations: [
+            {
+              to: { id: contactId },
+              types: [
+                {
+                  associationCategory: "HUBSPOT_DEFINED",
+                  associationTypeId: 204,
+                },
+              ],
+            },
+          ],
+        }),
+      }
+    );
+
+    if (!taskResponse.ok) {
+      console.error("Failed to create task, but contact was created");
     }
 
     return NextResponse.json({
