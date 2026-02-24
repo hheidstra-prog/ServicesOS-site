@@ -9,12 +9,12 @@
     "about": "About",
     "contact": "Contact",
     "signIn": "Sign in",
-    "startTrial": "Start free trial"
+    "startTrial": "Try free for 14 days"
   },
   "hero": {
     "headline": "Run your service business with AI",
     "subheadline": "Servible replaces your CRM, scheduling, invoicing, and website tools with one intelligent platform. Less admin, more client work.",
-    "ctaPrimary": "Start free trial",
+    "ctaPrimary": "Try free for 14 days",
     "ctaSecondary": "See how it works",
     "carousel": {
       "online": "Online",
@@ -142,7 +142,7 @@
   "cta": {
     "headline": "Ready to simplify your business?",
     "subheadline": "Start your free 14-day trial. No credit card required.",
-    "button": "Get started free"
+    "button": "Try free for 14 days"
   },
   "waitlist": {
     "headline": "Be the first to try Servible",
@@ -761,71 +761,56 @@
   "pricingPage": {
     "meta": {
       "title": "Pricing — Servible",
-      "description": "Simple, transparent pricing starting free. No hidden fees, no contracts. Start your 14-day free trial today."
+      "description": "Simple pricing per user. Everything included. Start your 14-day free trial today."
     },
     "hero": {
-      "headline": "Simple pricing for growing businesses",
-      "subheadline": "Start free, upgrade when you're ready. No surprise fees."
+      "headline": "Simple pricing. No surprises.",
+      "subheadline": "One price per user. Everything included. 14 days free trial."
     },
     "monthly": "Monthly",
     "annual": "Annual",
-    "perMonth": "/month",
-    "perYear": "/year",
+    "perMonth": "/user/month",
+    "perYear": "/user/year",
     "save": "Save",
     "mostPopular": "Most popular",
-    "starter": {
-      "name": "Starter",
-      "price": "0",
-      "description": "For freelancers just getting started",
-      "cta": "Start free",
-      "f1": "5 active clients",
-      "f2": "Basic CRM",
-      "f3": "1 booking type",
-      "f4": "5 invoices/month",
-      "f5": "Servible subdomain website",
-      "f6": "Email support"
-    },
     "professional": {
       "name": "Professional",
       "priceMonthly": "29",
       "priceAnnual": "290",
       "saveAmount": "€58",
-      "description": "For established freelancers and small teams",
+      "description": "For freelancers and consultants",
       "cta": "Start 14-day free trial",
-      "includes": "Everything in Starter, plus:",
-      "f1": "Unlimited clients",
-      "f2": "Full AI assistant access",
-      "f3": "Unlimited booking types",
-      "f4": "Unlimited invoices",
+      "f1": "Everything unlimited: clients, invoices, bookings, projects",
+      "f2": "Full AI assistant",
+      "f3": "Website with custom domain",
+      "f4": "Client portal",
       "f5": "Quotes & contracts with e-signature",
-      "f6": "Client portal",
-      "f7": "Custom domain",
-      "f8": "Priority support"
+      "f6": "iDEAL, card & SEPA payments",
+      "f7": "Email support"
     },
     "agency": {
       "name": "Agency",
       "priceMonthly": "79",
       "priceAnnual": "790",
       "saveAmount": "€158",
-      "description": "For agencies and growing teams",
+      "description": "For teams and agencies",
       "cta": "Start 14-day free trial",
       "includes": "Everything in Professional, plus:",
-      "f1": "Up to 5 team members",
-      "f2": "Role-based permissions",
-      "f3": "Multiple websites",
-      "f4": "Advanced reporting",
-      "f5": "API access",
-      "f6": "Dedicated onboarding",
-      "f7": "Phone support"
+      "f1": "Team management & permissions",
+      "f2": "Multiple websites",
+      "f3": "Advanced reporting",
+      "f4": "API access",
+      "f5": "Dedicated onboarding",
+      "f6": "Priority support (phone & email)"
     },
     "faq": {
       "headline": "Frequently asked questions",
-      "q1": { "q": "Can I switch plans later?", "a": "Yes, upgrade or downgrade anytime. Changes take effect on your next billing cycle." },
-      "q2": { "q": "What payment methods do you accept?", "a": "We accept all major credit cards, iDEAL, SEPA direct debit, and Bancontact." },
-      "q3": { "q": "Is there a contract or commitment?", "a": "No contracts. Monthly plans can be cancelled anytime. Annual plans are billed upfront with a 30-day money-back guarantee." },
-      "q4": { "q": "What happens to my data if I cancel?", "a": "You can export all your data anytime. After cancellation, your data is retained for 30 days, then permanently deleted." },
-      "q5": { "q": "Do you offer discounts for non-profits?", "a": "Yes, registered non-profits get 30% off any plan. Contact us with proof of status." },
-      "q6": { "q": "Is my data secure?", "a": "Yes. We use industry-standard encryption, EU-based servers, and are fully GDPR compliant." }
+      "q1": { "q": "What's included in the 14-day trial?", "a": "Everything. Full access to all features, no credit card required. After 14 days you decide if you want to continue." },
+      "q2": { "q": "What about AI usage?", "a": "Normal usage is included. We have a fair use policy — if usage is extreme, we'll reach out to find a suitable solution." },
+      "q3": { "q": "Can I upgrade or downgrade later?", "a": "Yes, anytime. Changes take effect on your next billing cycle." },
+      "q4": { "q": "What payment methods do you accept?", "a": "iDEAL, credit card, SEPA direct debit, and Bancontact." },
+      "q5": { "q": "Is there a contract?", "a": "No. Cancel monthly anytime. Yearly plans have a 30-day money-back guarantee." },
+      "q6": { "q": "Is my data secure?", "a": "Yes. EU servers, GDPR compliant, industry-standard encryption." }
     }
   },
   "aboutPage": {
@@ -980,8 +965,8 @@
         "a": "Sign up for the early bird list to get notified when we launch. You'll get early access and lock in our launch pricing forever. Or schedule a call to see a personal demo."
       },
       "q2": {
-        "q": "Is there a free plan?",
-        "a": "Yes. The Starter plan is free and includes up to 5 active clients, basic CRM, 1 booking type, and 5 invoices per month. It's perfect for getting started and seeing if Servible is right for you."
+        "q": "Is there a free trial?",
+        "a": "Yes. Every plan comes with a 14-day free trial with full access to all features. No credit card required. After 14 days you decide if you want to continue."
       },
       "q3": {
         "q": "Can I migrate from my current tools?",

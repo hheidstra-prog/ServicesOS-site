@@ -9,12 +9,12 @@
     "about": "Over ons",
     "contact": "Contact",
     "signIn": "Inloggen",
-    "startTrial": "Start gratis"
+    "startTrial": "Probeer 14 dagen gratis"
   },
   "hero": {
     "headline": "Run je servicebedrijf met AI",
     "subheadline": "Servible vervangt je CRM, planning, facturatie en website tools door één intelligent platform. Minder admin, meer klantwerk.",
-    "ctaPrimary": "Start gratis proefperiode",
+    "ctaPrimary": "Probeer 14 dagen gratis",
     "ctaSecondary": "Bekijk hoe het werkt",
     "carousel": {
       "online": "Online",
@@ -142,7 +142,7 @@
   "cta": {
     "headline": "Klaar om je bedrijf te versimpelen?",
     "subheadline": "Start je gratis proefperiode van 14 dagen. Geen creditcard nodig.",
-    "button": "Start gratis"
+    "button": "Probeer 14 dagen gratis"
   },
   "waitlist": {
     "headline": "Wees de eerste die Servible probeert",
@@ -761,71 +761,56 @@
   "pricingPage": {
     "meta": {
       "title": "Pricing — Servible",
-      "description": "Simpele, transparante pricing vanaf gratis. Geen verborgen kosten, geen contracten. Start vandaag je 14-daagse gratis proefperiode."
+      "description": "Simpele pricing per gebruiker. Alles inbegrepen. Start vandaag je 14-daagse gratis proefperiode."
     },
     "hero": {
-      "headline": "Simpele pricing voor groeiende bedrijven",
-      "subheadline": "Start gratis, upgrade wanneer je klaar bent. Geen verrassingskosten."
+      "headline": "Simpele pricing. Geen verrassingen.",
+      "subheadline": "Eén prijs per gebruiker. Alles inbegrepen. 14 dagen gratis proberen."
     },
     "monthly": "Maandelijks",
     "annual": "Jaarlijks",
-    "perMonth": "/maand",
-    "perYear": "/jaar",
+    "perMonth": "/gebruiker/maand",
+    "perYear": "/gebruiker/jaar",
     "save": "Bespaar",
     "mostPopular": "Populairst",
-    "starter": {
-      "name": "Starter",
-      "price": "0",
-      "description": "Voor freelancers die net beginnen",
-      "cta": "Start gratis",
-      "f1": "5 actieve klanten",
-      "f2": "Basis CRM",
-      "f3": "1 boekingstype",
-      "f4": "5 facturen/maand",
-      "f5": "Servible subdomein website",
-      "f6": "Email support"
-    },
     "professional": {
       "name": "Professional",
       "priceMonthly": "29",
       "priceAnnual": "290",
       "saveAmount": "€58",
-      "description": "Voor gevestigde freelancers en kleine teams",
-      "cta": "Start 14-daagse proefperiode",
-      "includes": "Alles in Starter, plus:",
-      "f1": "Onbeperkt klanten",
-      "f2": "Volledige AI assistent toegang",
-      "f3": "Onbeperkt boekingstypes",
-      "f4": "Onbeperkt facturen",
+      "description": "Voor freelancers en consultants",
+      "cta": "Start 14-daagse gratis proefperiode",
+      "f1": "Alles onbeperkt: klanten, facturen, boekingen, projecten",
+      "f2": "Volledige AI assistent",
+      "f3": "Website met custom domein",
+      "f4": "Klantportaal",
       "f5": "Offertes & contracten met e-handtekening",
-      "f6": "Klantportaal",
-      "f7": "Custom domein",
-      "f8": "Priority support"
+      "f6": "iDEAL, kaart & SEPA betalingen",
+      "f7": "Email support"
     },
     "agency": {
       "name": "Agency",
       "priceMonthly": "79",
       "priceAnnual": "790",
       "saveAmount": "€158",
-      "description": "Voor agencies en groeiende teams",
-      "cta": "Start 14-daagse proefperiode",
+      "description": "Voor teams en agencies",
+      "cta": "Start 14-daagse gratis proefperiode",
       "includes": "Alles in Professional, plus:",
-      "f1": "Tot 5 teamleden",
-      "f2": "Role-based permissions",
-      "f3": "Meerdere websites",
-      "f4": "Geavanceerde rapportages",
-      "f5": "API toegang",
-      "f6": "Dedicated onboarding",
-      "f7": "Telefonische support"
+      "f1": "Team management & permissies",
+      "f2": "Meerdere websites",
+      "f3": "Geavanceerde rapportages",
+      "f4": "API toegang",
+      "f5": "Dedicated onboarding",
+      "f6": "Priority support (telefoon & email)"
     },
     "faq": {
       "headline": "Veelgestelde vragen",
-      "q1": { "q": "Kan ik later van plan wisselen?", "a": "Ja, upgrade of downgrade wanneer je wilt. Wijzigingen gaan in op je volgende factuurcyclus." },
-      "q2": { "q": "Welke betaalmethodes accepteren jullie?", "a": "We accepteren alle gangbare creditcards, iDEAL, SEPA automatische incasso en Bancontact." },
-      "q3": { "q": "Is er een contract of commitment?", "a": "Geen contracten. Maandelijkse plannen kunnen altijd opgezegd worden. Jaarplannen worden vooraf gefactureerd met 30 dagen geld-terug-garantie." },
-      "q4": { "q": "Wat gebeurt er met mijn data als ik opzeg?", "a": "Je kunt al je data altijd exporteren. Na opzegging wordt je data 30 dagen bewaard, daarna permanent verwijderd." },
-      "q5": { "q": "Bieden jullie korting voor non-profits?", "a": "Ja, geregistreerde non-profits krijgen 30% korting op elk plan. Neem contact op met bewijs van status." },
-      "q6": { "q": "Is mijn data veilig?", "a": "Ja. We gebruiken industrie-standaard encryptie, EU-gebaseerde servers en zijn volledig GDPR compliant." }
+      "q1": { "q": "Wat zit er in de 14-daagse proefperiode?", "a": "Alles. Volledige toegang tot alle features, geen creditcard nodig. Na 14 dagen kies je of je doorgaat." },
+      "q2": { "q": "Hoe zit het met AI-gebruik?", "a": "Normaal gebruik zit in de prijs. We hanteren een fair use policy — bij extreem gebruik nemen we contact op om een passende oplossing te vinden." },
+      "q3": { "q": "Kan ik later upgraden of downgraden?", "a": "Ja, wanneer je wilt. Wijzigingen gaan in op je volgende factuurcyclus." },
+      "q4": { "q": "Welke betaalmethodes accepteren jullie?", "a": "iDEAL, creditcard, SEPA automatische incasso en Bancontact." },
+      "q5": { "q": "Is er een contract?", "a": "Nee. Maandelijks opzegbaar. Jaarplannen hebben 30 dagen geld-terug-garantie." },
+      "q6": { "q": "Is mijn data veilig?", "a": "Ja. EU-servers, GDPR compliant, industrie-standaard encryptie." }
     }
   },
   "aboutPage": {
@@ -980,8 +965,8 @@
         "a": "Meld je aan voor de early bird lijst om een melding te krijgen bij lancering. Je krijgt early access en vergrendelt onze launch pricing voor altijd. Of plan een gesprek voor een persoonlijke demo."
       },
       "q2": {
-        "q": "Is er een gratis plan?",
-        "a": "Ja. Het Starter plan is gratis en bevat tot 5 actieve klanten, basis CRM, 1 boekingstype en 5 facturen per maand. Het is perfect om te beginnen en te kijken of Servible bij je past."
+        "q": "Is er een gratis proefperiode?",
+        "a": "Ja. Elk plan komt met een 14-daagse gratis proefperiode met volledige toegang tot alle features. Geen creditcard nodig. Na 14 dagen kies je of je doorgaat."
       },
       "q3": {
         "q": "Kan ik migreren van mijn huidige tools?",

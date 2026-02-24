@@ -14,15 +14,9 @@ export function PricingContent() {
 
   const tiers = [
     {
-      key: "starter",
-      price: "0",
-      features: Array.from({ length: 6 }, (_, i) => t(`starter.f${i + 1}`)),
-      popular: false,
-    },
-    {
       key: "professional",
       price: annual ? t("professional.priceAnnual") : t("professional.priceMonthly"),
-      features: Array.from({ length: 8 }, (_, i) =>
+      features: Array.from({ length: 7 }, (_, i) =>
         t(`professional.f${i + 1}`)
       ),
       popular: true,
@@ -30,7 +24,7 @@ export function PricingContent() {
     {
       key: "agency",
       price: annual ? t("agency.priceAnnual") : t("agency.priceMonthly"),
-      features: Array.from({ length: 7 }, (_, i) => t(`agency.f${i + 1}`)),
+      features: Array.from({ length: 6 }, (_, i) => t(`agency.f${i + 1}`)),
       popular: false,
     },
   ];
@@ -112,7 +106,7 @@ export function PricingContent() {
       {/* Pricing cards */}
       <section className="-mt-8 pb-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-4xl gap-8 lg:grid-cols-2">
             {tiers.map((tier, index) => (
               <motion.div
                 key={tier.key}
@@ -144,13 +138,11 @@ export function PricingContent() {
                     &euro;{tier.price}
                   </span>
                   <span className="text-sm text-[var(--muted-foreground)]">
-                    {annual && tier.key !== "starter"
-                      ? t("perYear")
-                      : t("perMonth")}
+                    {annual ? t("perYear") : t("perMonth")}
                   </span>
                 </div>
 
-                {annual && tier.key !== "starter" && (
+                {annual && (
                   <p className="mt-1 text-xs text-accent-600 font-medium">
                     {t("save")} {t(`${tier.key}.saveAmount`)}
                   </p>
@@ -168,7 +160,7 @@ export function PricingContent() {
                 </GetStartedButton>
 
                 <div className="mt-8">
-                  {tier.key !== "starter" && (
+                  {tier.key === "agency" && (
                     <p className="mb-4 text-sm font-medium text-[var(--foreground)]">
                       {t(`${tier.key}.includes`)}
                     </p>
