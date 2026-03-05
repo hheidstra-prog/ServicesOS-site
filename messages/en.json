@@ -8,6 +8,7 @@
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
+    "blog": "Blog",
     "signIn": "Sign in",
     "startTrial": "Try free for 14 days"
   },
@@ -173,8 +174,28 @@
   },
   "scheduleCall": {
     "title": "Schedule a call",
-    "description": "Prefer to talk? Book a time and we'll walk you through Servible.",
-    "button": "Book a time"
+    "description": "Pick a date and time and we'll walk you through Servible.",
+    "button": "Book a time",
+    "form": {
+      "howLong": "How long do you need?",
+      "mins": "mins",
+      "whatTime": "What time works best?",
+      "showingTimes": "Showing times for",
+      "noSlots": "No available times on this date. Please pick another day.",
+      "yourInfo": "Your information",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "emailAddress": "Your email address",
+      "phone": "Phone (optional)",
+      "notes": "Notes (optional)",
+      "notesPlaceholder": "Anything you'd like to discuss?",
+      "edit": "Edit",
+      "back": "Back",
+      "confirm": "Confirm",
+      "submitting": "Booking...",
+      "success": "Call booked!",
+      "successDetail": "You'll receive a confirmation email shortly."
+    }
   },
   "demoVideo": {
     "title": "See Servible in action",
@@ -997,6 +1018,22 @@
     },
     "title": "GDPR Compliance",
     "lastUpdated": "Last updated: February 2026"
+  },
+  "blogPage": {
+    "meta": {
+      "title": "Blog — Servible",
+      "description": "Tips, guides, and insights for service professionals."
+    },
+    "allCategories": "All",
+    "backToBlog": "Back to blog",
+    "readTime": "{minutes} min read",
+    "onThisPage": "On this page",
+    "categories": "Categories",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {totalPages}",
+    "noPosts": "No posts found.",
+    "by": "By"
   },
   "footer": {
     "product": "Product",

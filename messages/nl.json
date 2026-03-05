@@ -8,6 +8,7 @@
     "pricing": "Pricing",
     "about": "Over ons",
     "contact": "Contact",
+    "blog": "Blog",
     "signIn": "Inloggen",
     "startTrial": "Probeer 14 dagen gratis"
   },
@@ -173,8 +174,28 @@
   },
   "scheduleCall": {
     "title": "Plan een gesprek",
-    "description": "Liever praten? Boek een moment en we laten je Servible zien.",
-    "button": "Plan een tijd"
+    "description": "Kies een datum en tijd en we laten je Servible zien.",
+    "button": "Plan een tijd",
+    "form": {
+      "howLong": "Hoe lang heb je nodig?",
+      "mins": "min",
+      "whatTime": "Welke tijd past het best?",
+      "showingTimes": "Beschikbare tijden voor",
+      "noSlots": "Geen beschikbare tijden op deze datum. Kies een andere dag.",
+      "yourInfo": "Jouw gegevens",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "emailAddress": "Je e-mailadres",
+      "phone": "Telefoon (optioneel)",
+      "notes": "Opmerkingen (optioneel)",
+      "notesPlaceholder": "Wil je iets specifieks bespreken?",
+      "edit": "Wijzig",
+      "back": "Terug",
+      "confirm": "Bevestigen",
+      "submitting": "Boeken...",
+      "success": "Gesprek geboekt!",
+      "successDetail": "Je ontvangt binnenkort een bevestigingsmail."
+    }
   },
   "demoVideo": {
     "title": "Bekijk Servible in actie",
@@ -997,6 +1018,22 @@
     },
     "title": "GDPR Compliance",
     "lastUpdated": "Laatst bijgewerkt: februari 2026"
+  },
+  "blogPage": {
+    "meta": {
+      "title": "Blog — Servible",
+      "description": "Tips, gidsen en inzichten voor dienstverleners."
+    },
+    "allCategories": "Alles",
+    "backToBlog": "Terug naar blog",
+    "readTime": "{minutes} min leestijd",
+    "onThisPage": "Inhoudsopgave",
+    "categories": "Categorieën",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "pageOf": "Pagina {page} van {totalPages}",
+    "noPosts": "Geen berichten gevonden.",
+    "by": "Door"
   },
   "footer": {
     "product": "Product",

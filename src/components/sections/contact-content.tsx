@@ -36,12 +36,12 @@ export function ContactContent() {
     if (formData.get("website")) return;
 
     try {
-      const response = await fetch("/api/hubspot/contact", {
+      const response = await fetch("/api/servible/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: formData.get("email"),
           name: formData.get("name"),
+          email: formData.get("email"),
           subject: formData.get("subject"),
           message: formData.get("message"),
           preferred_language: locale,

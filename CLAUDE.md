@@ -75,7 +75,36 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 - **Founder bio:** `aboutPage.founder` uses keys `p1`–`p5` for five paragraphs
 - **Docs folder:** `docs/` contains briefing documents (e.g. `pricing.md`) used as input for changes
 - **CTA buttons:** All "try free" / "start trial" buttons (header, hero, pricing) open the `GetStartedModal` — not plain links
-- **HubSpot forms:** Both contact and waitlist forms send `preferred_language` (visitor's locale) and create a HubSpot task assigned to `HUBSPOT_OWNER_ID` for notifications. Contact form tasks are HIGH priority; waitlist tasks are MEDIUM.
+
+## Servible API Integration
+
+All forms now submit to the Servible platform via server-side API routes. Env vars: `SERVIBLE_API_URL` (default `http://localhost:3001/api/v1`) and `SERVIBLE_API_KEY`.
+
+| Form | Frontend component | API route | Servible endpoint | source | title |
+|---|---|---|---|---|---|
+| Contact | `sections/contact-content.tsx` | `/api/servible/contact` | `POST /contacts` | `contact_form` | Contact form submission |
+| Schedule a call | `modals/schedule-call-modal.tsx` | `/api/servible/bookings` | `POST /bookings` | `Servible Site` | — |
+| Waitlist / Early bird | `sections/waitlist-cta.tsx` | `/api/servible/waitlist` | `POST /contacts` | `early_bird` | Early bird signup |
+
+**Booking flow** (schedule-call modal) also uses these read endpoints:
+- `GET /api/servible/bookings/config` → durations, org name, title
+- `GET /api/servible/bookings/available-days` → which weekdays are bookable
+- `GET /api/servible/bookings/available-slots?date=...&duration=...` → time slots for a date
+
+The modal is a two-step flow: step 1 picks duration + date + time (two-column layout with calendar and scrollable slot list), step 2 collects contact details (first/last name, email, phone, notes) with Back/Confirm footer. Fixed height (`600px`) across all views.
+
+## HubSpot — Legacy (to be removed)
+
+The old HubSpot integration files are still in the codebase but **no longer used by any frontend component**:
+
+- `src/app/api/hubspot/contact/route.ts` — was used by contact form
+- `src/app/api/hubspot/waitlist/route.ts` — was used by waitlist form
+- `src/components/modals/schedule-call-modal.tsx` previously embedded HubSpot Meetings iframe (replaced)
+
+**Cleanup tasks:**
+- Delete `src/app/api/hubspot/` directory (both `contact/` and `waitlist/` routes)
+- Remove `HUBSPOT_ACCESS_TOKEN`, `HUBSPOT_PORTAL_ID`, `HUBSPOT_OWNER_ID` from `.env.local` and `.env.example`
+- Verify no other components reference `/api/hubspot/` or HubSpot env vars
 
 ## What Could Be Next
 
@@ -86,3 +115,4 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 - 404 page
 - Structured data (JSON-LD)
 - Mobile testing pass
+- Remove legacy HubSpot files (see section above)

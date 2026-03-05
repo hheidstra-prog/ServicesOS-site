@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { CheckCircle, Loader2, ArrowRight } from "lucide-react";
 
 export function WaitlistCTA() {
   const t = useTranslations("waitlist");
-  const locale = useLocale();
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
@@ -22,10 +21,10 @@ export function WaitlistCTA() {
     setErrorMessage("");
 
     try {
-      const response = await fetch("/api/hubspot/waitlist", {
+      const response = await fetch("/api/servible/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, name, company, preferred_language: locale }),
+        body: JSON.stringify({ name, email, company }),
       });
 
       const data = await response.json();
@@ -97,6 +96,7 @@ export function WaitlistCTA() {
               <div className="flex w-full max-w-md gap-3">
                 <input
                   type="text"
+                  required
                   placeholder={t("namePlaceholder")}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
