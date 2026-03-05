@@ -10,6 +10,9 @@ import { CrmCardMockup } from "@/components/visuals/crm-card-mockup";
 import { BookingPageMockup } from "@/components/visuals/booking-page-mockup";
 import { QuoteMockup } from "@/components/visuals/quote-mockup";
 import { TimeInvoiceMockup } from "@/components/visuals/time-invoice-mockup";
+import { TimeTrackerMockup } from "@/components/visuals/time-tracker-mockup";
+import { ProjectBoardMockup } from "@/components/visuals/project-board-mockup";
+import { TeamPageMockup } from "@/components/visuals/team-page-mockup";
 import { WebsiteBuilderMockup } from "@/components/visuals/website-builder-mockup";
 import { PortalMockup } from "@/components/visuals/portal-mockup";
 import { BlogEditorMockup } from "@/components/visuals/blog-editor-mockup";
@@ -26,27 +29,33 @@ export async function generateMetadata({
 }
 
 const featureSections = [
-  { key: "aiAssistant", icon: "bot", featureCount: 5, descriptionCount: 3 },
+  { key: "aiAssistant", icon: "bot", featureCount: 6, descriptionCount: 3 },
   { key: "crm", icon: "users", featureCount: 5, descriptionCount: 2 },
+  { key: "projectsTasks", icon: "listTodo", featureCount: 6, descriptionCount: 2 },
   { key: "booking", icon: "calendar", featureCount: 6, descriptionCount: 2 },
   { key: "quotes", icon: "fileText", featureCount: 6, descriptionCount: 2 },
+  { key: "timeTracking", icon: "timer", featureCount: 6, descriptionCount: 2 },
   { key: "invoicing", icon: "clock", featureCount: 8, descriptionCount: 2 },
   { key: "websiteBuilder", icon: "globe", featureCount: 7, descriptionCount: 2 },
   { key: "portal", icon: "userCircle", featureCount: 7, descriptionCount: 2 },
   { key: "blog", icon: "penTool", featureCount: 7, descriptionCount: 2 },
   { key: "fileManager", icon: "folderSearch", featureCount: 6, descriptionCount: 2 },
+  { key: "teamManagement", icon: "usersRound", featureCount: 5, descriptionCount: 2 },
 ] as const;
 
 const visualMap: Record<string, React.ReactNode> = {
   aiAssistant: <AiChatMockup />,
   crm: <CrmCardMockup />,
+  projectsTasks: <ProjectBoardMockup />,
   booking: <BookingPageMockup />,
   quotes: <QuoteMockup />,
+  timeTracking: <TimeTrackerMockup />,
   invoicing: <TimeInvoiceMockup />,
   websiteBuilder: <WebsiteBuilderMockup />,
   portal: <PortalMockup />,
   blog: <BlogEditorMockup />,
   fileManager: <FileManagerMockup />,
+  teamManagement: <TeamPageMockup />,
 };
 
 export default function FeaturesPage() {

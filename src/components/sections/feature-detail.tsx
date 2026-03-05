@@ -13,6 +13,9 @@ import {
   UserCircle,
   PenTool,
   FolderSearch,
+  ListTodo,
+  Timer,
+  UsersRound,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -26,6 +29,9 @@ const iconMap = {
   userCircle: UserCircle,
   penTool: PenTool,
   folderSearch: FolderSearch,
+  listTodo: ListTodo,
+  timer: Timer,
+  usersRound: UsersRound,
 } as const;
 
 type IconKey = keyof typeof iconMap;

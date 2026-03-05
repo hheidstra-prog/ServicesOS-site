@@ -48,24 +48,6 @@ export function ChatAnimationCarousel() {
 
   const variants = [
     {
-      title: t("variants.briefing.title"),
-      messages: [
-        { role: "user" as const, content: t("variants.briefing.user1") },
-        {
-          role: "assistant" as const,
-          content: t("variants.briefing.assistant1"),
-          checkmarks: [
-            t("variants.briefing.check1"),
-            t("variants.briefing.check2"),
-            t("variants.briefing.check3"),
-            t("variants.briefing.check4"),
-          ],
-        },
-        { role: "user" as const, content: t("variants.briefing.user2") },
-        { role: "assistant" as const, content: t("variants.briefing.assistant2"), isSuccess: true },
-      ],
-    },
-    {
       title: t("variants.onboarding.title"),
       messages: [
         { role: "user" as const, content: t("variants.onboarding.user1") },
@@ -84,37 +66,46 @@ export function ChatAnimationCarousel() {
       ],
     },
     {
-      title: t("variants.invoicing.title"),
+      title: t("variants.paymentFollowUp.title"),
       messages: [
-        { role: "user" as const, content: t("variants.invoicing.user1") },
+        { role: "user" as const, content: t("variants.paymentFollowUp.user1") },
         {
           role: "assistant" as const,
-          content: t("variants.invoicing.assistant1"),
+          content: t("variants.paymentFollowUp.assistant1"),
           checkmarks: [
-            t("variants.invoicing.check1"),
-            t("variants.invoicing.check2"),
-            t("variants.invoicing.check3"),
+            t("variants.paymentFollowUp.check1"),
+            t("variants.paymentFollowUp.check2"),
+            t("variants.paymentFollowUp.check3"),
           ],
         },
-        { role: "user" as const, content: t("variants.invoicing.user2") },
-        { role: "assistant" as const, content: t("variants.invoicing.assistant2"), isSuccess: true },
+        { role: "user" as const, content: t("variants.paymentFollowUp.user2") },
+        {
+          role: "assistant" as const,
+          content: t("variants.paymentFollowUp.assistant2"),
+          checkmarks: [
+            t("variants.paymentFollowUp.assistant2check1"),
+            t("variants.paymentFollowUp.assistant2check2"),
+            t("variants.paymentFollowUp.assistant2check3"),
+          ],
+          isSuccess: true,
+        },
       ],
     },
     {
-      title: t("variants.blog.title"),
+      title: t("variants.weeklySummary.title"),
       messages: [
-        { role: "user" as const, content: t("variants.blog.user1") },
+        { role: "user" as const, content: t("variants.weeklySummary.user1") },
         {
           role: "assistant" as const,
-          content: t("variants.blog.assistant1"),
+          content: t("variants.weeklySummary.assistant1"),
           checkmarks: [
-            t("variants.blog.check1"),
-            t("variants.blog.check2"),
-            t("variants.blog.check3"),
+            t("variants.weeklySummary.check1"),
+            t("variants.weeklySummary.check2"),
+            t("variants.weeklySummary.check3"),
           ],
         },
-        { role: "user" as const, content: t("variants.blog.user2") },
-        { role: "assistant" as const, content: t("variants.blog.assistant2"), isSuccess: true },
+        { role: "user" as const, content: t("variants.weeklySummary.user2") },
+        { role: "assistant" as const, content: t("variants.weeklySummary.assistant2"), isSuccess: true },
       ],
     },
   ];

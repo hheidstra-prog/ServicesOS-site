@@ -1,163 +1,132 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Clock, ArrowDown, CheckCircle2, CreditCard } from "lucide-react";
-
-function TimeEntry({
-  task,
-  client,
-  time,
-  rate,
-  billableLabel,
-  billable,
-}: {
-  task: string;
-  client: string;
-  time: string;
-  rate?: string;
-  billableLabel: string;
-  billable: boolean;
-}) {
-  return (
-    <div className="flex items-center justify-between py-2">
-      <div className="flex items-center gap-2.5 min-w-0">
-        <div
-          className={`h-2 w-2 shrink-0 rounded-full ${
-            billable ? "bg-accent-500" : "bg-gray-300"
-          }`}
-        />
-        <div className="min-w-0">
-          <p className="text-[11px] font-medium text-[var(--foreground)] truncate">
-            {task}
-          </p>
-          <p className="text-[10px] text-[var(--muted-foreground)]">
-            {client}
-            {rate && (
-              <span className="ml-1.5 text-primary-500">{rate}</span>
-            )}
-          </p>
-        </div>
-      </div>
-      <div className="shrink-0 text-right ml-3">
-        <p className="text-[12px] font-semibold text-[var(--foreground)] tabular-nums">
-          {time}
-        </p>
-        <p
-          className={`text-[9px] font-medium ${
-            billable ? "text-accent-600" : "text-gray-400"
-          }`}
-        >
-          {billableLabel}
-        </p>
-      </div>
-    </div>
-  );
-}
+import { CheckCircle2, CreditCard, FileText, Download } from "lucide-react";
 
 export function TimeInvoiceMockup() {
   const t = useTranslations("featuresPage.invoicing.mockup");
 
   return (
-    <div className="space-y-3">
-      {/* Time tracker card */}
-      <div className="overflow-hidden rounded-2xl border border-[var(--border)] bg-white shadow-lg">
-        {/* Header */}
-        <div className="flex items-center justify-between border-b border-[var(--border)] bg-[var(--muted)] px-5 py-3">
-          <div className="flex items-center gap-2.5">
-            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-accent-100">
-              <Clock className="h-4 w-4 text-primary-600" />
-            </div>
-            <span className="text-sm font-medium text-[var(--foreground)]">
-              {t("timerTitle")}
-            </span>
-          </div>
-          {/* Summary pills */}
-          <div className="flex gap-2">
-            <div className="rounded-full bg-primary-50 px-2.5 py-0.5 border border-primary-100">
-              <span className="text-[9px] text-[var(--muted-foreground)]">
-                {t("todayLabel")}{" "}
-              </span>
-              <span className="text-[10px] font-bold text-primary-600">
-                {t("todayHours")}
-              </span>
-            </div>
-            <div className="hidden sm:block rounded-full bg-primary-50 px-2.5 py-0.5 border border-primary-100">
-              <span className="text-[9px] text-[var(--muted-foreground)]">
-                {t("weekLabel")}{" "}
-              </span>
-              <span className="text-[10px] font-bold text-primary-600">
-                {t("weekHours")}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* Time entries */}
-        <div className="divide-y divide-[var(--border)] px-4">
-          <TimeEntry
-            task={t("entry1Task")}
-            client={t("entry1Client")}
-            time={t("entry1Time")}
-            rate={t("entry1Rate")}
-            billableLabel={t("entry1Billable")}
-            billable
-          />
-          <TimeEntry
-            task={t("entry2Task")}
-            client={t("entry2Client")}
-            time={t("entry2Time")}
-            rate={t("entry2Rate")}
-            billableLabel={t("entry2Billable")}
-            billable
-          />
-          <TimeEntry
-            task={t("entry3Task")}
-            client={t("entry3Client")}
-            time={t("entry3Time")}
-            billableLabel={t("entry3Billable")}
-            billable={false}
-          />
-        </div>
-
-        {/* Convert button */}
-        <div className="px-4 py-3 border-t border-[var(--border)]">
-          <button className="w-full rounded-lg bg-primary-600 py-1.5 text-[11px] font-semibold text-white flex items-center justify-center gap-1.5">
-            <ArrowDown className="h-3 w-3" />
-            {t("convertButton")}
-          </button>
-        </div>
-      </div>
-
-      {/* Invoice result card */}
-      <div className="overflow-hidden rounded-xl border border-[var(--border)] bg-white shadow-md">
-        <div className="flex items-center justify-between px-4 py-3">
+    <div className="overflow-hidden rounded-2xl border border-[var(--border)] bg-white shadow-lg">
+      {/* Invoice header */}
+      <div className="border-b border-[var(--border)] bg-[var(--muted)] px-5 py-4">
+        <div className="flex items-start justify-between">
           <div className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-50 border border-accent-100">
-              <CheckCircle2 className="h-4 w-4 text-accent-600" />
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-primary-100 to-accent-100">
+              <FileText className="h-4.5 w-4.5 text-primary-600" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <p className="text-[12px] font-semibold text-[var(--foreground)]">
-                  {t("invoiceTitle")}
-                </p>
-                <span className="rounded-full bg-accent-100 px-2 py-0.5 text-[9px] font-medium text-accent-700">
-                  {t("invoiceStatus")}
-                </span>
-              </div>
-              <p className="text-[10px] text-[var(--muted-foreground)]">
-                {t("invoiceClient")} · {t("invoicePaidDate")}
+              <h3 className="text-sm font-semibold text-[var(--foreground)]">
+                {t("invoiceNumber")}
+              </h3>
+              <p className="text-[11px] text-[var(--muted-foreground)]">
+                {t("invoiceClient")} · {t("invoiceDate")}
               </p>
             </div>
           </div>
-          <div className="text-right">
-            <p className="text-[14px] font-bold text-[var(--foreground)]">
-              {t("invoiceAmount")}
-            </p>
-            <div className="flex items-center justify-end gap-1 text-[9px] text-[var(--muted-foreground)]">
-              <CreditCard className="h-2.5 w-2.5" />
-              {t("invoiceMethod")}
+          <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[11px] font-medium text-accent-700">
+            {t("invoiceStatus")}
+          </span>
+        </div>
+      </div>
+
+      {/* Line items */}
+      <div className="px-5 py-3">
+        <table className="w-full">
+          <thead>
+            <tr className="text-[9px] font-semibold text-[var(--muted-foreground)] uppercase tracking-wider">
+              <th className="text-left pb-2">{t("colDescription")}</th>
+              <th className="text-right pb-2 w-12">{t("colHours")}</th>
+              <th className="text-right pb-2 w-16">{t("colRate")}</th>
+              <th className="text-right pb-2 w-16">{t("colAmount")}</th>
+            </tr>
+          </thead>
+          <tbody className="text-[11px]">
+            <tr className="border-t border-[var(--border)]">
+              <td className="py-2 text-[var(--foreground)]">{t("line1Desc")}</td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line1Hours")}
+              </td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line1Rate")}
+              </td>
+              <td className="py-2 text-right font-medium text-[var(--foreground)] tabular-nums">
+                {t("line1Amount")}
+              </td>
+            </tr>
+            <tr className="border-t border-[var(--border)]">
+              <td className="py-2 text-[var(--foreground)]">{t("line2Desc")}</td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line2Hours")}
+              </td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line2Rate")}
+              </td>
+              <td className="py-2 text-right font-medium text-[var(--foreground)] tabular-nums">
+                {t("line2Amount")}
+              </td>
+            </tr>
+            <tr className="border-t border-[var(--border)]">
+              <td className="py-2 text-[var(--foreground)]">{t("line3Desc")}</td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line3Hours")}
+              </td>
+              <td className="py-2 text-right text-[var(--muted-foreground)] tabular-nums">
+                {t("line3Rate")}
+              </td>
+              <td className="py-2 text-right font-medium text-[var(--foreground)] tabular-nums">
+                {t("line3Amount")}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {/* Totals */}
+      <div className="border-t border-[var(--border)] px-5 py-3 space-y-1">
+        <div className="flex justify-between text-[11px]">
+          <span className="text-[var(--muted-foreground)]">
+            {t("subtotalLabel")}
+          </span>
+          <span className="font-medium text-[var(--foreground)] tabular-nums">
+            {t("subtotal")}
+          </span>
+        </div>
+        <div className="flex justify-between text-[11px]">
+          <span className="text-[var(--muted-foreground)]">
+            {t("taxLabel")}
+          </span>
+          <span className="font-medium text-[var(--foreground)] tabular-nums">
+            {t("tax")}
+          </span>
+        </div>
+        <div className="flex justify-between text-[13px] font-bold pt-1 border-t border-[var(--border)]">
+          <span className="text-[var(--foreground)]">{t("totalLabel")}</span>
+          <span className="text-[var(--foreground)] tabular-nums">
+            {t("total")}
+          </span>
+        </div>
+      </div>
+
+      {/* Payment info footer */}
+      <div className="border-t border-[var(--border)] bg-accent-50 px-5 py-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-accent-600" />
+            <div>
+              <p className="text-[11px] font-semibold text-accent-700">
+                {t("paidLabel")}
+              </p>
+              <div className="flex items-center gap-1 text-[9px] text-[var(--muted-foreground)]">
+                <CreditCard className="h-2.5 w-2.5" />
+                {t("paymentMethod")} · {t("paidDate")}
+              </div>
             </div>
           </div>
+          <button className="flex items-center gap-1 rounded-lg border border-[var(--border)] bg-white px-2.5 py-1.5 text-[10px] font-medium text-[var(--muted-foreground)]">
+            <Download className="h-3 w-3" />
+            PDF
+          </button>
         </div>
       </div>
     </div>

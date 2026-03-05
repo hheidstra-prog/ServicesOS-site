@@ -17,6 +17,13 @@ export function LanguageSwitcher() {
     } else {
       segments.splice(1, 0, newLocale);
     }
+
+    // Blog detail pages have locale-specific slugs, so redirect to blog index
+    if (segments[2] === "blog" && segments[3]) {
+      router.push(`/${newLocale}/blog`);
+      return;
+    }
+
     router.push(segments.join("/"));
   }
 
