@@ -1009,6 +1009,20 @@
       "f5": "Dedicated onboarding",
       "f6": "Priority support (telefoon & email)"
     },
+    "calculator": {
+      "headline": "Wat kun je besparen?",
+      "subtitle": "Bekijk hoeveel tijd en geld Servible je elke maand kan besparen.",
+      "hourlyRateLabel": "Je uurtarief",
+      "adminHoursLabel": "Uren admin per week",
+      "toolsLabel": "Tools die je nu betaalt",
+      "timeSavingsLabel": "Tijdsbesparing",
+      "toolSavingsLabel": "Toolbesparing",
+      "totalLabel": "Totale potentiële besparing",
+      "perMonth": "/maand",
+      "perYear": "/jaar",
+      "paybackLine": "Voor €29/gebruiker/maand verdient Servible zichzelf binnen dagen terug",
+      "avgToolCost": "gemiddeld ~€30/tool"
+    },
     "faq": {
       "headline": "Veelgestelde vragen",
       "q1": { "q": "Wat zit er in de 14-daagse proefperiode?", "a": "Alles. Volledige toegang tot alle features, geen creditcard nodig. Na 14 dagen kies je of je doorgaat." },

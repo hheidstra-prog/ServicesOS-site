@@ -1009,6 +1009,20 @@
       "f5": "Dedicated onboarding",
       "f6": "Priority support (phone & email)"
     },
+    "calculator": {
+      "headline": "What could you save?",
+      "subtitle": "See how much time and money Servible can save you each month.",
+      "hourlyRateLabel": "Your hourly rate",
+      "adminHoursLabel": "Hours of admin per week",
+      "toolsLabel": "Tools you currently pay for",
+      "timeSavingsLabel": "Time savings",
+      "toolSavingsLabel": "Tool savings",
+      "totalLabel": "Total potential savings",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "paybackLine": "At €29/user/month, Servible pays for itself within days",
+      "avgToolCost": "at ~€30/tool average"
+    },
     "faq": {
       "headline": "Frequently asked questions",
       "q1": { "q": "What's included in the 14-day trial?", "a": "Everything. Full access to all features, no credit card required. After 14 days you decide if you want to continue." },

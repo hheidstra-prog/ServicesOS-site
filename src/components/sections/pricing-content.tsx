@@ -1,16 +1,38 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Check, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { GetStartedButton } from "@/components/modals/get-started-modal";
 
+function formatEuro(value: number) {
+  return new Intl.NumberFormat("nl-NL", {
+    style: "currency",
+    currency: "EUR",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
 export function PricingContent() {
   const t = useTranslations("pricingPage");
   const [annual, setAnnual] = useState(false);
   const [openFaq, setOpenFaq] = useState<string | null>(null);
+
+  // Calculator state
+  const [hourlyRate, setHourlyRate] = useState(85);
+  const [adminHours, setAdminHours] = useState(6);
+  const [toolCount, setToolCount] = useState(4);
+
+  const savings = useMemo(() => {
+    const timeSavings = Math.round(hourlyRate * adminHours * 4.33);
+    const toolSavings = toolCount * 30;
+    const totalMonth = timeSavings + toolSavings;
+    const totalYear = totalMonth * 12;
+    return { timeSavings, toolSavings, totalMonth, totalYear };
+  }, [hourlyRate, adminHours, toolCount]);
 
   const tiers = [
     {
@@ -179,6 +201,161 @@ export function PricingContent() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Savings calculator */}
+      <section className="section-padding bg-[var(--muted)]">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-center"
+          >
+            <h2 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+              {t("calculator.headline")}
+            </h2>
+            <p className="mt-4 text-lg text-[var(--muted-foreground)]">
+              {t("calculator.subtitle")}
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="mt-12 rounded-2xl border border-[var(--border)] bg-white p-8 shadow-sm"
+          >
+            {/* Sliders */}
+            <div className="grid gap-8 sm:grid-cols-3">
+              {/* Hourly rate */}
+              <div>
+                <div className="flex items-baseline justify-between">
+                  <label className="text-sm font-medium text-[var(--foreground)]">
+                    {t("calculator.hourlyRateLabel")}
+                  </label>
+                  <span className="text-lg font-bold text-accent-600">
+                    €{hourlyRate}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min={50}
+                  max={250}
+                  step={5}
+                  value={hourlyRate}
+                  onChange={(e) => setHourlyRate(Number(e.target.value))}
+                  className="mt-3 h-2 w-full cursor-pointer appearance-none rounded-full bg-gray-200 accent-accent-500 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-accent-500 [&::-webkit-slider-thumb]:shadow-md"
+                />
+                <div className="mt-1 flex justify-between text-xs text-[var(--muted-foreground)]">
+                  <span>€50</span>
+                  <span>€250</span>
+                </div>
+              </div>
+
+              {/* Admin hours */}
+              <div>
+                <div className="flex items-baseline justify-between">
+                  <label className="text-sm font-medium text-[var(--foreground)]">
+                    {t("calculator.adminHoursLabel")}
+                  </label>
+                  <span className="text-lg font-bold text-accent-600">
+                    {adminHours}h
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min={1}
+                  max={20}
+                  step={1}
+                  value={adminHours}
+                  onChange={(e) => setAdminHours(Number(e.target.value))}
+                  className="mt-3 h-2 w-full cursor-pointer appearance-none rounded-full bg-gray-200 accent-accent-500 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-accent-500 [&::-webkit-slider-thumb]:shadow-md"
+                />
+                <div className="mt-1 flex justify-between text-xs text-[var(--muted-foreground)]">
+                  <span>1h</span>
+                  <span>20h</span>
+                </div>
+              </div>
+
+              {/* Tools count */}
+              <div>
+                <div className="flex items-baseline justify-between">
+                  <label className="text-sm font-medium text-[var(--foreground)]">
+                    {t("calculator.toolsLabel")}
+                  </label>
+                  <span className="text-lg font-bold text-accent-600">
+                    {toolCount}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min={1}
+                  max={8}
+                  step={1}
+                  value={toolCount}
+                  onChange={(e) => setToolCount(Number(e.target.value))}
+                  className="mt-3 h-2 w-full cursor-pointer appearance-none rounded-full bg-gray-200 accent-accent-500 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-accent-500 [&::-webkit-slider-thumb]:shadow-md"
+                />
+                <div className="mt-1 flex justify-between text-xs text-[var(--muted-foreground)]">
+                  <span>1</span>
+                  <span>8</span>
+                </div>
+                <p className="mt-1 text-xs text-[var(--muted-foreground)]">
+                  {t("calculator.avgToolCost")}
+                </p>
+              </div>
+            </div>
+
+            {/* Results */}
+            <div className="mt-10 grid gap-4 sm:grid-cols-3">
+              <div className="rounded-xl bg-primary-50 p-5 text-center">
+                <p className="text-sm font-medium text-[var(--muted-foreground)]">
+                  {t("calculator.timeSavingsLabel")}
+                </p>
+                <p className="mt-1 text-2xl font-bold text-primary-700">
+                  {formatEuro(savings.timeSavings)}
+                  <span className="text-sm font-normal text-[var(--muted-foreground)]">
+                    {t("calculator.perMonth")}
+                  </span>
+                </p>
+              </div>
+              <div className="rounded-xl bg-primary-50 p-5 text-center">
+                <p className="text-sm font-medium text-[var(--muted-foreground)]">
+                  {t("calculator.toolSavingsLabel")}
+                </p>
+                <p className="mt-1 text-2xl font-bold text-primary-700">
+                  {formatEuro(savings.toolSavings)}
+                  <span className="text-sm font-normal text-[var(--muted-foreground)]">
+                    {t("calculator.perMonth")}
+                  </span>
+                </p>
+              </div>
+              <div className="rounded-xl bg-gradient-to-br from-primary-600 to-accent-600 p-5 text-center text-white">
+                <p className="text-sm font-medium text-white/80">
+                  {t("calculator.totalLabel")}
+                </p>
+                <p className="mt-1 text-2xl font-bold">
+                  {formatEuro(savings.totalMonth)}
+                  <span className="text-sm font-normal text-white/80">
+                    {t("calculator.perMonth")}
+                  </span>
+                </p>
+                <p className="mt-0.5 text-sm text-white/80">
+                  {formatEuro(savings.totalYear)}
+                  {t("calculator.perYear")}
+                </p>
+              </div>
+            </div>
+
+            {/* Payback line */}
+            <p className="mt-6 text-center text-sm font-medium text-[var(--muted-foreground)]">
+              {t("calculator.paybackLine")}
+            </p>
+          </motion.div>
         </div>
       </section>
 
