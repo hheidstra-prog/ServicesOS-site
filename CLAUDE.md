@@ -22,7 +22,7 @@ Run dev server: `npm run dev` (http://localhost:3000)
 |---|---|---|
 | Homepage | `/` | Done — hero, social proof, problem, solution, feature highlights, how-it-works, testimonials, chat carousel, final CTA |
 | Features | `/features` | Done — hero, 9 feature detail sections with visual mockups, pain-point comparison, waitlist CTA |
-| Pricing | `/pricing` | Done — 2 tiers (Professional/Agency), per-user pricing, annual toggle, 14-day trial, FAQ |
+| Pricing | `/pricing` | Done — 2 tiers (Professional/Agency), per-user pricing, annual toggle, savings calculator, 14-day trial, FAQ |
 | About | `/about` | Done — hero, mission, values, founder bio |
 | Contact | `/contact` | Done — form + contact info |
 | FAQ | `/faq` | Done |
@@ -59,6 +59,7 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 - **Annual option:** 2 months free (€290/year, €790/year)
 - **14-day free trial** on both plans, no credit card required
 - **Fair use AI policy** — no hard usage limits
+- **Savings calculator** between pricing cards and FAQ — 3 sliders (hourly rate €50–250, admin hours 1–20h, tools 1–8) computing time + tool savings. Translations under `pricingPage.calculator`
 - Component: `src/components/sections/pricing-content.tsx`
 
 ## Footer

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const SERVIBLE_API_URL =
-  process.env.SERVIBLE_API_URL || "http://localhost:3001/api/v1";
+  process.env.SERVIBLE_API_URL || "http://localhost:3001";
 const SERVIBLE_API_KEY = process.env.SERVIBLE_API_KEY;
 
 export async function GET() {
@@ -15,7 +15,7 @@ export async function GET() {
 
   try {
     const response = await fetch(
-      `${SERVIBLE_API_URL}/bookings/available-days`,
+      `${SERVIBLE_API_URL}/api/v1/bookings/available-days`,
       { headers: { Authorization: `Bearer ${SERVIBLE_API_KEY}` } }
     );
 

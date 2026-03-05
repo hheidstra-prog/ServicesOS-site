@@ -337,7 +337,7 @@ export function ScheduleCallModal({
     const lastName = (formData.get("lastName") as string) || "";
 
     try {
-      const response = await fetch("/api/servible/bookings", {
+      const response = await fetch("/api/servible/bookings/book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

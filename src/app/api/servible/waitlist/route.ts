@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const SERVIBLE_API_URL =
-  process.env.SERVIBLE_API_URL || "http://localhost:3001/api/v1";
+  process.env.SERVIBLE_API_URL || "http://localhost:3001";
 const SERVIBLE_API_KEY = process.env.SERVIBLE_API_KEY;
 
 export async function POST(request: NextRequest) {
@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const response = await fetch(`${SERVIBLE_API_URL}/contacts`, {
+    const response = await fetch(`${SERVIBLE_API_URL}/api/v1/contacts`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
