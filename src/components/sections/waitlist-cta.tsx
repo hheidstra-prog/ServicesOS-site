@@ -10,6 +10,7 @@ export function WaitlistCTA() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
+  const [painpoint, setPainpoint] = useState("");
   const [status, setStatus] = useState<
     "idle" | "loading" | "success" | "error"
   >("idle");
@@ -24,7 +25,7 @@ export function WaitlistCTA() {
       const response = await fetch("/api/servible/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, company }),
+        body: JSON.stringify({ name, email, company, painpoint }),
       });
 
       const data = await response.json();
@@ -37,6 +38,7 @@ export function WaitlistCTA() {
       setEmail("");
       setName("");
       setCompany("");
+      setPainpoint("");
     } catch (error) {
       setStatus("error");
       setErrorMessage(
@@ -110,6 +112,22 @@ export function WaitlistCTA() {
                   className="h-12 w-full rounded-lg border border-white/20 bg-white/10 px-4 text-white placeholder:text-white/50 backdrop-blur-sm focus:border-accent-400 focus:outline-none"
                 />
               </div>
+              <select
+                required
+                value={painpoint}
+                onChange={(e) => setPainpoint(e.target.value)}
+                className={`h-12 w-full max-w-md rounded-lg border border-white/20 bg-white/10 px-4 backdrop-blur-sm focus:border-accent-400 focus:outline-none ${painpoint ? "text-white" : "text-white/50"}`}
+              >
+                <option value="" disabled className="text-gray-900">
+                  {t("painpointPlaceholder")}
+                </option>
+                <option value="invoicing" className="text-gray-900">{t("painpointInvoicing")}</option>
+                <option value="communication" className="text-gray-900">{t("painpointCommunication")}</option>
+                <option value="scheduling" className="text-gray-900">{t("painpointScheduling")}</option>
+                <option value="overview" className="text-gray-900">{t("painpointOverview")}</option>
+                <option value="tools" className="text-gray-900">{t("painpointTools")}</option>
+                <option value="other" className="text-gray-900">{t("painpointOther")}</option>
+              </select>
               <button
                 type="submit"
                 disabled={status === "loading"}

@@ -1,7 +1,7 @@
 # Servible Public REST API — Documentation
 
 > Base URL: `https://servible.app/api/v1` (or your admin app domain)
-> Last updated: 2026-03-05
+> Last updated: 2026-03-13
 
 ---
 
@@ -39,9 +39,24 @@ Create a lead (client + contact + activity event).
   "company": "Acme Corp",         // optional
   "message": "Interested in...",  // optional
   "source": "contact_form",       // optional → stored as "api:contact_form"
-  "title": "Early bird signup"    // optional → event title (default: "Contact form submission")
+  "title": "Early bird signup",   // optional → event title (default: "Contact form submission")
+  "fields": {                     // optional → custom fields (stored on Client + Event)
+    "painPoint": "Too much time on invoicing",
+    "companySize": "5-10"
+  }
 }
 ```
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `name` | yes | Full name (parsed into first/last for Contact) |
+| `email` | yes | Email address (used for client dedup) |
+| `phone` | no | Phone number |
+| `company` | no | Company name |
+| `message` | no | Free-text message (stored as Event description) |
+| `source` | no | Source identifier — stored as `api:<source>` on Client. Use to distinguish form types (e.g. `contact_form`, `early_bird`, `schedule_call`) |
+| `title` | no | Custom event title for the activity timeline (default: "Contact form submission") |
+| `fields` | no | Key-value object of custom fields. Values must be strings. Stored on `Client.customFields` (merged if client exists) and `Event.metadata.fields` |
 
 **Response** (201):
 ```json
@@ -58,7 +73,9 @@ Create a lead (client + contact + activity event).
 
 **Behavior:**
 - Client deduped by `email + organizationId` (reuses existing client)
-- Creates Contact, Event (with source/phone/company in metadata), and Notification
+- Custom fields merged into existing `Client.customFields` for returning clients (new values overwrite, existing keys preserved)
+- Creates Contact, Event (with source/phone/company/fields in metadata), and Notification
+- Custom fields appear on the client detail page in the admin app (if matching field definitions are configured in Settings → Custom Fields)
 
 ---
 
@@ -223,10 +240,12 @@ List published blog posts (paginated).
 ```
 
 **Behavior:**
-- Only published posts with `publishedAt <= now`
+- Only published posts with `publishedAt <= now` and `apiPublished: true`
 - Without `locale`: returns primary locale translation for each post
 - With `locale`: only posts that have a translation in that locale
 - Ordered by `publishedAt` descending
+
+> **Note:** Posts must have the "REST API" channel enabled in the publish dialog to appear via the API.
 
 ---
 
@@ -279,6 +298,7 @@ Get a single blog post by slug.
 - `404` — "Post not found"
 
 **Behavior:**
+- Only returns posts with `apiPublished: true`
 - With `locale`: looks up by `BlogPostTranslation` (organizationId + locale + slug)
 - Without `locale`: looks up by `BlogPost.slug` (legacy), uses primary locale translation
 - `content` is TipTap JSON (rich text structure)
@@ -335,6 +355,24 @@ await fetch("https://servible.app/api/v1/contacts", {
     email: "john@acme.com",
     message: "I'm interested in your services",
     source: "contact_form"
+  })
+});
+
+// Early bird CTA (with custom fields)
+await fetch("https://servible.app/api/v1/contacts", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer sk_live_..."
+  },
+  body: JSON.stringify({
+    name: "John Smith",
+    email: "john@acme.com",
+    source: "early_bird",
+    title: "Early bird signup",
+    fields: {
+      painPoint: "I spend too much time on invoicing"
+    }
   })
 });
 

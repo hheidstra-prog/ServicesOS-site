@@ -7,7 +7,7 @@ const SERVIBLE_API_KEY = process.env.SERVIBLE_API_KEY;
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, company } = body;
+    const { name, email, company, painpoint } = body;
 
     if (!name || !email) {
       return NextResponse.json(
@@ -36,6 +36,9 @@ export async function POST(request: NextRequest) {
         company: company || undefined,
         source: "early_bird",
         title: "Early bird signup",
+        ...(painpoint && {
+          fields: { painPoint: painpoint },
+        }),
       }),
     });
 

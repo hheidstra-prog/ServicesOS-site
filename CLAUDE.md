@@ -79,18 +79,23 @@ Reworked from a plain table to a 6-card pain-point grid. Each card shows a relat
 
 ## Servible API Integration
 
-All forms now submit to the Servible platform via server-side API routes. Env vars: `SERVIBLE_API_URL` (default `http://localhost:3001/api/v1`) and `SERVIBLE_API_KEY`.
+All forms and data fetching go through the Servible platform via server-side API routes. Full API documentation in `docs/api-documentation.md`.
+
+**Env vars:** `SERVIBLE_API_URL` (base domain, default `http://localhost:3001` — no `/api/v1` suffix) and `SERVIBLE_API_KEY`. All route handlers hardcode `/api/v1` in their fetch paths to stay consistent with the blog client in `src/lib/servible-api.ts`.
 
 | Form | Frontend component | API route | Servible endpoint | source | title |
 |---|---|---|---|---|---|
-| Contact | `sections/contact-content.tsx` | `/api/servible/contact` | `POST /contacts` | `contact_form` | Contact form submission |
-| Schedule a call | `modals/schedule-call-modal.tsx` | `/api/servible/bookings` | `POST /bookings` | `Servible Site` | — |
-| Waitlist / Early bird | `sections/waitlist-cta.tsx` | `/api/servible/waitlist` | `POST /contacts` | `early_bird` | Early bird signup |
+| Contact | `sections/contact-content.tsx` | `/api/servible/contact` | `POST /api/v1/contacts` | `contact_form` | Contact form submission |
+| Schedule a call | `modals/schedule-call-modal.tsx` | `/api/servible/bookings/book` | `POST /api/v1/bookings` | `Servible Site` | — |
+| Waitlist / Early bird | `sections/waitlist-cta.tsx` | `/api/servible/waitlist` | `POST /api/v1/contacts` | `early_bird` | Early bird signup |
+| Blog (SSR) | `lib/servible-api.ts` | direct server fetch | `GET /api/v1/blog/posts`, `/posts/[slug]`, `/categories` | — | — |
 
 **Booking flow** (schedule-call modal) also uses these read endpoints:
 - `GET /api/servible/bookings/config` → durations, org name, title
 - `GET /api/servible/bookings/available-days` → which weekdays are bookable
 - `GET /api/servible/bookings/available-slots?date=...&duration=...` → time slots for a date
+
+**Note:** The booking POST route lives at `bookings/book/route.ts` (not `bookings/route.ts`) to avoid a Turbopack routing conflict with the sibling child routes (config, available-days, available-slots).
 
 The modal is a two-step flow: step 1 picks duration + date + time (two-column layout with calendar and scrollable slot list), step 2 collects contact details (first/last name, email, phone, notes) with Back/Confirm footer. Fixed height (`600px`) across all views.
 
