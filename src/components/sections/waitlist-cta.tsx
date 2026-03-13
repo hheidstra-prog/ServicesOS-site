@@ -121,12 +121,12 @@ export function WaitlistCTA() {
                 <option value="" disabled className="text-gray-900">
                   {t("painpointPlaceholder")}
                 </option>
-                <option value="invoicing" className="text-gray-900">{t("painpointInvoicing")}</option>
-                <option value="communication" className="text-gray-900">{t("painpointCommunication")}</option>
-                <option value="scheduling" className="text-gray-900">{t("painpointScheduling")}</option>
-                <option value="overview" className="text-gray-900">{t("painpointOverview")}</option>
-                <option value="tools" className="text-gray-900">{t("painpointTools")}</option>
-                <option value="other" className="text-gray-900">{t("painpointOther")}</option>
+                <option value="Invoicing & admin takes too much time" className="text-gray-900">{t("painpointInvoicing")}</option>
+                <option value="Client communication is scattered" className="text-gray-900">{t("painpointCommunication")}</option>
+                <option value="Scheduling & booking is a hassle" className="text-gray-900">{t("painpointScheduling")}</option>
+                <option value="No clear overview of my business" className="text-gray-900">{t("painpointOverview")}</option>
+                <option value="Using too many separate tools" className="text-gray-900">{t("painpointTools")}</option>
+                <option value="Something else" className="text-gray-900">{t("painpointOther")}</option>
               </select>
               <button
                 type="submit"
