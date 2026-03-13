@@ -3,7 +3,6 @@ import { Inter, Instrument_Serif } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -58,11 +57,6 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
-        <Script
-          id="hs-script-loader"
-          src="//js-eu1.hs-scripts.com/147547452.js"
-          strategy="lazyOnload"
-        />
       </body>
     </html>
   );
