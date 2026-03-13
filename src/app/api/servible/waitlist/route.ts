@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
         source: "early_bird",
         title: "Early bird signup",
         ...(painpoint && {
-          fields: { Painpoint: painpoint },
+          fields: { painpoint: painpoint },
         }),
       }),
     });

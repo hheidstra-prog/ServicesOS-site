@@ -41,7 +41,7 @@ Create a lead (client + contact + activity event).
   "source": "contact_form",       // optional → stored as "api:contact_form"
   "title": "Early bird signup",   // optional → event title (default: "Contact form submission")
   "fields": {                     // optional → custom fields (stored on Client + Event)
-    "Painpoint": "Too much time on invoicing",
+    "painpoint": "Too much time on invoicing",
     "companySize": "5-10"
   }
 }
@@ -371,7 +371,7 @@ await fetch("https://servible.app/api/v1/contacts", {
     source: "early_bird",
     title: "Early bird signup",
     fields: {
-      Painpoint: "I spend too much time on invoicing"
+      painpoint: "I spend too much time on invoicing"
     }
   })
 });
